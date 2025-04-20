@@ -1,0 +1,3 @@
+[submodule "scraper_module"]
+	path = scraper_module
+	url = https://github.com/IsaacWeber1/scraper_module.git

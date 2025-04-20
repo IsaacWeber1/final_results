@@ -1,0 +1,13 @@
+.venv
+schools/*/*/raw_data/*.json
+schools/*/*/scraping_configs/__pycache__
+
+
+
+
+
+
+# copied from scraper_module/.gitignore
+scraper_module/__pycache__
+scraper_module/scraper_project/__pycache__
+scraper_module/scraper_lib/__pycache__
