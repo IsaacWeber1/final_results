@@ -11,8 +11,11 @@ def create_dirs_from_csv(csv_path, output_dir):
             school_name = row[0].strip()
             # Create directory path
             school_dir = os.path.join(output_dir, school_name)
-            os.makedirs(school_dir, exist_ok=False)
-            print(f"Created: {school_dir}")
+            if os.path.exists(school_dir):
+                print(f"Directory already exists: {school_dir}")
+            else:
+                os.makedirs(school_dir, exist_ok=False)
+                print(f"Created: {school_dir}")
 
 if __name__ == "__main__":
     base_dir = os.path.join(os.getcwd(), "schools")

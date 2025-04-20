@@ -23,14 +23,20 @@ def populate_school_folder(school_root: Path):
     
     for sub in subdirs:
         dir_path = school_root / sub
-        dir_path.mkdir(parents=True, exist_ok=False)
-        print(f"Created directory: {dir_path}")
+        if dir_path.exists():
+            print(f"Directory already exists: {dir_path}")
+        else:
+            dir_path.mkdir(parents=True, exist_ok=False)
+            print(f"Created directory: {dir_path}")
 
     
     # Create an empty notes.txt, config file in the school root
     notes_file = school_root / 'notes.txt'
-    notes_file.touch(exist_ok=False)
-    print(f"Created file: {notes_file}")
+    if notes_file.exists():
+        print(f"Notes file already exists: {notes_file}")
+    else:
+        notes_file.touch(exist_ok=False)
+        print(f"Created file: {notes_file}")
 
     config_dir = school_root / 'scraping_configs'
     config_file = config_dir / f"{school_root.name}_config.py"
