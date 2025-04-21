@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
+# scripts/update_metrics.py
 import csv
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 
 ROOT        = Path(__file__).resolve().parent.parent
 SCHOOLS_DIR = ROOT / "schools"
@@ -30,7 +30,7 @@ def gather():
                 "web_scraped":   str(check_web_scraped(school)),
                 "pdf_scraped":   str(check_pdf_scraped(school)),
                 "confirmed":     str(check_confirmed(school)),
-                "last_updated":  datetime.utcnow().isoformat() + "Z"
+                "last_updated":  datetime.now(timezone.utc)
             })
     return rows
 

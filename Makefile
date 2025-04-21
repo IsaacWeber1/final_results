@@ -3,91 +3,131 @@
 # -----------------------------------------------------------------------------
 # VARIABLES
 # -----------------------------------------------------------------------------
-PYTHON := python3
-PIP     := pip install
-REQ     := requirements.txt
-SCHOOLS := schools
+PYTHON   := python3
+PIP      := pip install
+REQ      := requirements.txt
+SCHOOLS  := schools
+
 # -----------------------------------------------------------------------------
 # PHONY TARGETS
 # -----------------------------------------------------------------------------
-.PHONY: help install populate-folders web-scrape web-scrape-all
+.PHONY: help install populate-folders \
+        web-scrape web-scrape-all \
+        metrics process-data relational create-visuals compile-all \
+        compile-keywords confirm-schools confirm-all
 
 # -----------------------------------------------------------------------------
 # DEFAULT
 # -----------------------------------------------------------------------------
 help:
 	@echo ""
-	@echo "Usage: make <target> [mode=<missing|all>]"
+	@echo "Usage: make <target> [mode=<missing|all>] [SCHOOL=<category/school_name>]"
 	@echo ""
 	@echo "Available targets:"
-	@echo "  install            Install Python dependencies"
-	@echo "  populate-folders   Create subfolders & .gitignore for each school"
-	@echo "  web-scrape         Run web scrapers for schools missing processed_data"
-	@echo "  web-scrape-all     Run web scrapers for ALL schools"
+	@echo "  install             Install Python dependencies"
+	@echo "  populate-folders    Create subfolders & .gitignore for each school"
+	@echo "  web-scrape          Run web scrapers for schools missing processed_data"
+	@echo "  web-scrape-all      Run web scrapers for ALL schools"
+	@echo "  metrics             Generate metrics.csv overview"
+	@echo "  process-data        Process raw JSON into scored processed_data"
+	@echo "  relational          Build relational tables from processed_data"
+	@echo "  create-visuals      Generate per‑school bar charts & figures"
+	@echo "  compile-all         Compile keyword groups & build relational"
+	@echo "  confirm-schools     Confirm data for a specific school (use SCHOOL=…)"
+	@echo "  confirm-all         Confirm data for ALL schools"
 	@echo ""
 
 # -----------------------------------------------------------------------------
 # INSTALL
 # -----------------------------------------------------------------------------
 install:
-	@echo "Installing Python dependencies..."
+	@echo "Installing Python dependencies…"
 	$(PIP) -r $(REQ)
 
 # -----------------------------------------------------------------------------
 # POPULATE FOLDERS
 # -----------------------------------------------------------------------------
 populate-folders:
-	@echo "Populating school directories with standard subfolders & .gitignore..."
+	@echo "Populating school directories (create folders & .gitignore)…"
 	@$(PYTHON) scripts/directory_initialization/create_folders.py
 	@$(PYTHON) scripts/directory_initialization/populate_folders.py
 	@$(PYTHON) scripts/directory_initialization/add_gitignores.py
 
 # -----------------------------------------------------------------------------
-# SCRAPE-WEB (missing only)
+# WEB-SCRAPE (missing only)
 # -----------------------------------------------------------------------------
 web-scrape:
-	@echo "Running web scraper for schools missing processed_data..."
+	@echo "Running web scraper for schools missing processed_data…"
 	@$(PYTHON) scripts/run_web_scrape.py --mode missing
+	@$(MAKE) metrics
 
 # -----------------------------------------------------------------------------
-# SCRAPE-WEB-ALL
+# WEB-SCRAPE-ALL
 # -----------------------------------------------------------------------------
 web-scrape-all:
-	@echo "Running web scraper for ALL schools..."
+	@echo "Running web scraper for ALL schools…"
 	@$(PYTHON) scripts/run_web_scrape.py --mode all
+	@$(MAKE) metrics
 
 # -----------------------------------------------------------------------------
 # METRICS
 # -----------------------------------------------------------------------------
 metrics:
-	@echo "Running metrics script..."
-	@$(PYTHON) scripts/metrics.py
+	@echo "Generating metrics.csv…"
+	@$(PYTHON) scripts/update_metrics.py
 
 # -----------------------------------------------------------------------------
 # PROCESS-DATA
 # -----------------------------------------------------------------------------
 process-data:
-	@echo "Running process data script..."
+	@echo "Processing raw JSON → processed_data…"
+	@$(MAKE) compile-keywords
 	@$(PYTHON) scripts/process_data.py
-
-# -----------------------------------------------------------------------------
-# RELATIONAL
-# -----------------------------------------------------------------------------
-relational:
-	@echo "Running relational script..."
-	@$(PYTHON) scripts/process_data.py --mode relational
+	@$(MAKE) metrics
 
 # -----------------------------------------------------------------------------
 # CREATE-VISUALS
 # -----------------------------------------------------------------------------
 create-visuals:
-	@echo "Running create visuals script..."
+	@echo "Creating per‑school visualizations…"
 	@$(PYTHON) scripts/create_visuals.py
 
 # -----------------------------------------------------------------------------
-# COMPILE
+# COMPILE-ALL
 # -----------------------------------------------------------------------------
-compile:
-	@echo "Compiling all current processed data..."
-# TO CHAT: ADD SCRIPT(S) FOR COMPILING KEYWORDS
-	@$(PYTHON) 
+compile-all:
+	@echo "Compiling keyword groups & building relational tables…"
+	@$(MAKE) compile-keywords
+	@$(MAKE) relational
+
+# -----------------------------------------------------------------------------
+# COMPILE-KEYWORDS
+# -----------------------------------------------------------------------------
+compile-keywords:
+	@echo "Compiling keyword groups JSON…"
+	@$(PYTHON) scripts/compile_keywords.py
+
+# -----------------------------------------------------------------------------
+# RELATIONAL
+# -----------------------------------------------------------------------------
+relational:
+	@echo "Building relational tables from processed_data…"
+	@$(PYTHON) scripts/relational.py
+
+# -----------------------------------------------------------------------------
+# CONFIRM-SCHOOLS
+# -----------------------------------------------------------------------------
+confirm-schools:
+	@if [ -z "$(SCHOOL)" ]; then \
+		echo "Error: please pass SCHOOL=<category/school_name>"; \
+		exit 1; \
+	fi
+	@echo "Confirming data for $(SCHOOL)…"
+	@$(PYTHON) scripts/confirmation.py --school "$(SCHOOL)"
+
+# -----------------------------------------------------------------------------
+# CONFIRM-ALL
+# -----------------------------------------------------------------------------
+confirm-all:
+	@echo "Confirming data for ALL schools…"
+	@$(PYTHON) scripts/confirmation.py --mode all

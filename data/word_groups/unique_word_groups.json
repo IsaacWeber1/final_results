@@ -1,0 +1,331 @@
+{
+    "Carbon Capture and Storage": [
+        "Carbon Capture and Storage",
+        "CCS",
+        "Carbon Capture Utilization and Storage",
+        "Carbon Capture Utilization",
+        "Carbon Storage",
+        "Carbon Capture Storage",
+        "CCUS",
+        "Carbon Capture",
+        "CO2 Capture"
+    ],
+    "Biomass Gasification": [
+        "Biomass Gasification",
+        "Coal Gasification"
+    ],
+    "Gas Reforming": [
+        "Gas Reforming",
+        "Steam Methane Reforming",
+        "Autothermal Reforming"
+    ],
+    "Electrolyzer": [
+        "Electrolyzer",
+        "Electrolysis",
+        "Water Splitting"
+    ],
+    "Catalysis": [
+        "Catalysis",
+        "Catalyst"
+    ],
+    "Proton Exchange Membrane": [
+        "Proton Exchange Membrane",
+        "Anion Exchange Membrane",
+        "Ion Exchange"
+    ],
+    "Gas Processing": [
+        "Gas Processing",
+        "Gas Handling"
+    ],
+    "Gas Compression": [
+        "Gas Compression",
+        "Compressed Gas",
+        "Compressors"
+    ],
+    "Gas Distribution": [
+        "Gas Distribution",
+        "Gas Transport"
+    ],
+    "Cooling Systems": [
+        "Cooling Systems",
+        "Cooling Equipment",
+        "Boil-Off Management"
+    ],
+    "Cryogenic": [
+        "Cryogenic",
+        "Liquefaction",
+        "Cryogenic Storage"
+    ],
+    "Fracture and Crack Analysis": [
+        "Fracture and Crack Analysis",
+        "Fracture Analysis",
+        "Crack Analysis"
+    ],
+    "Pipeline Monitoring": [
+        "Pipeline Monitoring",
+        "Pipeline Inspection",
+        "Pipeline Maintenance"
+    ],
+    "Clean Transportation": [
+        "Clean Transportation",
+        "Green Transportation"
+    ],
+    "Industrial Decarbonization": [
+        "Industrial Decarbonization",
+        "Industrial Electrification"
+    ],
+    "Hydrogen Fuel Cell Electric Vehicle": [
+        "Hydrogen Fuel Cell Electric Vehicle",
+        "FCEV",
+        "Fuel Cell Bus"
+    ],
+    "Clean Fuels": [
+        "Clean Fuels",
+        "e-fuel",
+        "synfuel",
+        "synthetic fuel"
+    ],
+    "Gas Blending": [
+        "Gas Blending",
+        "Fuel Mixing"
+    ],
+    "Green Iron": [
+        "Green Iron",
+        "Direct Reduced Iron",
+        "Low-carbon induration"
+    ],
+    "Low-carbon heat": [
+        "Low-carbon heat",
+        "green heat"
+    ],
+    "clean ammonia": [
+        "clean ammonia",
+        "green ammonia",
+        "low-carbon ammonia"
+    ],
+    "clean methanol": [
+        "clean methanol",
+        "green methanol",
+        "e-methanol"
+    ],
+    "e-methane": [
+        "e-methane",
+        "synthetic methane"
+    ],
+    "Maritime Fuel": [
+        "Maritime Fuel",
+        "Port Infrastructure"
+    ],
+    "Sustainability": [
+        "Sustainability",
+        "Environmental Stewardship"
+    ],
+    "Renewable Energy": [
+        "Renewable Energy",
+        "Clean Energy"
+    ],
+    "Decarbonization": [
+        "Decarbonization",
+        "Energy Transition"
+    ],
+    "Environmental Regulation": [
+        "Environmental Regulation",
+        "Environmental Protection"
+    ],
+    "Carbon Emissions": [
+        "Carbon Emissions",
+        "CO2 Emissions",
+        "Greenhouse Gas Emissions",
+        "GHG Emissions"
+    ],
+    "Energy Policy": [
+        "Energy Policy",
+        "Energy Regulation"
+    ],
+    "Energy and Society": [
+        "Energy and Society",
+        "Energy Security"
+    ],
+    "Environmental Social and Governance": [
+        "Environmental Social and Governance",
+        "ESG",
+        "responsible investing",
+        "impact investing",
+        "Sustainable Finance"
+    ],
+    "Carbon Market": [
+        "Carbon Market",
+        "Carbon Tax",
+        "Emission Regulation",
+        "Emission Policy",
+        "Greenhouse Gas Regulation",
+        "GHG Policy"
+    ],
+    "Sustainability Reporting": [
+        "Sustainability Reporting",
+        "Greenhouse Gas Reporting",
+        "GHG Reporting",
+        "GHG Accounting"
+    ],
+    "Life Cycle Assessment": [
+        "Life Cycle Assessment",
+        "Life Cycle Analysis"
+    ],
+    "Community Impact Assessment": [
+        "Community Impact Assessment",
+        "Community Benefit Plan"
+    ],
+    "Environmental Product Certification": [
+        "Environmental Product Certification",
+        "ISO 14000",
+        "ISO 14040",
+        "ISO 14044"
+    ],
+    "Climate Change Policy": [
+        "Climate Change Policy",
+        "Climate Policy",
+        "Climate Legislation",
+        "Climate Law"
+    ],
+    "Energy Demand and Supply": [
+        "Energy Demand and Supply",
+        "Energy Demand",
+        "Energy Supply",
+        "Energy Market",
+        "Energy Trade"
+    ],
+    "Electricity Demand and Supply Analysis": [
+        "Electricity Demand and Supply Analysis",
+        "Electricity Demand Analysis",
+        "Electricity Supply Analysis",
+        "Electricity Markets"
+    ],
+    "Fuel Demand and Supply": [
+        "Fuel Demand and Supply",
+        "Fuel Supply",
+        "Fuel Demand",
+        "Fuel Market",
+        "Fuel Trade"
+    ],
+    "Carbon Markets": [
+        "Carbon Markets",
+        "Emission Trading Systems",
+        "Carbon Cap-and-Trade",
+        "Emission Cap-and-Trade",
+        "Carbon Dioxide Removal"
+    ],
+    "Energy Attribute Certificate": [
+        "Energy Attribute Certificate",
+        "Environmental Product Declaration",
+        "Renewable Energy Credit",
+        "Guarantees of Origin"
+    ],
+    "Green Bond": [
+        "Green Bond",
+        "Climate Bond"
+    ],
+    "Chemical Engineering": [
+        "Chemical Engineering",
+        "Chemical Synthesis",
+        "Chemical Manufacturing"
+    ],
+    "Project Development": [
+        "Project Development",
+        "Construction Management",
+        "Project Management",
+        "Engineering Management"
+    ],
+    "Systems Engineering": [
+        "Systems Engineering",
+        "Process Engineering"
+    ],
+    "Materials Science": [
+        "Materials Science",
+        "Materials Engineering"
+    ],
+    "Electrochemical": [
+        "Electrochemical",
+        "Electrochemistry"
+    ],
+    "Technical Drawing": [
+        "Technical Drawing",
+        "Engineering Diagram",
+        "Engineering Drawing",
+        "Piping and Instrumentation Diagram",
+        "Block Flow Diagram"
+    ],
+    "Energy System Modelling": [
+        "Energy System Modelling",
+        "System Optimization",
+        "Geospatial Modelling",
+        "Geographic Information Systems"
+    ],
+    "Techno-economic Analysis": [
+        "Techno-economic Analysis",
+        "Technoeconomic Analysis"
+    ],
+    "Power Transformer": [
+        "Power Transformer",
+        "Power Inverter"
+    ],
+    "High-Voltage Power Electronics": [
+        "High-Voltage Power Electronics",
+        "High-Voltage Systems"
+    ],
+    "Gas Turbine": [
+        "Gas Turbine",
+        "Combustion"
+    ],
+    "Vehicle Inspection": [
+        "Vehicle Inspection",
+        "Vehicle Maintenance"
+    ],
+    "Equipment Monitoring": [
+        "Equipment Monitoring",
+        "Equipment Inspection",
+        "Equipment Maintenance"
+    ],
+    "HAZOP": [
+        "HAZOP",
+        "Hazard Identification",
+        "Risk Assessment",
+        "Hazardous Area",
+        "Risk Mitigation",
+        "Safety Zone"
+    ],
+    "Virtual or Augmented Reality Technology": [
+        "Virtual or Augmented Reality Technology",
+        "Virtual Reality Technology",
+        "Augmented Reality Technology"
+    ],
+    "Industrial Safety": [
+        "Industrial Safety",
+        "Flammability",
+        "Explosion"
+    ],
+    "Water Quality": [
+        "Water Quality",
+        "Water Usage",
+        "Resource Management"
+    ],
+    "Process Simulation": [
+        "Process Simulation",
+        "AspenTech",
+        "HYSYS",
+        "Aspen Plus",
+        "DWSIM",
+        "ChemCAD",
+        "ANSYS",
+        "gPROMS",
+        "Petrel",
+        "AFT Fathom",
+        "PIPESIM",
+        "ProSim",
+        "Petro-Sim"
+    ],
+    "Control Systems": [
+        "Control Systems",
+        "Automation",
+        "Process Control"
+    ]
+}
