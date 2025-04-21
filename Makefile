@@ -10,7 +10,7 @@ SCHOOLS := schools
 # -----------------------------------------------------------------------------
 # PHONY TARGETS
 # -----------------------------------------------------------------------------
-.PHONY: help install populate-folders scrape-web scrape-web-all
+.PHONY: help install populate-folders web-scrape web-scrape-all
 
 # -----------------------------------------------------------------------------
 # DEFAULT
@@ -22,8 +22,8 @@ help:
 	@echo "Available targets:"
 	@echo "  install            Install Python dependencies"
 	@echo "  populate-folders   Create subfolders & .gitignore for each school"
-	@echo "  scrape-web         Run web scrapers for schools missing processed_data"
-	@echo "  scrape-web-all     Run web scrapers for ALL schools"
+	@echo "  web-scrape         Run web scrapers for schools missing processed_data"
+	@echo "  web-scrape-all     Run web scrapers for ALL schools"
 	@echo ""
 
 # -----------------------------------------------------------------------------
@@ -45,13 +45,49 @@ populate-folders:
 # -----------------------------------------------------------------------------
 # SCRAPE-WEB (missing only)
 # -----------------------------------------------------------------------------
-scrape-web:
+web-scrape:
 	@echo "Running web scraper for schools missing processed_data..."
-	@$(PYTHON) scripts/scraping/run_web_scrape.py --mode missing
+	@$(PYTHON) scripts/run_web_scrape.py --mode missing
 
 # -----------------------------------------------------------------------------
 # SCRAPE-WEB-ALL
 # -----------------------------------------------------------------------------
-scrape-web-all:
+web-scrape-all:
 	@echo "Running web scraper for ALL schools..."
-	@$(PYTHON) scripts/scraping/run_web_scrape.py --mode all
+	@$(PYTHON) scripts/run_web_scrape.py --mode all
+
+# -----------------------------------------------------------------------------
+# METRICS
+# -----------------------------------------------------------------------------
+metrics:
+	@echo "Running metrics script..."
+	@$(PYTHON) scripts/metrics.py
+
+# -----------------------------------------------------------------------------
+# PROCESS-DATA
+# -----------------------------------------------------------------------------
+process-data:
+	@echo "Running process data script..."
+	@$(PYTHON) scripts/process_data.py
+
+# -----------------------------------------------------------------------------
+# RELATIONAL
+# -----------------------------------------------------------------------------
+relational:
+	@echo "Running relational script..."
+	@$(PYTHON) scripts/process_data.py --mode relational
+
+# -----------------------------------------------------------------------------
+# CREATE-VISUALS
+# -----------------------------------------------------------------------------
+create-visuals:
+	@echo "Running create visuals script..."
+	@$(PYTHON) scripts/create_visuals.py
+
+# -----------------------------------------------------------------------------
+# COMPILE
+# -----------------------------------------------------------------------------
+compile:
+	@echo "Compiling all current processed data..."
+# TO CHAT: ADD SCRIPT(S) FOR COMPILING KEYWORDS
+	@$(PYTHON) 
