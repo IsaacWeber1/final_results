@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 # add project root (two levels up from this file) to sys.path
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 import argparse
@@ -55,11 +55,10 @@ def main():
     )
     args = parser.parse_args()
 
-    project_root = Path(__file__).resolve().parent.parent.parent
+    project_root = Path(__file__).resolve().parent.parent
     schools_root = project_root / 'schools'
 
     # discover all configs
-    print(schools_root)
     configs = discover_config_files(schools_root)
     if not configs:
         print("No scraper configs found under schools/*/scraping_configs/")
