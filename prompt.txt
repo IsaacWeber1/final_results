@@ -1,0 +1,1209 @@
+READING FILE: <_io.TextIOWrapper name='build_prompt.py' mode='r' encoding='UTF-8'>
+
+import os
+import glob
+import pandas as pd
+
+FILES = [
+    "*.py",
+    "*/*.py",
+    "*/*/*.py",
+    "*/*/*/*.py",
+    "Makefile",
+    "*/*/*.xlsx"
+]
+
+if __name__ == "__main__":
+    if os.path.exists("prompt.txt"):
+        os.remove("prompt.txt")
+    prompt = ""
+    for file in FILES:
+        for f in glob.glob(file):
+            if f.endswith(".xlsx"):
+                prompt += "READING FILE: " + f"{f}" + "\n\n"
+                df = pd.read_excel(f, sheet_name=0)
+                prompt += df.to_string() + "\n\n"
+            else:
+                with open(f, "r") as f:
+                    prompt += "READING FILE: " + f"{f}" + "\n\n"
+                    prompt += f.read() + "\n\n"
+    
+    with open("prompt.txt", "w") as f:
+        f.write(prompt)
+
+READING FILE: <_io.TextIOWrapper name='report_tools/word_groups.py' mode='r' encoding='UTF-8'>
+
+# report_tools/word_groups.py
+import json
+import re
+from collections import Counter
+from pathlib import Path
+import pandas as pd
+
+KEYWORD_FILE = Path(__file__).parent.parent / "data" / "word_groups" / "current_keyword_groups.json"
+
+def compile_equivalencies(xlsx_path: Path, out_json: Path):
+    df = pd.read_excel(xlsx_path, sheet_name=0)
+    unique_words = {}
+    for col in df.columns:
+        for cell in df[col].dropna():
+            words = [w.strip() for w in str(cell).split(",") if w.strip()]
+            if len(words) > 1:
+                unique_words[words[0]] = words
+    out_json.write_text(json.dumps(unique_words, indent=4))
+    print(f"Wrote equivalencies → {out_json}")
+
+def compile_keywords(xlsx_path: Path, out_json: Path):
+    df = pd.read_excel(xlsx_path, sheet_name=0)
+    keyword_groups = {}
+    for col in df.columns:
+        key = col.strip().lower().replace(" ", "_").replace("&", "and")
+        items = []
+        for cell in df[col].dropna():
+            items += [i.strip() for i in str(cell).split(",") if i.strip()]
+        keyword_groups[key] = items
+    out_json.write_text(json.dumps(keyword_groups, indent=4))
+    print(f"Wrote keywords → {out_json}")
+
+def load_keyword_groups():
+    with open(KEYWORD_FILE, "r", encoding="utf8") as f:
+        return json.load(f)
+
+def extract_group_weight(group_name: str) -> int:
+    m = re.search(r"-([0-9]+)$", group_name)
+    return int(m.group(1)) if m else 1
+
+def calculate_score_and_matches(title: str, description: str):
+    keyword_groups = load_keyword_groups()
+    text = f"{title} {description}".lower()
+    score = 0.0
+    matched = []
+    groups = []
+    freqs = Counter()
+
+    for group_name, keywords in keyword_groups.items():
+        weight = extract_group_weight(group_name)
+        hit = False
+        for kw in keywords:
+            parts = [p.strip().lower() for p in kw.split(",")]
+            if any(p in text for p in parts):
+                hit = True
+                matched.append(kw)
+                for p in parts:
+                    cnt = text.count(p)
+                    if cnt:
+                        freqs[p] += cnt
+        if hit:
+            score += weight
+            groups.append(group_name)
+
+    # add 0.5 per occurrence
+    for _, cnt in freqs.items():
+        score += cnt * 0.5
+
+    return score, list(set(matched)), list(set(groups)), dict(freqs)
+
+
+READING FILE: <_io.TextIOWrapper name='report_tools/__init__.py' mode='r' encoding='UTF-8'>
+
+
+
+READING FILE: <_io.TextIOWrapper name='report_tools/tables.py' mode='r' encoding='UTF-8'>
+
+# report_tools/tables.py
+import pandas as pd
+from pathlib import Path
+
+def create_relational_tables(raw_csv: Path, out_dir: Path):
+    """
+    Read raw CSV, split out any list‑oriented columns into
+    separate relational tables, then save everything into out_dir.
+    """
+    df = pd.read_csv(raw_csv)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    # Example: if a column holds comma‑separated lists
+    for col in df.columns:
+        if df[col].dtype == object and df[col].str.contains(",").any():
+            relations = []
+            for idx, cell in df[col].dropna().items():
+                for val in map(str.strip, cell.split(",")):
+                    relations.append({"id": idx, col: val})
+            rel_df = pd.DataFrame(relations)
+            rel_df.to_csv(out_dir / f"{col}_relation.csv", index=False)
+            print(f"  – relational table: {col}_relation.csv")
+
+    df.to_csv(out_dir / "main_table.csv", index=False)
+    print(f"  – main table: main_table.csv")
+
+
+READING FILE: <_io.TextIOWrapper name='report_tools/viz.py' mode='r' encoding='UTF-8'>
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import plotly.express as px
+from pathlib import Path
+
+def heatmap(main_csv: Path, relations_dir: Path, out_html: Path):
+    df_main = pd.read_csv(main_csv)
+    # load relations if needed…
+    fig = px.imshow([[0]], title="(placeholder)")
+    # …build real static figures here
+    fig.write_html(out_html)
+    print(f"Saved heatmap to {out_html}")
+
+def bar_metrics_per_school(processed_csv: Path, out_png: Path, metrics: dict):
+    """
+    processed_csv:  the school’s processed_data/<somefile>.csv
+    out_png:        where to save the bar chart (e.g. schools/<school>/figures/metrics.png)
+    metrics:        a dict mapping metric_name -> a function(df) returning a numeric value
+    """
+    df = pd.read_csv(processed_csv)
+    results = {name: func(df) for name, func in metrics.items()}
+
+    names = list(results.keys())
+    values = list(results.values())
+
+    plt.figure(figsize=(6, 4))
+    plt.bar(names, values)
+    plt.ylabel("Count / Value")
+    plt.xticks(rotation=45, ha="right")
+    plt.title(f"Key Metrics for {processed_csv.parent.name}")
+    plt.tight_layout()
+    plt.savefig(out_png)
+    plt.close()
+
+
+READING FILE: <_io.TextIOWrapper name='scraper_module/config.py' mode='r' encoding='UTF-8'>
+
+# scraper_module/config.py
+from dataclasses import dataclass, field
+from typing import Dict, List, Optional
+
+@dataclass(kw_only=True)
+class _DefaultConfig:
+    type: str = None
+
+@dataclass
+class PaginationConfig:
+    search_space: str              # Selector to limit pagination container
+
+@dataclass
+class Listed_Links(PaginationConfig, _DefaultConfig):
+    link_selector: str             # Selector for pagination links
+
+@dataclass
+class Search_Links(PaginationConfig, _DefaultConfig):
+    link_selector: str                      # Selector for pagination links
+    target_page_selector: str = None        # Selector for target page links
+    max_depth: int = 10
+    base_url: str = None
+
+@dataclass
+class TaskConfig:
+    # Consider removing the default to avoid ordering issues
+    task_name: str
+
+@dataclass
+class Find(TaskConfig, _DefaultConfig):
+    search_space: str              # Selector for the container of data
+    repeating_selector: str        # Selector for repeating elements
+    fields: Dict[str, str]         # Mapping of field names to selectors
+    num_required: int = 0
+    include: Optional[Dict[str, str]] = None
+
+@dataclass
+class Follow(_DefaultConfig, TaskConfig):
+    link_field: str                # Field containing the link to follow
+    fields: Dict[str, str]         # Mapping of field names to selectors
+
+@dataclass
+class SpiderConfig:
+    name: str
+    start_url: str
+    use_playwright: bool = False
+    pagination: Optional[PaginationConfig] = None
+    tasks: List[TaskConfig] = field(default_factory=list)
+    
+@dataclass
+class DynamicFind(TaskConfig, _DefaultConfig):
+    search_space: str  # Selector to locate course links on the catalog page
+    base_url: str      # Base AJAX URL for course details
+    catoid: int        # Category ID for the courses
+    fields: Dict[str, str]  # Mapping for extracting course details (e.g., title, description)
+    pagination_selector: str
+
+READING FILE: <_io.TextIOWrapper name='scripts/process_data.py' mode='r' encoding='UTF-8'>
+
+# scripts/process_data.py
+import json
+from pathlib import Path
+from report_tools.word_groups import calculate_score_and_matches
+
+def process_school(school_dir: Path):
+    raw_dir = school_dir / "raw_data"
+    out_dir = school_dir / "processed_data"
+    out_dir.mkdir(exist_ok=True, parents=True)
+
+    all_items = []
+    # gather every .json under raw_data
+    for raw_file in raw_dir.glob("*.json"):
+        with raw_file.open("r", encoding="utf8") as f:
+            items = json.load(f)
+        all_items.extend(items)
+
+    processed = []
+    for item in all_items:
+        title = item.get("course title") or item.get("title") or ""
+        desc  = item.get("course description") or item.get("description") or ""
+        score, kws, groups, freqs = calculate_score_and_matches(title, desc)
+        item.update({
+            "relevance_score":        score,
+            "matched_keywords":       kws,
+            "matched_groups":         groups,
+            "keyword_frequencies":    freqs
+        })
+        processed.append(item)
+
+    out_path = out_dir / "processed.json"
+    with out_path.open("w", encoding="utf8") as f:
+        json.dump(processed, f, indent=2, ensure_ascii=False)
+    print(f" → Wrote {len(processed)} records to {out_path}")
+
+def main():
+    base = Path(__file__).resolve().parent.parent / "schools"
+    for category in ("priority", "non_priority"):
+        for school in (base / category).iterdir():
+            if school.is_dir():
+                print(f"Processing {category}/{school.name} …")
+                process_school(school)
+
+if __name__ == "__main__":
+    main()
+
+
+READING FILE: <_io.TextIOWrapper name='scripts/run_web_scrape.py' mode='r' encoding='UTF-8'>
+
+# scripts/scraping/run_web_scrape.py
+
+import sys
+import os
+from pathlib import Path
+
+# add project root (two levels up from this file) to sys.path
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+import argparse
+import importlib.util
+from pathlib import Path
+
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
+
+from scraper_module.scraper_lib.scraper_engine import ScraperEngine
+
+def discover_config_files(schools_root: Path):
+    """
+    Find all configs in:
+        schools/<priority|non_priority>/<school>/scraping_configs/*.py
+    """
+    configs = []
+    for cfg in schools_root.glob('*/*/scraping_configs/*_config.py'):
+        if os.path.getsize(cfg) != 0:
+            school_dir = cfg.parent.parent
+            configs.append((school_dir, cfg))
+
+    return configs
+
+def needs_run(school_dir: Path) -> bool:
+    """Return True if processed_data is empty or missing."""
+    pd = school_dir / 'processed_data'
+    if not pd.exists():
+        return True
+    # consider "processed" if there's any file in processed_data
+    files = [f for f in pd.iterdir() if (f.is_file() and f.name != '.gitignore')]
+    return len(files) == 0
+
+def load_config_module(path: Path):
+    """Dynamically load a .py file and return its module."""
+    spec = importlib.util.spec_from_file_location(path.stem, path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Run all school scrapers (mode=missing or all)"
+    )
+    parser.add_argument(
+        '--mode', choices=('missing', 'all'), default='missing',
+        help="Run only schools with no processed_data (missing), or run all."
+    )
+    args = parser.parse_args()
+
+    project_root = Path(__file__).resolve().parent.parent
+    schools_root = project_root / 'schools'
+
+    # discover all configs
+    configs = discover_config_files(schools_root)
+    if not configs:
+        print("No scraper configs found under schools/*/scraping_configs/")
+        return
+
+    # prepare Scrapy process
+    process = CrawlerProcess(get_project_settings())
+
+    for school_dir, cfg_path in configs:
+        if args.mode == 'missing' and not needs_run(school_dir):
+            print(f"Skipping {school_dir.name} (already has processed data)")
+            continue
+
+        # load each config module (expects it to define `config = SpiderConfig(...)`)
+        module = load_config_module(cfg_path)
+        engine = ScraperEngine(module.config)
+        raw_data_dir = school_dir / "raw_data"
+        print(f"Scheduling scraper for: {school_dir.name}")
+        engine.schedule(process, output_dir=str(raw_data_dir))
+
+    print("Starting crawl process...")
+    process.start()
+    print("All scrapers finished.")
+
+if __name__ == '__main__':
+    main()
+
+
+READING FILE: <_io.TextIOWrapper name='scraper_module/scraper_project/__init__.py' mode='r' encoding='UTF-8'>
+
+
+
+READING FILE: <_io.TextIOWrapper name='scraper_module/scraper_project/middlewares.py' mode='r' encoding='UTF-8'>
+
+# scraper_module/scraper_project/middlewares.py
+
+from scrapy import signals
+
+class ScraperProjectSpiderMiddleware:
+    """
+    Not activated by default. See settings.py to enable it.
+    """
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        # This method is used by Scrapy to create your spiders.
+        s = cls()
+        crawler.signals.connect(s.spider_opened, signal=signals.spider_opened)
+        return s
+
+    def process_spider_input(self, response, spider):
+        """
+        Called for each response that goes through the spider
+        middleware and into the spider.
+        """
+        return None  # or raise IgnoreRequest
+
+    def process_spider_output(self, response, result, spider):
+        """
+        Called with results returned from the Spider.
+        """
+        for i in result:
+            yield i
+
+    def process_spider_exception(self, response, exception, spider):
+        """
+        Called when a spider or process_spider_input() method raises an exception.
+        """
+        pass
+
+    def process_start_requests(self, start_requests, spider):
+        """
+        Called with the start requests of the spider.
+        """
+        for r in start_requests:
+            yield r
+
+    def spider_opened(self, spider):
+        spider.logger.info('Spider opened: %s' % spider.name)
+
+
+class ScraperProjectDownloaderMiddleware:
+    """
+    Not activated by default. See settings.py to enable it.
+    """
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        # This method is used by Scrapy to create your downloader middleware.
+        s = cls()
+        return s
+
+    def process_request(self, request, spider):
+        """
+        Called for each request that goes through the downloader middleware.
+        """
+        return None
+
+    def process_response(self, request, response, spider):
+        """
+        Called with the response returned from the downloader.
+        """
+        return response
+
+    def process_exception(self, request, exception, spider):
+        """
+        Called when a download handler or process_request() raises an exception.
+        """
+        pass
+
+
+READING FILE: <_io.TextIOWrapper name='scraper_module/scraper_project/settings.py' mode='r' encoding='UTF-8'>
+
+BOT_NAME = 'scraper_module'
+
+SPIDER_MODULES = ['scraper_module.scraper_project.spiders']
+NEWSPIDER_MODULE = 'scraper_module.scraper_project.spiders'
+
+# Crawl responsibly by identifying yourself on the user-agent
+# USER_AGENT = 'scraper_module (+http://example.com)'
+
+# Obey robots.txt rules? (Many turn this off to scrape more freely)
+ROBOTSTXT_OBEY = False
+
+ITEM_PIPELINES = {
+    'scraper_module.scraper_project.pipelines.ScraperModulePipeline': 300,
+    'scraper_module.scraper_project.pipelines.JsonWriterPipeline': 300,
+}
+
+READING FILE: <_io.TextIOWrapper name='scraper_module/scraper_project/items.py' mode='r' encoding='UTF-8'>
+
+# scraper_module/scraper_project/items.py
+
+import scrapy
+
+# For a minimal project, you don't actually need custom items.
+
+class ScraperModuleItem(scrapy.Item):
+    # Define item fields here if needed
+    pass
+
+READING FILE: <_io.TextIOWrapper name='scraper_module/scraper_project/pipelines.py' mode='r' encoding='UTF-8'>
+
+import json
+class JsonWriterPipeline:
+    def open_spider(self, spider):
+        self.file = open('output.json', 'w', encoding='utf8')
+        self.file.write('[\n')  # Start the JSON array
+        self.first_item = True
+
+    def close_spider(self, spider):
+        self.file.write('\n]\n')  # End the JSON array
+        self.file.close()
+
+    def process_item(self, item, spider):
+        if not self.first_item:
+            self.file.write(',\n')  # Add a comma between JSON objects
+        else:
+            self.first_item = False
+        line = json.dumps(dict(item), ensure_ascii=False, indent=4)
+        self.file.write(line)
+        return item
+    
+class ScraperModulePipeline:
+    def process_item(self, item, spider):
+        return item
+
+READING FILE: <_io.TextIOWrapper name='scraper_module/scraper_lib/runner.py' mode='r' encoding='UTF-8'>
+
+# scraper_module/scraper_lib/runner.py
+import logging
+import json
+from scrapy.crawler import CrawlerProcess
+from scrapy import signals
+from .engine_spider import StepSpider
+
+logger = logging.getLogger(__name__)
+
+class RunAllEngines:
+    def __init__(self, engines, global_settings=None):
+        self.engines = engines
+        self.global_settings = global_settings or {}
+        self.logger = logger
+
+    def run_all(self):
+        process = CrawlerProcess(self.global_settings)
+        for engine in self.engines:
+            if not engine.start_url:
+                raise ValueError(f"Engine '{engine.name}' has no start_url set.")
+            crawler = process.create_crawler(StepSpider)
+
+            def item_collector(item, response, spider, this_engine=engine):
+                # Create a unique key for the item (convert title to string if needed)
+                title = item.get("title")
+                source = item.get("source", "")
+                title_key = ", ".join(title) if isinstance(title, list) else title
+                key = (title_key, source)
+                if key not in this_engine.seen_items:
+                    this_engine.seen_items.add(key)
+                    this_engine.logger.debug(f"{this_engine.name} scraped item: {item}")
+                    this_engine.items_collected.append(item)
+                else:
+                    this_engine.logger.debug(f"Duplicate item skipped: {item}")
+
+            crawler.signals.connect(item_collector, signal=signals.item_scraped)
+            process.crawl(crawler,
+                          start_url=engine.start_url,
+                          steps=engine.steps,
+                          use_playwright=engine.playwright,
+                          pagination=engine.pagination)
+        self.logger.info("Starting all spiders...")
+        process.start()  # Blocking until all spiders finish.
+        return {engine.name: engine.items_collected for engine in self.engines}
+
+    def save_all(self, output_folder="./data_output"):
+        for engine in self.engines:
+            fname = f"{engine.name}_out.json"
+            path = f"{output_folder}/{fname}"
+            self.logger.info(f"Saving {len(engine.items_collected)} items to {path}")
+            with open(path, "w", encoding="utf8") as f:
+                json.dump(engine.items_collected, f, indent=4, ensure_ascii=False)
+
+
+READING FILE: <_io.TextIOWrapper name='scraper_module/scraper_lib/__init__.py' mode='r' encoding='UTF-8'>
+
+
+
+READING FILE: <_io.TextIOWrapper name='scraper_module/scraper_lib/engine_spider.py' mode='r' encoding='UTF-8'>
+
+# scraper_module/scraper_lib/engine_spider.py
+import scrapy
+from scrapy_playwright.page import PageMethod
+from .helpers import canonicalize_url, find_pages, find, _select
+
+class StepSpider(scrapy.Spider):
+    name = "step_spider"
+    custom_settings = {}  # Allow per-spider settings override if needed
+
+    def __init__(self, start_url, steps, use_playwright=False, pagination=None, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.start_url = start_url
+        self.steps = steps or []
+        self.use_playwright = use_playwright
+        self.pagination = pagination
+        # NEW: Create a spider-level set to track visited URLs
+        self.visited_urls = set()
+        if self.use_playwright:
+            self.custom_settings.update({
+                "PLAYWRIGHT_BROWSER_TYPE": "chromium",
+                "PLAYWRIGHT_LAUNCH_OPTIONS": {"headless": True, "timeout": 30000},
+            })
+
+    def start_requests(self):
+        canonical_start = canonicalize_url(self.start_url)
+        # Mark the start_url as visited
+        self.visited_urls.add(canonical_start)
+        # If pagination is configured, use handle_pagination; otherwise, parse steps directly.
+        callback = self.handle_pagination if self.pagination else self.parse_steps
+        yield self._make_request(self.start_url, callback)
+
+    def _make_request(self, url, callback):
+        meta = {}
+        if self.use_playwright:
+            meta.update({
+                "playwright": True,
+                "playwright_page_methods": [PageMethod("wait_for_timeout", 3000)]
+            })
+            canonical_url = canonicalize_url(url)
+            if canonical_url in self.visited_urls:
+                return None
+            self.visited_urls.add(canonical_url)
+        return scrapy.Request(url, callback=callback, meta=meta)
+
+    def _search_links_recursive(self, response, max_depth, depth=0):
+        if depth > max_depth:
+            self.logger.debug(f"Reached max recursion depth {max_depth}")
+            return
+        target_page_selector = self.pagination.get("target_page_selector")
+        if (not target_page_selector) or (target_page_selector and _select(response, target_page_selector)):
+            yield from self.parse_steps(response)
+        search_space = self.pagination.get("search_space")
+        must_contain = self.pagination.get("base_url")
+        if not must_contain:
+            must_contain = list(str(self.start_url).strip("http://").split('/'))[0]
+        if not search_space:
+            return
+        for parent in _select(response, search_space):
+            for ln in _select(parent, "xpath:.//a/@href"):
+                href = ln.get()
+                if href:
+                    abs_url = response.urljoin(href)
+                    canonical_url = canonicalize_url(abs_url)
+                    if (canonical_url not in self.visited_urls) and (must_contain in canonical_url):
+                        self.visited_urls.add(canonical_url)
+                        yield self._make_request(abs_url, lambda r: self._search_links_recursive(response = r, depth = depth+1, max_depth = self.pagination.get("max_depth", 10)))
+
+    def handle_pagination(self, response):
+        content_type = response.headers.get('Content-Type', b'').decode('utf8').lower()
+        if "html" not in content_type:
+            self.logger.debug(f"Skipping pagination on non-HTML response: {response.url} with content type: {content_type}")
+            return
+
+        target_page_selector = self.pagination.get("target_page_selector")
+        if (not target_page_selector) or (target_page_selector and _select(response, target_page_selector)):
+            yield from self.parse_steps(response)
+        ptype = self.pagination.get("type")
+
+        if ptype == "listed_links":
+            yield from self.parse_steps(response)
+            for url in find_pages(response, self.pagination):
+                abs_url = response.urljoin(url)
+                canonical_url = canonicalize_url(abs_url)
+                if canonical_url not in self.visited_urls:
+                    self.visited_urls.add(canonical_url)
+                    yield self._make_request(abs_url, self.handle_pagination)
+        elif ptype == "search_links":
+            yield from self._search_links_recursive(response, max_depth = self.pagination.get("max_depth", 10))
+        else:
+            yield from self.parse_steps(response)
+
+
+    def parse_steps(self, response, step_index=0, parent_item=None):
+        content_type = response.headers.get('Content-Type', b'').decode('utf8').lower()
+        if "html" not in content_type:
+            self.logger.debug(f"Skipping non-HTML response: {response.url} with content type: {content_type}")
+            return
+    
+        self.logger.debug(f"ATTEMPTING TO PARSE STEP {step_index}")
+        if step_index >= len(self.steps):
+            if parent_item:
+                yield parent_item
+            return
+
+        step = self.steps[step_index]
+        action = step.get("type", "").lower()
+        self.logger.debug(f"ACTION: {action}")
+        if action == "find":
+            self.logger.debug(f"FINDING {step['task_name']}")
+            for item in find(response, step):
+                self.logger.debug(f"FOUND ITEM: {item}")
+                yield from self.parse_steps(response, step_index + 1, item)
+        elif action == "dynamicfind":
+            yield from self.dynamic_find(response, step)
+        elif action == "follow":
+            link_field = step.get("link_field")
+            if not parent_item or not parent_item.get(link_field):
+                yield parent_item
+            else:
+                links = parent_item[link_field]
+                if not isinstance(links, list):
+                    links = [links]
+                next_steps = step.get("next_steps", [])
+                for url in links:
+                    yield response.follow(
+                        url,
+                        callback=lambda r, s=next_steps, pi=parent_item: self.parse_followed_steps(r, s, pi)
+                    )
+        else:
+            yield from self.parse_steps(response, step_index + 1, parent_item)
+            
+    '''def dynamic_find(self, response, step):
+        # Extract links (each link should be an AJAX URL parameter containing a course ID)
+        links = _select(response, step.get("search_space")).getall()
+        self.logger.debug(f"DynamicFind: Found {len(links)} links.")
+        import re
+        for link in links:
+            match = re.search(r'coid=(\d+)', link)
+            if match:
+                coid = match.group(1)
+                display_options = 'a:2:{s:8:"~location~";s:8:"~template~";s:28:"~course_program_display_field~";s:0:"";}'
+                from urllib.parse import quote
+                encoded_display_options = quote(display_options)
+                ajax_url = f"{step.get('base_url')}?catoid={step.get('catoid')}&coid={coid}&display_options={encoded_display_options}&show"
+                yield scrapy.Request(url=ajax_url, callback=self.parse_dynamic_course, meta={'step': step})'''
+                
+    def dynamic_find(self, response, step):
+        # First, extract AJAX course links (each should contain a course ID in its query string)
+        links = _select(response, step.get("search_space")).getall()
+        self.logger.debug(f"DynamicFind: Found {len(links)} course links.")
+        import re
+        for link in links:
+            match = re.search(r'coid=(\d+)', link)
+            if match:
+                coid = match.group(1)
+                display_options = 'a:2:{s:8:"~location~";s:8:"~template~";s:28:"~course_program_display_field~";s:0:"";}'
+                from urllib.parse import quote
+                encoded_display_options = quote(display_options)
+                ajax_url = (
+                    f"{step.get('base_url')}?catoid={step.get('catoid')}"
+                    f"&coid={coid}&display_options={encoded_display_options}&show"
+                )
+                yield scrapy.Request(
+                    url=ajax_url,
+                    callback=self.parse_dynamic_course,
+                    meta={'step': step}
+                )
+
+        # Next, handle pagination if a pagination selector is provided in the step config.
+        # (For example, add "pagination_selector": "css_selector_for_pagination_links" in your config.)
+        pagination_selector = step.get("pagination_selector")
+        if pagination_selector:
+            pagination_links = _select(response, pagination_selector)
+            all_page_links = pagination_links.getall() if pagination_links else []
+            self.logger.debug(f"DynamicFind: Found {len(all_page_links)} pagination link(s).")
+            for link in pagination_links:
+                href = link.get()
+                if href:
+                    abs_url = response.urljoin(href)
+                    from .helpers import canonicalize_url  # Ensure canonicalization is imported
+                    canonical_url = canonicalize_url(abs_url)
+                    if canonical_url not in self.visited_urls:
+                        self.visited_urls.add(canonical_url)
+                        self.logger.debug(f"DynamicFind: Following pagination URL: {abs_url}")
+                        yield scrapy.Request(
+                            url=abs_url,
+                            callback=lambda r, s=step: self.dynamic_find(r, s)
+                        )
+                
+    def parse_dynamic_course(self, response):
+        step = response.meta.get('step')
+        fields = step.get('fields', {})
+        title_xpath = fields.get('title')
+        desc_xpath = fields.get('description')
+        from .helpers import _extract_text  # Use our helper for text extraction
+        title = _extract_text(response, title_xpath)
+        description = _extract_text(response, desc_xpath)
+        yield {
+            'title': title if title else "No Title Found",
+            'description': description if description else "No Description Found",
+        }
+
+    def parse_followed_steps(self, response, steps, parent_item):
+        if not steps:
+            yield parent_item
+            return
+        step = steps[0]
+        action = step.get("type", "").lower()
+        if action == "find":
+            for item in find(response, step):
+                merged = {**parent_item, **item}
+                yield from self.parse_followed_steps(response, steps[1:], merged)
+        else:
+            yield from self.parse_followed_steps(response, steps[1:], parent_item)
+
+READING FILE: <_io.TextIOWrapper name='scraper_module/scraper_lib/scraper_engine.py' mode='r' encoding='UTF-8'>
+
+# scraper_module/scraper_lib/scraper_engine.py
+import logging
+from pathlib import Path
+from scrapy.utils.project import get_project_settings
+from .engine_spider import StepSpider
+from scrapy.crawler import CrawlerProcess
+from typing import List
+from scraper_module.config import SpiderConfig
+from scrapy import signals
+logger = logging.getLogger(__name__)
+
+class ScraperEngine:
+    def __init__(self, config: SpiderConfig):
+        self.config = config
+        self.name = config.name
+        self.logger = logger.getChild(self.name)
+        self.items_collected: List[dict] = []
+        self.seen_items = set()
+        self.start_url = config.start_url
+        self.playwright = config.use_playwright
+        # Convert pagination and tasks from the config to the internal format
+        if config.pagination:
+            # Create a local pagination dict, setting the 'type' key explicitly.
+            pagination_type = type(config.pagination).__name__.lower()
+            self.pagination = {**config.pagination.__dict__, "type": pagination_type}
+        else:
+            self.pagination = None
+        # Convert tasks to a list of dicts
+        def task_to_dict(task):
+            # Use the task's own type name if the task doesn't specify one (or if task.task_type is not set)
+            task_type = task.task_type if hasattr(task, "type") and task.type else type(task).__name__.lower()
+            # Convert to a dict and inject the computed 'action'
+            task_dict = task.__dict__.copy()
+            task_dict["type"] = task_type
+            return task_dict
+        self.steps = [task_to_dict(task) for task in config.tasks]
+
+    def run(self):
+        settings = get_project_settings()
+        output_file = f"./data_output/{self.name}.json"
+        settings.set("FEEDS", {
+            output_file: {
+                "format": "json",
+                "encoding": "utf8",
+                "store_empty": False,
+                "indent": 4,
+                "overwrite": True,
+            },
+        })
+        process = CrawlerProcess(settings)
+        crawler = process.create_crawler(StepSpider)
+        
+        # Define a simple item collector
+        def item_collector(item, response, spider):
+            self.items_collected.append(item)
+        crawler.signals.connect(item_collector, signal=signals.item_scraped)
+        process.crawl(crawler,
+                      start_url=self.start_url,
+                      steps=self.steps,
+                      use_playwright=self.playwright,
+                      pagination=self.pagination)
+        process.start()
+        return self.items_collected
+    
+    def schedule(self, process, output_dir: str = "./data_output"):
+        out_path = Path(output_dir)
+        
+        feed_uri = str(out_path / f"{self.name}.json")
+        process.settings.set("FEEDS", {
+            feed_uri: {
+                "format": "json",
+                "encoding": "utf8",
+                "store_empty": False,
+                "indent": 4,
+                "overwrite": True,
+            },
+        })
+
+        crawler = process.create_crawler(StepSpider)
+
+        def item_collector(item, response, spider):
+            self.items_collected.append(item)
+
+        crawler.signals.connect(item_collector, signal=signals.item_scraped)
+
+        process.crawl(
+            crawler,
+            start_url=self.start_url,
+            steps=self.steps,
+            use_playwright=self.playwright,
+            pagination=self.pagination,
+        )
+
+READING FILE: <_io.TextIOWrapper name='scraper_module/scraper_lib/helpers.py' mode='r' encoding='UTF-8'>
+
+# scraper_module/scraper_lib/helpers.py
+from parsel import Selector
+from urllib.parse import urlparse, urlunparse
+import logging
+
+logger = logging.getLogger(__name__)
+
+def _select(selector_or_response, selector_str):
+    """
+    Select elements using either XPath or CSS.
+    If the selector_str starts with 'xpath:', use XPath; otherwise, assume CSS.
+    """
+    if selector_str.startswith("xpath:"):
+        expr = selector_str.replace("xpath:", "")
+        try:
+            return selector_or_response.xpath(expr)
+        except Exception as e:
+            logger.error(f"XPath expression failed: {expr}. Error: {e}")
+            raise
+    else:
+        try:
+            return selector_or_response.css(selector_str)
+        except Exception as e:
+            logger.error(f"CSS selector failed: {selector_str}. Error: {e}")
+            raise
+
+def _extract_text(selector_or_response, selector_str):
+    """
+    Extract text from the first match or join all matches if 'join' is appended.
+    """
+    if selector_str.endswith("join"):
+        raw_matches = _select(selector_or_response, selector_str.replace("join", "")).getall()
+        return " ".join(m.strip() for m in raw_matches if m.strip())
+    else:
+        raw_matches = _select(selector_or_response, selector_str).getall()
+        matches = [m.strip() for m in raw_matches if m.strip()]
+        if not matches:
+            return None
+        return matches[0] if len(matches) == 1 else matches
+
+def find_pages(selector_or_response, step):
+    """
+    Given a pagination step definition, yield each found pagination URL.
+    """
+    search_space = step.get("search_space")
+    if not ("href" in str(step.get("link_selector"))):
+        link_selector = str(step.get("link_selector")) + "/@href"
+    else:
+        link_selector = step.get("link_selector")
+    if not (search_space and link_selector):
+        logger.debug("Pagination step missing search_space or link_selector.")
+        return []
+    seen_urls = set()
+    for node in _select(selector_or_response, search_space):
+        for ln in _select(node, link_selector):
+            href = ln.get()
+            if href:
+                abs_url = selector_or_response.urljoin(href)
+                canonical_url = canonicalize_url(abs_url)
+                if canonical_url not in seen_urls:
+                    seen_urls.add(canonical_url)
+                    logger.debug(f"Found pagination URL: {canonical_url}")
+                    yield abs_url
+
+
+def find(selector_or_response, step):
+    """
+    Given a 'find' step definition, yield dictionaries representing items.
+    """
+    search_space = step.get("search_space")
+    repeating_selector = step.get("repeating_selector")
+    fields = step.get("fields", {})
+    parents = _select(selector_or_response, search_space) if search_space else [selector_or_response]
+    logger.debug(f"Found {len(parents)} parent(s) using search_space: {search_space}")
+    if not parents:
+        logger.debug(f"No parents found in {selector_or_response.url} using search_space: {search_space}")
+
+    num_required = step.get("num_required", 0)
+    required_fields = list(fields.keys())[:num_required] if num_required > 0 else []
+    for p in parents:
+        for row in _select(p, repeating_selector):
+            item = {field: _extract_text(row, selector) for field, selector in fields.items()}
+            if required_fields and any(not item.get(req) for req in required_fields):
+                logger.debug(f"Skipping item due to missing required fields: {item}")
+                continue
+            # Optionally add source URL if available
+            if hasattr(selector_or_response, "request"):
+                item["source"] = selector_or_response.request.url
+            yield item
+
+def canonicalize_url(url):
+    """
+    Returns a canonical form of the URL by normalizing the path.
+    For example, removes a trailing slash (unless the path is just '/').
+    """
+    parsed = urlparse(url)
+    # Normalize the path: remove trailing slash if not the root
+    path = parsed.path.rstrip('/')
+    if not path:
+        path = '/'
+    return urlunparse((parsed.scheme, parsed.netloc, path, parsed.params, parsed.query, parsed.fragment))
+
+READING FILE: <_io.TextIOWrapper name='scripts/directory_initialization/add_gitignores.py' mode='r' encoding='UTF-8'>
+
+#!/usr/bin/env python3
+# scripts/add_gitignores.py
+
+import sys
+from pathlib import Path
+
+def add_gitignores(schools_root: Path):
+    """
+    For each school under priority/ and non_priority/, create an empty
+    .gitignore file in every subdirectory (so Git will track the folder).
+    """
+    for category in ("priority", "non_priority"):
+        cat_dir = schools_root / category
+        if not cat_dir.is_dir():
+            continue
+        for school_dir in cat_dir.iterdir():
+            if not school_dir.is_dir():
+                continue
+            # create .gitignore in each immediate subfolder
+            for sub in school_dir.iterdir():
+                if sub.is_dir():
+                    gi = sub / ".gitignore"
+                    if not gi.exists():
+                        gi.touch()
+                        print(f"Created {gi}")
+                    else:
+                        print(f"Already exists: {gi}")
+
+def main():
+    # assume this script lives in PROJECT_ROOT/scripts/
+    project_root = Path(__file__).resolve().parent.parent.parent
+    schools_dir = project_root / "schools"
+    if not schools_dir.exists():
+        print(f"Error: could not find schools/ at {schools_dir}", file=sys.stderr)
+        sys.exit(1)
+    add_gitignores(schools_dir)
+    print("Done.")
+
+if __name__ == "__main__":
+    main()
+
+
+READING FILE: <_io.TextIOWrapper name='scripts/directory_initialization/populate_folders.py' mode='r' encoding='UTF-8'>
+
+# scripts/populate_folders.py
+import os
+from pathlib import Path
+
+def populate_school_folder(school_root: Path):
+    """
+    Given the path to a school directory, create standard subdirectories and files:
+      - scraping_configs/
+      - raw_data/
+      - processed_data/
+      - pdfs/
+      - screenshots/
+      - notes.txt (empty file)
+    """
+    # Define subdirectories to create
+    subdirs = [
+        'scraping_configs',
+        'raw_data',
+        'processed_data',
+        'pdfs',
+        'screenshots'
+    ]
+    
+    for sub in subdirs:
+        dir_path = school_root / sub
+        if dir_path.exists():
+            print(f"Directory already exists: {dir_path}")
+        else:
+            dir_path.mkdir(parents=True, exist_ok=False)
+            print(f"Created directory: {dir_path}")
+
+    
+    # Create an empty notes.txt, config file in the school root
+    notes_file = school_root / 'notes.txt'
+    if notes_file.exists():
+        print(f"Notes file already exists: {notes_file}")
+    else:
+        notes_file.touch(exist_ok=False)
+        print(f"Created file: {notes_file}")
+
+    config_dir = school_root / 'scraping_configs'
+    config_file = config_dir / f"{school_root.name}_config.py"
+    if not config_file.exists():
+        config_file.touch()
+        print(f"Created config file: {config_file}")
+    else:
+        print(f"Config file already exists: {config_file}")
+
+if __name__ == '__main__':
+    base = Path(__file__).resolve().parent.parent / 'schools'
+    # Iterate over both priority and non_priority
+    for category in ['priority', 'non_priority']:
+        category_dir = base / category
+        if not category_dir.exists():
+            raise FileNotFoundError(f"Directory {category_dir} does not exist.")
+        for school_dir in category_dir.iterdir():
+            if school_dir.is_dir():
+                populate_school_folder(school_dir)
+
+READING FILE: <_io.TextIOWrapper name='scripts/directory_initialization/create_folders.py' mode='r' encoding='UTF-8'>
+
+# scripts/create_folders.py
+import os
+import csv
+
+def create_dirs_from_csv(csv_path, output_dir):
+    with open(csv_path, newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            if not row:  # skip empty lines
+                continue
+            school_name = row[0].strip()
+            # Create directory path
+            school_dir = os.path.join(output_dir, school_name)
+            if os.path.exists(school_dir):
+                print(f"Directory already exists: {school_dir}")
+            else:
+                os.makedirs(school_dir, exist_ok=False)
+                print(f"Created: {school_dir}")
+
+if __name__ == "__main__":
+    base_dir = os.path.join(os.getcwd(), "schools")
+    priority_csv = os.path.join(base_dir, "priority_schools.csv")
+    non_priority_csv = os.path.join(base_dir, "non_priority_schools.csv")
+
+    create_dirs_from_csv(priority_csv, os.path.join(base_dir, "priority"))
+    create_dirs_from_csv(non_priority_csv, os.path.join(base_dir, "non_priority"))
+
+
+READING FILE: <_io.TextIOWrapper name='Makefile' mode='r' encoding='UTF-8'>
+
+# final_results/Makefile
+
+# -----------------------------------------------------------------------------
+# VARIABLES
+# -----------------------------------------------------------------------------
+PYTHON := python3
+PIP     := pip install
+REQ     := requirements.txt
+SCHOOLS := schools
+# -----------------------------------------------------------------------------
+# PHONY TARGETS
+# -----------------------------------------------------------------------------
+.PHONY: help install populate-folders scrape-web scrape-web-all
+
+# -----------------------------------------------------------------------------
+# DEFAULT
+# -----------------------------------------------------------------------------
+help:
+	@echo ""
+	@echo "Usage: make <target> [mode=<missing|all>]"
+	@echo ""
+	@echo "Available targets:"
+	@echo "  install            Install Python dependencies"
+	@echo "  populate-folders   Create subfolders & .gitignore for each school"
+	@echo "  scrape-web         Run web scrapers for schools missing processed_data"
+	@echo "  scrape-web-all     Run web scrapers for ALL schools"
+	@echo ""
+
+# -----------------------------------------------------------------------------
+# INSTALL
+# -----------------------------------------------------------------------------
+install:
+	@echo "Installing Python dependencies..."
+	$(PIP) -r $(REQ)
+
+# -----------------------------------------------------------------------------
+# POPULATE FOLDERS
+# -----------------------------------------------------------------------------
+populate-folders:
+	@echo "Populating school directories with standard subfolders & .gitignore..."
+	@$(PYTHON) scripts/directory_initialization/create_folders.py
+	@$(PYTHON) scripts/directory_initialization/populate_folders.py
+	@$(PYTHON) scripts/directory_initialization/add_gitignores.py
+
+# -----------------------------------------------------------------------------
+# SCRAPE-WEB (missing only)
+# -----------------------------------------------------------------------------
+scrape-web:
+	@echo "Running web scraper for schools missing processed_data..."
+	@$(PYTHON) scripts/scraping/run_web_scrape.py --mode missing
+
+# -----------------------------------------------------------------------------
+# SCRAPE-WEB-ALL
+# -----------------------------------------------------------------------------
+scrape-web-all:
+	@echo "Running web scraper for ALL schools..."
+	@$(PYTHON) scripts/scraping/run_web_scrape.py --mode all
+
+
+READING FILE: data/word_groups/phrases_spreadsheet.xlsx
+
+         Hydrogen Phrases-5                                                                                                                                                                    Production-3                                            Delivery & Storage-3                                                     Use-3                                                                               Sustainability & Policy-4                                                                                                 Clean Energy Markets-4                                                                                           Engineering Capabilities-2                                                                                                                Technical Skills-1
+0           Hydrogen Energy  Carbon Capture and Storage, CCS, Carbon Capture Utilization and Storage, Carbon Capture Utilization, Carbon Storage, Carbon Capture Storage, CCUS, Carbon Capture, CO2 Capture                                            Properties of Gasses                Clean Transportation, Green Transportation                                                               Sustainability, Environmental Stewardship                                    Energy Demand and Supply, Energy Demand, Energy Supply, Energy Market, Energy Trade                                                     Chemical Engineering, Chemical Synthesis, Chemical Manufacturing                                                                                           Vehicle Inspection, Vehicle Maintenance
+1             Hydrogen Fuel                                                                                                                                                                  Gas Conversion                                    Gas Processing, Gas Handling    Industrial Decarbonization, Industrial Electrification                                                                          Renewable Energy, Clean Energy  Electricity Demand and Supply Analysis, Electricity Demand Analysis, Electricity Supply Analysis, Electricity Markets                                                                                            Petrochemical Engineering                                                                 Equipment Monitoring, Equipment Inspection, Equipment Maintenance
+2            Hydrogen Power                                                                                                                                         Biomass Gasification, Coal Gasification                    Gas Compression, Compressed Gas, Compressors  Hydrogen Fuel Cell Electric Vehicle, FCEV, Fuel Cell Bus                                                                      Decarbonization, Energy Transition                                              Fuel Demand and Supply, Fuel Supply, Fuel Demand, Fuel Market, Fuel Trade                             Project Development, Construction Management, Project Management, Engineering Management                                                                                                               Emission Monitoring
+3                 H2 Energy                                                                                                                   Gas Reforming, Steam Methane Reforming, Autothermal Reforming                                 Gas Distribution, Gas Transport              Clean Fuels, e-fuel, synfuel, synthetic fuel                                                      Environmental Regulation, Environmental Protection                                                                                                 Supply Chain Logistics                                                                                             Power System Engineering                                                                                                                Material Selection
+4                   H2 Fuel                                                                                                                                                                     Solid Oxide                                                     Gas Storage                                       Properties of Fuels                                Carbon Emissions, CO2 Emissions, Greenhouse Gas Emissions, GHG Emissions         Carbon Markets, Emission Trading Systems, Carbon Cap-and-Trade, Emission Cap-and-Trade, Carbon Dioxide Removal                                                                             Systems Engineering, Process Engineering                                                                                                             Predictive Analytics 
+5                  H2 Power                                                                                                                                     Electrolyzer, Electrolysis, Water Splitting                                                        Pipeline                                                 Fuel Cell                                                                        Energy Policy, Energy Regulation         Energy Attribute Certificate, Environmental Product Declaration, Renewable Energy Credit, Guarantees of Origin                                                                             Materials Science, Materials Engineering                                       HAZOP, Hazard Identification, Risk Assessment, Hazardous Area, Risk Mitigation, Safety Zone
+6     Hydrogen-based Energy                                                                                                                                                             Catalysis, Catalyst                                                         Hydride                                 Gas Blending, Fuel Mixing                                                                     Energy and Society, Energy Security                                                                                               Green Bond, Climate Bond                                                                                                       Process Safety                                                                                                       Emergency Response Planning
+7       Hydrogen-based Fuel                                                                                                                                                               Partial Oxidation                                                     Gas Sensors                                                  Biofuels  Environmental Social and Governance, ESG, responsible investing, impact investing, Sustainable Finance                                                                                                                    NaN                                                                                    Electrochemical, Electrochemistry                                                                                                           Digital Twin Technology
+8      Hydrogen-based Power                                                                                                                                                           Alkaline Electrolysis         Cooling Systems, Cooling Equipment, Boil-Off Management                                                    Syngas  Carbon Market, Carbon Tax, Emission Regulation, Emission Policy, Greenhouse Gas Regulation, GHG Policy                                                                                                                    NaN  Technical Drawing, Engineering Diagram, Engineering Drawing, Piping and Instrumentation Diagram, Block Flow Diagram                                Virtual or Augmented Reality Technology, Virtual Reality Technology, Augmented Reality Technology,
+9   Hydrogen-derived Energy                                                                                                                 Proton Exchange Membrane, Anion Exchange Membrane, Ion Exchange                                                 Pressure Vessel    Green Iron, Direct Reduced Iron, Low-carbon induration                       Sustainability Reporting, Greenhouse Gas Reporting, GHG Reporting, GHG Accounting                                                                                                                    NaN                   Energy System Modelling, System Optimization, Geospatial Modelling, Geographic Information Systems                                                                                                                         Corrosion
+10    Hydrogen-derived Fuel                                                                                                                                                               Methane Pyrolysis                      Cryogenic, Liquefaction, Cryogenic Storage                                 Sustainable Aviation Fuel                                                                         Environmental Impact Assessment                                                                                                                                                                                           Techno-economic Analysis, Technoeconomic Analysis                                                                                                                     Embrittlement
+11   Hydrogen-derived Power                                                                                                                                                                 Power-to-Liquid                                                Pressure Testing                               Low-carbon heat, green heat                                                              Life Cycle Assessment, Life Cycle Analysis                                                                                                                    NaN                                                                                    Power Transformer, Power Inverter                                                                                                                     Heat Transfer
+12                 Hydrogen                                                                                                                                                                      Power-to-X                                                  Leak Detection          clean ammonia, green ammonia, low-carbon ammonia                                                     Community Impact Assessment, Community Benefit Plan                                                                                                                    NaN                                                                 High-Voltage Power Electronics, High-Voltage Systems                                                                                        Industrial Safety, Flammability, Explosion
+13                      NaN                                                                                                                                                                             NaN  Fracture and Crack Analysis, Fracture Analysis, Crack Analysis                clean methanol, green methanol, e-methanol                                    Environmental Product Certification, ISO 14000, ISO 14040, ISO 14044                                                                                                                    NaN                                                                                              Gas Turbine, Combustion                                                                                   Water Quality, Water Usage, Resource Management
+14                      NaN                                                                                                                                                                             NaN                                                         Welding                              e-methane, synthetic methane                                                                                Sustainable Supply Chain                                                                                                                    NaN                                                                                                                  NaN                                                                                                                     Power Quality
+15                      NaN                                                                                                                                                                             NaN  Pipeline Monitoring, Pipeline Inspection, Pipeline Maintenance                        Maritime Fuel, Port Infrastructure                                 Climate Change Policy, Climate Policy, Climate Legislation, Climate Law                                                                                                                    NaN                                                                                                                  NaN  Process Simulation, AspenTech, HYSYS,  Aspen Plus, DWSIM, ChemCAD, ANSYS, gPROMS, Petrel, AFT Fathom, PIPESIM, ProSim, Petro-Sim
+16                      NaN                                                                                                                                                                             NaN                                                             NaN                                          Power Generation                                                                                                     NaN                                                                                                                    NaN                                                                                                                  NaN                                                                                      Control Systems, Automation, Process Control
+17                      NaN                                                                                                                                                                             NaN                                                             NaN                                                       NaN                                                                                                     NaN                                                                                                                    NaN                                                                                                                  NaN                                                                                                                 Quality Assurance
+
