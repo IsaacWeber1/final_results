@@ -16,8 +16,8 @@ config = SpiderConfig(
             search_space='xpath://div[@class="sc_sccoursedescs"]',
             repeating_selector="div",
             fields={
-                "title": 'xpath:span[@class="text detail-title margin--tiny text--semibold"]/strong//text()',
-                "description": 'xpath://div[@class="noindent"]/p[@class="courseblockextra"]//text()join'
+                "title": 'xpath:div[@class="cols noindent"]/span//text()join',
+                "description": 'xpath:div[contains(@class, "noindent")]/p[contains(@class, "courseblockextra")]//text()join'
             },
             num_required=1
         )
