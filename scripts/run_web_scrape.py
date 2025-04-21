@@ -36,7 +36,8 @@ def needs_run(school_dir: Path) -> bool:
     if not pd.exists():
         return True
     # consider "processed" if there's any file in processed_data
-    return not any(pd.iterdir())
+    files = [f for f in pd.iterdir() if (f.is_file() and f.name != '.gitignore')]
+    return len(files) == 0
 
 def load_config_module(path: Path):
     """Dynamically load a .py file and return its module."""
