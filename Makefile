@@ -83,6 +83,7 @@ process-data:
 	@echo "Processing raw JSON → processed_data…"
 	@$(MAKE) compile-keywords
 	@$(PYTHON) scripts/process_data.py
+	@$(MAKE) clean-raw
 	@$(MAKE) metrics
 
 # -----------------------------------------------------------------------------
@@ -113,6 +114,13 @@ compile-keywords:
 relational:
 	@echo "Building relational tables from processed_data…"
 	@$(PYTHON) scripts/relational.py
+
+# -----------------------------------------------------------------------------
+# CLEAN-RAW
+# -----------------------------------------------------------------------------
+clean-raw:
+	@echo "Cleaning raw raw JSON files…"
+	@$(PYTHON) scripts/clean_raw.py
 
 # -----------------------------------------------------------------------------
 # CONFIRM-SCHOOLS
