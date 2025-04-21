@@ -4,8 +4,8 @@ import sys
 import os
 from pathlib import Path
 
-# add project root (two levels up from this file) to sys.path
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+# add project root to sys.path
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 import argparse
@@ -36,7 +36,8 @@ def needs_run(school_dir: Path) -> bool:
     if not pd.exists():
         return True
     # consider "processed" if there's any file in processed_data
-    return not any(pd.iterdir())
+    files = [f for f in pd.iterdir() if (f.is_file() and f.name != '.gitignore')]
+    return len(files) == 0
 
 def load_config_module(path: Path):
     """Dynamically load a .py file and return its module."""
@@ -55,11 +56,10 @@ def main():
     )
     args = parser.parse_args()
 
-    project_root = Path(__file__).resolve().parent.parent.parent
+    project_root = Path(__file__).resolve().parent.parent
     schools_root = project_root / 'schools'
 
     # discover all configs
-    print(schools_root)
     configs = discover_config_files(schools_root)
     if not configs:
         print("No scraper configs found under schools/*/scraping_configs/")

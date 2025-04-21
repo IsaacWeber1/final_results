@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# scripts/add_gitignores.py
+# scripts/directory_initialization/add_gitignores.py
 
 import sys
 from pathlib import Path
