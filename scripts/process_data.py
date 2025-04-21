@@ -59,7 +59,7 @@ def process_school(school_dir: Path):
     for col in df.select_dtypes(include="object"):
         df[col] = (df[col]
             .fillna("")
-            .map(lambda s: re.sub(r'\s{2,}', ' ', re.sub(r'[\n\r\t]{1,}', ' ', s)))
+            .map(lambda s: re.sub(r'\s{2,}', ' ', re.sub(r'[\n\r\t]{1,}', ' ', s)) if not (isinstance(s, float) or isinstance(s, list) or isinstance(s, dict)) else s)
         )
 
     out_csv = out_dir / "processed.csv"
