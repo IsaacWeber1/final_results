@@ -24,17 +24,18 @@ help:
 	@echo "Usage: make <target> [mode=<missing|all>] [SCHOOL=<category/school_name>]"
 	@echo ""
 	@echo "Available targets:"
-	@echo "  install             Install Python dependencies"
-	@echo "  populate-folders    Create subfolders & .gitignore for each school"
-	@echo "  web-scrape          Run web scrapers for schools missing processed_data"
-	@echo "  web-scrape-all      Run web scrapers for ALL schools"
-	@echo "  metrics             Generate metrics.csv overview"
-	@echo "  process-data        Process raw JSON into scored processed_data"
-	@echo "  relational          Build relational tables from processed_data"
-	@echo "  create-visuals      Generate per‑school bar charts & figures"
-	@echo "  compile-all         Compile keyword groups & build relational"
-	@echo "  confirm-schools     Confirm data for a specific school (use SCHOOL=…)"
-	@echo "  confirm-all         Confirm data for ALL schools"
+	@echo "  install            	Install Python dependencies"
+	@echo "  populate-folders   	Create subfolders & .gitignore for each school"
+	@echo "  web-scrape         	Run web scrapers for schools missing processed_data"
+	@echo "  web-scrape-all     	Run web scrapers for ALL schools"
+	@echo "  metrics           		Generate metrics.csv overview"
+	@echo "  view-metrics       	View current metrics"
+	@echo "  process-data       	Process raw JSON into scored processed_data"
+	@echo "  relational         	Build relational tables from processed_data"
+	@echo "  create-visuals     	Generate per‑school bar charts & figures"
+	@echo "  compile-all        	Compile keyword groups & build relational"
+	@echo "  confirm-schools    	Confirm data for a specific school (use SCHOOL=…)"
+	@echo "  confirm-all        	Confirm data for ALL schools"
 	@echo ""
 
 # -----------------------------------------------------------------------------
@@ -75,6 +76,13 @@ web-scrape-all:
 metrics:
 	@echo "Generating metrics.csv…"
 	@$(PYTHON) scripts/update_metrics.py
+
+# -----------------------------------------------------------------------------
+# VIEW-METRICS
+# -----------------------------------------------------------------------------
+view-metrics:
+	@echo "Current metrics:"
+	@$(PYTHON) scripts/update_metrics.py --view
 
 # -----------------------------------------------------------------------------
 # PROCESS-DATA
