@@ -12,7 +12,7 @@ massachusetts_institute_of_technology,priority,True,False,False,2025-04-22T22:20
 morgan_state_university,priority,True,False,False,2025-04-22T22:20:23.182673+00:00
 north_carolina_state,priority,True,False,False,2025-04-22T22:20:23.182673+00:00
 oklahoma_state,priority,True,False,False,2025-04-22T22:20:23.182673+00:00
-oregon_state_university,priority,False,False,False,2025-04-22T22:20:23.182673+00:00
+oregon_state_university,priority,True,False,False,2025-04-22T22:38:11.697237+00:00
 pennsylvania_state_university,priority,True,False,False,2025-04-22T22:20:23.182673+00:00
 purdue_university,priority,False,False,False,2025-04-22T22:20:23.182673+00:00
 rice_university,priority,True,False,False,2025-04-22T22:20:23.182673+00:00
@@ -45,7 +45,7 @@ california_state_polytechnic_humboldt,non_priority,True,False,False,2025-04-22T2
 california_state_university_humboldt_state,non_priority,False,False,False,2025-04-22T22:20:23.182673+00:00
 california_state_university_northridge,non_priority,False,False,False,2025-04-22T22:20:23.182673+00:00
 california_state_university_san_diego_state,non_priority,True,False,False,2025-04-22T22:20:23.182673+00:00
-carnegie_mellon_university,non_priority,False,False,False,2025-04-22T22:20:23.182673+00:00
+carnegie_mellon_university,non_priority,True,False,False,2025-04-22T22:44:33.076643+00:00
 catawba_college,non_priority,False,False,False,2025-04-22T22:20:23.182673+00:00
 central_state_university,non_priority,False,False,False,2025-04-22T22:20:23.182673+00:00
 claflin_university,non_priority,False,False,False,2025-04-22T22:20:23.182673+00:00

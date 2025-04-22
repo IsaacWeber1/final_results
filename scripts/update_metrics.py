@@ -33,8 +33,9 @@ def view_metrics(file_path: Path):
     conf_count = sum(1 for r in rows[1:] if r[idx["confirmed"]] == "True")
 
     def pct(n, denom=total):
-        return f"{n}/{total} ({n*100/total:.0f}%)"
-
+        return f"{n}/{denom} ({n*100/denom:.0f}%)"
+    
+    # --- overall summary ---
     print("\n\nOverall Summary:")
     print(f"\t\tTotal schools:      {total}")
     print(f"\t\tWeb scraped:        {pct(web_count)}")
@@ -104,6 +105,7 @@ def update_metrics():
                 existing[key] = row
 
     # merge & decide which timestamps to bump
+    modified = 0
     final_rows = []
     for row in new_rows:
         key = (row["category"], row["school"])
@@ -114,6 +116,7 @@ def update_metrics():
                 old["confirmed"]    != row["confirmed"]):
                 # something changed → bump timestamp
                 row["last_updated"] = now_iso
+                modified += 1
             else:
                 # no change → preserve
                 row["last_updated"] = old.get("last_updated", now_iso)
@@ -124,7 +127,7 @@ def update_metrics():
         final_rows.append(row)
 
     # write back
-    if final_rows:
+    if final_rows and modified > 0:
         with OUT_FILE.open("w", newline="", encoding="utf8") as f:
             fieldnames = ["school","category","web_scraped","pdf_scraped","confirmed","last_updated"]
             writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -133,7 +136,10 @@ def update_metrics():
                 writer.writerow(r)
         print(f"Updated metrics for {len(final_rows)} schools → {OUT_FILE}")
     else:
-        print("No schools found!")
+        if modified == 0:
+            print("No changes to metrics")
+        else:
+            print("No schools found!")
 
 
 if __name__ == "__main__":
