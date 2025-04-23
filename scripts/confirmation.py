@@ -1,5 +1,6 @@
 # scripts/confirmation.py
 
+import argparse
 import sys
 from pathlib import Path
 import json
@@ -135,12 +136,52 @@ def save_report(report, output_path):
         for dup in report['txt_duplicates']:
             f.write(f" - {dup}\n")
 
-if __name__ == "__main__":
-    json_file = 'courses.json'  # path to JSON file
-    txt_file = 'courses.txt'    # path to TXT file
-    output_file = 'comparison_report.txt'
+def process_school(school_arg: str):
+    # accept either "priority/uni_name" or "non_priority/uni_name"
+    school_dir = Path("schools") / school_arg
+    json_file  = school_dir / "raw_data" / "combined.json"
+    txt_file   = school_dir / "formatted_courses.txt"
+    report_file= school_dir / "comparison_report.txt"
+
+    if not json_file.exists():
+        raise FileNotFoundError(f"{json_file} not found")
+    if not txt_file.exists():
+        raise FileNotFoundError(f"{txt_file} not found")
 
     report = compare_courses(json_file, txt_file)
-    save_report(report, output_file)
+    save_report(report, report_file)
 
-    print(f"Comparison report with duplicate detection saved to: {output_file}")
+def process_all():
+    base = Path("schools")
+    for category in ("priority", "non_priority"):
+        for school in (base / category).iterdir():
+            if school.is_dir():
+                school_arg = f"{category}/{school.name}"
+                try:
+                    process_school(school_arg)
+                except Exception as e:
+                    print(f"! Error processing {school_arg}: {e}")
+
+# if __name__ == "__main__":
+#     json_file = 'courses.json'  # path to JSON file
+#     txt_file = 'courses.txt'    # path to TXT file
+#     output_file = 'comparison_report.txt'
+
+#     report = compare_courses(json_file, txt_file)
+#     save_report(report, output_file)
+
+#     print(f"Comparison report with duplicate detection saved to: {output_file}")
+
+if __name__ == "__main__":
+    p = argparse.ArgumentParser(description="Confirm course scraping results")
+    p.add_argument("--school", help="category/school_name to process")
+    p.add_argument("--mode", choices=["all"], help="process all schools")
+    args = p.parse_args()
+
+    if args.mode == "all":
+        process_all()
+    elif args.school:
+        process_school(args.school)
+    else:
+        p.print_usage()
+        sys.exit(1)
