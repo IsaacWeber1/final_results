@@ -13,6 +13,7 @@ SCHOOLS  := schools
 # -----------------------------------------------------------------------------
 .PHONY: help install populate-folders \
         web-scrape web-scrape-all \
+		pdf-scrape pdf-scrape-all \
 		metrics view-metrics \
         process-data relational clear-raw \
 		add-visuals replace-visuals clear-visuals \
@@ -72,6 +73,22 @@ web-scrape:
 web-scrape-all:
 	@echo "Running web scraper for ALL schools…"
 	@$(PYTHON) scripts/run_web_scrape.py --mode all
+	@$(MAKE) metrics
+
+# -----------------------------------------------------------------------------
+# PDF-SCRAPE (missing only)
+# -----------------------------------------------------------------------------
+pdf-scrape:
+	@echo "Running PDF scraper for schools missing processed_data…"
+	@$(PYTHON) scripts/run_pdf_scrape.py --mode missing
+	@$(MAKE) metrics
+
+# -----------------------------------------------------------------------------
+# PDF-SCRAPE-ALL
+# -----------------------------------------------------------------------------
+pdf-scrape-all:
+	@echo "Running PDF scraper for ALL schools…"
+	@$(PYTHON) scripts/run_pdf_scrape.py --mode all
 	@$(MAKE) metrics
 
 # -----------------------------------------------------------------------------
