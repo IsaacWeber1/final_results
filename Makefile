@@ -1,4 +1,4 @@
-# final_results/Makefile
+# Makefile
 
 # -----------------------------------------------------------------------------
 # VARIABLES
@@ -13,8 +13,11 @@ SCHOOLS  := schools
 # -----------------------------------------------------------------------------
 .PHONY: help install populate-folders \
         web-scrape web-scrape-all \
-        metrics process-data relational create-visuals compile-all \
-        compile-keywords confirm-schools confirm-all
+		pdf-scrape pdf-scrape-all \
+		metrics view-metrics \
+        process-data relational clear-raw \
+		add-visuals replace-visuals clear-visuals \
+        compile-all compile-keywords confirm-schools confirm-all
 
 # -----------------------------------------------------------------------------
 # DEFAULT
@@ -24,17 +27,20 @@ help:
 	@echo "Usage: make <target> [mode=<missing|all>] [SCHOOL=<category/school_name>]"
 	@echo ""
 	@echo "Available targets:"
-	@echo "  install             Install Python dependencies"
-	@echo "  populate-folders    Create subfolders & .gitignore for each school"
-	@echo "  web-scrape          Run web scrapers for schools missing processed_data"
-	@echo "  web-scrape-all      Run web scrapers for ALL schools"
-	@echo "  metrics             Generate metrics.csv overview"
-	@echo "  process-data        Process raw JSON into scored processed_data"
-	@echo "  relational          Build relational tables from processed_data"
-	@echo "  create-visuals      Generate per‑school bar charts & figures"
-	@echo "  compile-all         Compile keyword groups & build relational"
-	@echo "  confirm-schools     Confirm data for a specific school (use SCHOOL=…)"
-	@echo "  confirm-all         Confirm data for ALL schools"
+	@echo ""
+	@echo "	install                         Install Python dependencies"
+	@echo "	populate-folders                Create subfolders & .gitignore for each school"
+	@echo "	web-scrape                      Run web scrapers for schools missing processed_data"
+	@echo "	web-scrape-all                  Run web scrapers for ALL schools"
+	@echo "	metrics                         Generate metrics.csv overview"
+	@echo "	view-metrics                    View current metrics"
+	@echo "	process-data                    Process raw JSON into scored processed_data"
+	@echo "	relational                      Build relational tables from processed_data"
+	@echo "	add-visuals                     Generate missing visuals (skip existing)"
+	@echo "	replace-visuals                 Regenerate all visuals (overwrite existing)"
+	@echo "	compile-all                     Compile keyword groups & build relational"
+	@echo "	confirm-schools                 Confirm data for a specific school (use SCHOOL=…)"
+	@echo "	confirm-all                     Confirm data for ALL schools"
 	@echo ""
 
 # -----------------------------------------------------------------------------
@@ -70,11 +76,34 @@ web-scrape-all:
 	@$(MAKE) metrics
 
 # -----------------------------------------------------------------------------
+# PDF-SCRAPE (missing only)
+# -----------------------------------------------------------------------------
+pdf-scrape:
+	@echo "Running PDF scraper for schools missing processed_data…"
+	@$(PYTHON) scripts/run_pdf_scrape.py --mode missing
+	@$(MAKE) metrics
+
+# -----------------------------------------------------------------------------
+# PDF-SCRAPE-ALL
+# -----------------------------------------------------------------------------
+pdf-scrape-all:
+	@echo "Running PDF scraper for ALL schools…"
+	@$(PYTHON) scripts/run_pdf_scrape.py --mode all
+	@$(MAKE) metrics
+
+# -----------------------------------------------------------------------------
 # METRICS
 # -----------------------------------------------------------------------------
 metrics:
 	@echo "Generating metrics.csv…"
 	@$(PYTHON) scripts/update_metrics.py
+
+# -----------------------------------------------------------------------------
+# VIEW-METRICS
+# -----------------------------------------------------------------------------
+view-metrics:
+	@echo "Current metrics:"
+	@$(PYTHON) scripts/update_metrics.py --view
 
 # -----------------------------------------------------------------------------
 # PROCESS-DATA
@@ -83,15 +112,22 @@ process-data:
 	@echo "Processing raw JSON → processed_data…"
 	@$(MAKE) compile-keywords
 	@$(PYTHON) scripts/process_data.py
-	@$(MAKE) clean-raw
+	@$(MAKE) clear-raw
 	@$(MAKE) metrics
 
 # -----------------------------------------------------------------------------
-# CREATE-VISUALS
+# ADD-VISUALS
 # -----------------------------------------------------------------------------
-create-visuals:
-	@echo "Creating per‑school visualizations…"
-	@$(PYTHON) scripts/create_visuals.py
+add-visuals:
+	@echo "Adding any missing visuals (skip existing)…"
+	@$(PYTHON) scripts/create_visuals.py --mode add
+
+# -----------------------------------------------------------------------------
+# REPLACE-VISUALS
+# -----------------------------------------------------------------------------
+replace-visuals:
+	@echo "Regenerating all visuals (overwrite existing)…"
+	@$(PYTHON) scripts/create_visuals.py --mode replace
 
 # -----------------------------------------------------------------------------
 # COMPILE-ALL
@@ -116,11 +152,18 @@ relational:
 	@$(PYTHON) scripts/relational.py
 
 # -----------------------------------------------------------------------------
-# CLEAN-RAW
+# CLEAR-RAW
 # -----------------------------------------------------------------------------
-clean-raw:
+clear-raw:
 	@echo "Cleaning raw raw JSON files…"
-	@$(PYTHON) scripts/clean_raw.py
+	@$(PYTHON) scripts/clear.py --mode raw
+
+# -----------------------------------------------------------------------------
+# CLEAR-VISUALS
+# -----------------------------------------------------------------------------
+make clear-visuals:
+	@echo "Clearing all school figure directories…"
+	python scripts/clear.py --mode visuals
 
 # -----------------------------------------------------------------------------
 # CONFIRM-SCHOOLS
