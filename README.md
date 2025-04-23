@@ -50,12 +50,7 @@ final_results/
    pip install -r requirements.txt
    ```
 
-2. **Populate folders for each school**
-   ```bash
-   make populate-folders
-   ```
-
-3. **Run the scraper**
+2. **Run the scraper**
    - For schools missing processed data:
      ```bash
      make web-scrape
@@ -65,17 +60,17 @@ final_results/
      make web-scrape-all
      ```
 
-4. **Process the scraped data**
+3. **Process the scraped data**
    ```bash
    make process-data
    ```
 
-5. **Generate relational tables**
+4. **Generate relational tables**
    ```bash
    make relational
    ```
 
-6. **View status overview**
+5. **View status overview**
    ```bash
    cat metrics.csv
    ```
