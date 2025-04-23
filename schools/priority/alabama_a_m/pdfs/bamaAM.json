@@ -1,0 +1,584 @@
+{
+    "matches": [
+        {
+            "Course ID": "ENG 101",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 101E",
+            "Title": "Composition I w/ Lab",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 101H",
+            "Title": "Composition I Honors",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 102",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 102H",
+            "Title": "Composition II Honors Composition II All students must complete a six (6) hour sequence either in literature or in history. Area II: Humanities and Fine Arts – *12 hours. Fine Arts – MinHrs 3",
+            "Description": ""
+        },
+        {
+            "Course ID": "ART 101",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "MUS 101",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "ART 220",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "ART 221",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "COMM 101",
+            "Title": "Theater Appreciation Art Appreciation Music Appreciation History of Art I History of Art II Survey of English Literature I Survey of English Literature II World Literature I Literature (also Humanities) – MinHrs 3",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 201",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 202",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 203",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 203H",
+            "Title": "World Literature I Honors",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 204",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 204H",
+            "Title": "World Literature II Honors",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 207",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 208",
+            "Title": "American Literature I American Literature II World Literature II Humanities",
+            "Description": ""
+        },
+        {
+            "Course ID": "CHN 101",
+            "Title": "Elementary Chinese I",
+            "Description": ""
+        },
+        {
+            "Course ID": "CHN 102",
+            "Title": "Elementary Chinese II Intermediate Chinese I",
+            "Description": ""
+        },
+        {
+            "Course ID": "CHN 201",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "CHN 202",
+            "Title": "Intermediate Chinese II",
+            "Description": ""
+        },
+        {
+            "Course ID": "ENG 205",
+            "Title": "General Speech",
+            "Description": ""
+        },
+        {
+            "Course ID": "FRE 101",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "FRE 102",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "PHL 201",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "FRE 202",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "PHL 201",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "PHL 203",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "PHL 206",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "SPA 101",
+            "Title": "Elementary Spanish I",
+            "Description": ""
+        },
+        {
+            "Course ID": "SPA 102",
+            "Title": "Elementary Spanish II Intermediate Spanish I",
+            "Description": ""
+        },
+        {
+            "Course ID": "SPA 201",
+            "Title": "Intermediate Spanish II",
+            "Description": ""
+        },
+        {
+            "Course ID": "SPA 202",
+            "Title": "Elementary French I Elementary French II",
+            "Description": ""
+        },
+        {
+            "Course ID": "FRE 201",
+            "Title": "Intermediate French II Introduction to Philosophy Logic & Philosophy of Science Ethics *CE, EE, ME majors only need nine (9) hours in Area II as three (3) hours in Humanities is not required. Area III: Natural/Physical Sciences and Mathematics – 11 hours minimum. Mathematics – MinHrs 3",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 109",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 110",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 111",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 112",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 112E",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 113",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 115",
+            "Title": "Quantitative Reasoning Finite Mathematics Elementary Statistics I Pre-Calculus Algebra Pre-Calculus Algebra w/ Lab Pre-Calculus Trigonometry Pre-Calculus Algebra & Trigonometry Mathematics (cont.)",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 120",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 125",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 126",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 227",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 237",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "MTH 238",
+            "Title": "Calculus and Its Applications Calculus I Calculus II Calculus III Linear Algebra Applied Differential Equations Natural/Physical Sciences – MinHrs 8",
+            "Description": ""
+        },
+        {
+            "Course ID": "BIO 101/BIO 101L",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "BIO 101H",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "BIO 102/BIO 102L",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "BIO 103/BIO 103L",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "BIO 104/BIO 104L",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "BIO 203/BIO 203L",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "BIO 204/BIO 204L",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "CHE 101/CHE 101L",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "CHE 101H/CHE 101H",
+            "Title": "L General Chemistry I/Lab I Honors",
+            "Description": ""
+        },
+        {
+            "Course ID": "CHE 102/CHE 102L",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "CHE 102H/CHE 102H",
+            "Title": "L General Chemistry II/Lab II Honors General Biology I/Lab I General Biology & Lab Honors General Biology II/Lab II Principles of Biology I/Lab I Principles of Biology II/Lab II General Botany I/Lab I General Botany II/Lab II General Chemistry I/Lab I General Chemistry II/Lab II Natural/Physical Sciences (cont.)",
+            "Description": ""
+        },
+        {
+            "Course ID": "CHE 111/CHE 111L",
+            "Title": "Applied Chemistry I/Lab I",
+            "Description": ""
+        },
+        {
+            "Course ID": "CHE 112/CHE 112L",
+            "Title": "Applied Chemistry II/Lab II",
+            "Description": ""
+        },
+        {
+            "Course ID": "CHE 251/CHE 251L",
+            "Title": "Organic Chemistry I/Lab I",
+            "Description": ""
+        },
+        {
+            "Course ID": "PHY 101/PHY 101L",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "PHY 102/PHY 102L",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "PHY 201",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "PHY 202",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "PHY 213",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "PHY 214",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "PHY 220/PHY 220L",
+            "Title": "Physical Science I/Lab I Physical Science II/Lab II General Physics with Trigonometry I General Physics with Trigonometry II General Physics with Calculus I General Physics with Calculus II Introduction to Astronomy/Lab AAMU General Education Course Listing Alabama A&M University 2024-2025 Bulletin Area IV: History, Social, and Behavioral Sciences – *12 hours. All students must complete a six (6) hour sequence either in literature or in history. History (also Social Science) – MinHrs 3",
+            "Description": ""
+        },
+        {
+            "Course ID": "HIS 101",
+            "Title": "World History I",
+            "Description": ""
+        },
+        {
+            "Course ID": "HIS 101E",
+            "Title": "World History I Enriched",
+            "Description": ""
+        },
+        {
+            "Course ID": "HIS 101H",
+            "Title": "World History I Honors",
+            "Description": ""
+        },
+        {
+            "Course ID": "HIS 102",
+            "Title": "World History II",
+            "Description": ""
+        },
+        {
+            "Course ID": "HIS 102H",
+            "Title": "World History II Honors",
+            "Description": ""
+        },
+        {
+            "Course ID": "HIS 201",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "HIS 202",
+            "Title": "American History I American History II Other Social Sciences",
+            "Description": ""
+        },
+        {
+            "Course ID": "GEO 213",
+            "Title": "Principles of Geography",
+            "Description": ""
+        },
+        {
+            "Course ID": "GEO 214",
+            "Title": "World Regional Geography",
+            "Description": ""
+        },
+        {
+            "Course ID": "PSC 201",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "SOC 201",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "SOC 210",
+            "Title": "Social Problems",
+            "Description": ""
+        },
+        {
+            "Course ID": "SOC 212",
+            "Title": "Marriage and the Family",
+            "Description": ""
+        },
+        {
+            "Course ID": "UPL 103",
+            "Title": "Community and You Introduction to Political Science Introduction to Sociology Economics (also Social Science)",
+            "Description": ""
+        },
+        {
+            "Course ID": "ECO 200",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "ECO 231",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "ECO 230",
+            "Title": "Basic Economics Principles of Macroeconomics Principles of Microeconomics Behavioral Sciences",
+            "Description": ""
+        },
+        {
+            "Course ID": "PSY 201",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "PSY 211",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "SOC 201",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "SOC 210",
+            "Title": "",
+            "Description": ""
+        },
+        {
+            "Course ID": "SOC 212",
+            "Title": "Marriage and the Family General Psychology Child Growth & Development Introduction to Sociology Social Problems *CE, EE, ME majors only need nine (9) hours in Area IV as three (3) hours in Social or Behavioral Science is not required. Areas I-IV comprise 41-42 hours (36 hours for CE, EE, ME majors) towards 60-64 credit hours of the total program hours that must be at general education level in order to satisfy State mandates and University requirements. Area V: Pre-Professional, Major, Electives – 19 to 23 hours minimum. COURSE COMMENT HRS 2 2 AREA Orientation Health Physical Ed",
+            "Description": ""
+        },
+        {
+            "Course ID": "ORI 101",
+            "Title": ", First Year Experience, 1 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "ORI 101H",
+            "Title": ", First Year Experience Honors, 1 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "ORI 102",
+            "Title": ", First Year Experience, 1 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "FAS 101",
+            "Title": ", Food & Survival of Man, 2 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "HED 101",
+            "Title": ", Personal & Community Health, 2 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "NHM 104",
+            "Title": ", Nutrition Today, 2 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "PED 102",
+            "Title": ", Fitness for Life, 1 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "PED 107",
+            "Title": ", Gymnastics, 1 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "PED 111",
+            "Title": ", Tennis, 1 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "PED 114",
+            "Title": ", Aerobics/Weight Training, 1 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "PED 132",
+            "Title": ", Beginning Swim/Aquatic Ed, 1 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "PED 133",
+            "Title": ", Intermediate Swimming, 1 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "PED 137",
+            "Title": ", Golf, 1 ch Military Sci.",
+            "Description": ""
+        },
+        {
+            "Course ID": "MSC 101",
+            "Title": ", Military Science I, 2 ch 3 Computer Lit.",
+            "Description": ""
+        },
+        {
+            "Course ID": "ART 103",
+            "Title": ", Intro Comp Sys for Vis Artists, 3 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "CMG 225",
+            "Title": ", Comp Appl for Construction, 3 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "CS 101",
+            "Title": ", Fund of Comp & Info Systems, 3 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "CS 102",
+            "Title": ", Introduction to Programming, 3 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "CS 104",
+            "Title": ", Intro to Computers and Ethics, 3 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "EE 109",
+            "Title": ", Engineering Computing, 3 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "EGC 104",
+            "Title": ", Computer Programming, 3 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "FED 215",
+            "Title": ", Instructional Technology, 3 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "ME 104",
+            "Title": ", Engineering Programming I, 3 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "MIS 213",
+            "Title": ", Computer Appl in Business, 3 ch",
+            "Description": ""
+        },
+        {
+            "Course ID": "NRE 199",
+            "Title": ", Tech. in Agric & Biological Sci, 3 ch These courses are required for all students who enter AAMU with fewer than 30 credit hours (ch) of college credit. Health-related courses. Some programs require a specific course. Please check with your advisor. Physical Education courses. Some programs require a specific course(s), Please check with your advisor. Military Science course. Some programs require a specific course. Please check with your advisor. All students are required to achieve computer literacy through one of the following courses: ≥ 12 to ≤ 23 Courses specific to the desired program at 100-200 level. Area V is designated for courses appropriate to the requirements of specific academic programs and contributes the remaining hours necessary towards satisfying the 60-64 credit hours of the total program hours at general education level (100-200).",
+            "Description": ""
+        }
+    ]
+}
