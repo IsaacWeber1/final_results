@@ -13,58 +13,62 @@ import matplotlib.pyplot as plt
 from collections import Counter
 from report_tools.word_groups import load_keyword_groups
 
-def keyword_histogram(df: pd.DataFrame, out_png: Path, name: str):
+def keyword_histogram(df: pd.DataFrame, out_png: Path, name: str, keywords_universe: list[str]) -> int:
     """
-    Plot a histogram of raw keyword frequencies across all courses.
+    Plot a histogram of raw keyword frequencies using a fixed universe of keywords.
+    Returns the max count.
     """
     freqs = df['keyword_frequencies'].dropna().apply(json.loads)
     counter = Counter()
     for d in freqs:
         counter.update(d)
-    if not counter:
-        return
-    keywords, counts = zip(*counter.most_common())
-    
-    n_bars = len(keywords)
+    # build counts in universe order
+    counts = [counter.get(kw, 0) for kw in keywords_universe]
+    if not any(counts):
+        return 0
+
+    n_bars = len(keywords_universe)
     fig_w  = max(8, n_bars * 0.3)
     fig_h = 6
-
-    plt.figure(figsize=(fig_w, fig_h))
-    plt.bar(keywords, counts)
-    plt.xticks(rotation=90)
-    plt.title(f"{name} — Keyword Frequency Histogram")
+    fig, ax = plt.subplots(figsize=(fig_w, fig_h))
+    ax.bar(keywords_universe, counts)
+    ax.set_xticklabels(keywords_universe, rotation=90)
+    ax.set_title(f"{name} — Keyword Frequency Histogram")
     plt.tight_layout()
-    plt.savefig(out_png)
-    plt.close()
+    fig.savefig(out_png, dpi=300)
+    plt.close(fig)
     return max(counts)
 
 
-def group_histogram(df: pd.DataFrame, out_png: Path, name: str):
+def group_histogram(df: pd.DataFrame, out_png: Path, name: str, groups_universe: list[str]) -> int:
     """
-    Plot a histogram of matched keyword group occurrences.
+    Plot a histogram of matched keyword group occurrences using fixed universe.
+    Returns the max count.
     """
     groups = df['matched_groups'].dropna().str.split(';').explode()
-    counts = groups.value_counts()
-    if counts.empty:
-        return
+    counts_series = groups.value_counts()
+    counter = {g: counts_series.get(g, 0) for g in groups_universe}
+    counts = list(counter.values())
+    if not any(counts):
+        return 0
 
-    # n_bars = len(groups)
-    # fig_w  = max(8, n_bars * 0.3)
-    fig_w  = 8
+    n_bars = len(groups_universe)
+    fig_w  = max(8, n_bars * 0.3)
     fig_h = 6
-
-    plt.figure(figsize=(fig_w, fig_h))
-    plt.bar(counts.index, counts.values)
-    plt.xticks(rotation=90)
-    plt.title(f"{name} — Keyword Group Histogram")
+    fig, ax = plt.subplots(figsize=(fig_w, fig_h))
+    ax.bar(groups_universe, counts)
+    ax.set_xticklabels(groups_universe, rotation=90)
+    ax.set_title(f"{name} — Keyword Group Histogram")
     plt.tight_layout()
-    plt.savefig(out_png)
-    plt.close()
-    return int(counts.max())
+    fig.savefig(out_png, dpi=300)
+    plt.close(fig)
+    return max(counts)
 
-def collapsed_histogram(df: pd.DataFrame, out_png: Path, equiv_json: Path, name: str):
+
+def collapsed_histogram(df: pd.DataFrame, out_png: Path, equiv_json: Path, name: str, collapsed_universe: list[str]) -> int:
     """
-    Collapse synonyms as per unique_word_groups.json and plot histogram.
+    Collapse synonyms and plot histogram with fixed universe.
+    Returns the max count.
     """
     mapping = json.loads(equiv_json.read_text(encoding='utf8'))
     freqs = df['keyword_frequencies'].dropna().apply(json.loads)
@@ -73,23 +77,21 @@ def collapsed_histogram(df: pd.DataFrame, out_png: Path, equiv_json: Path, name:
         for kw, cnt in d.items():
             canon = next((master for master, group in mapping.items() if kw in group), kw)
             counter[canon] += cnt
-    if not counter:
-        return
-    items = counter.most_common()
-    keys, vals = zip(*items)
+    counts = [counter.get(k, 0) for k in collapsed_universe]
+    if not any(counts):
+        return 0
 
-    n_bars = len(keys)
+    n_bars = len(collapsed_universe)
     fig_w  = max(8, n_bars * 0.3)
     fig_h = 6
-
-    plt.figure(figsize=(fig_w, fig_h))
-    plt.bar(keys, vals)
-    plt.xticks(rotation=90)
-    plt.title(f"{name} — Collapsed Keyword Histogram")
+    fig, ax = plt.subplots(figsize=(fig_w, fig_h))
+    ax.bar(collapsed_universe, counts)
+    ax.set_xticklabels(collapsed_universe, rotation=90)
+    ax.set_title(f"{name} — Collapsed Keyword Histogram")
     plt.tight_layout()
-    plt.savefig(out_png)
-    plt.close()
-    return max(vals)
+    fig.savefig(out_png, dpi=300)
+    plt.close(fig)
+    return max(counts)
 
 def compute_global_maxima(schools_root: Path, equiv_json: Path):
     """
@@ -136,10 +138,36 @@ def main():
     )
     args = parser.parse_args()
 
-    root = Path(__file__).resolve().parent.parent / "schools"
-    equiv_json = Path(__file__).resolve().parent.parent / "data/word_groups/unique_word_groups.json"
+    root = PROJECT_ROOT / "schools"
+    equiv_json = PROJECT_ROOT / "data/word_groups/unique_word_groups.json"
 
-    # track per-school maxima
+    # build global universes
+    mapping = json.loads(equiv_json.read_text(encoding='utf8'))
+    collapsed_universe = sorted(mapping.keys())
+
+    keywords_universe = set()
+    groups_universe = set()
+    for category in ("priority", "non_priority"):
+        cat_dir = root / category
+        if not cat_dir.exists():
+            continue
+        for school in cat_dir.iterdir():
+            csv_path = school / "processed_data" / "processed.csv"
+            if not csv_path.exists():
+                continue
+            df = pd.read_csv(csv_path)
+            # raw keywords
+            freqs = df['keyword_frequencies'].dropna().apply(json.loads)
+            for d in freqs:
+                keywords_universe.update(d.keys())
+            # groups
+            groups = df['matched_groups'].dropna().str.split(';').explode()
+            groups_universe.update(groups.tolist())
+
+    keywords_universe = sorted(keywords_universe)
+    groups_universe = sorted(groups_universe)
+
+    # track maxima and per-school metrics (optional)
     kw_max_by_school   = {}
     grp_max_by_school  = {}
     coll_max_by_school = {}
@@ -149,48 +177,42 @@ def main():
         if not cat_dir.exists():
             continue
         for school in cat_dir.iterdir():
-            skip_flag = False
-            # print(f"Processing {school.name}...")
-            proc_csv = school / "processed_data" / "processed.csv"
-            if not proc_csv.exists():
-                # print(f"  ! Missing processed CSV: {proc_csv}")
-                skip_flag = True
+            name = f"{category}/{school.name}"
+            csv_path = school / "processed_data" / "processed.csv"
+            if not csv_path.exists():
                 continue
-            if skip_flag:
-                raise Exception("CONTINUE NOT WORKING")
-            df = pd.read_csv(proc_csv)
+            df = pd.read_csv(csv_path)
 
             fig_dir = school / "figures"
-            if not fig_dir.exists():
-                raise FileNotFoundError(f"Missing figures directory: {fig_dir}")
+            fig_dir.mkdir(exist_ok=True)
 
-            # raw keyword histogram
+            # keyword histogram
             out_kw = fig_dir / "keyword_freq.png"
-            if args.mode=='replace' or not out_kw.exists():
-                kw_max = keyword_histogram(df, out_kw, school.name)
+            if args.mode == 'replace' or not out_kw.exists():
+                kw_max = keyword_histogram(df, out_kw, name, keywords_universe)
             else:
-                # if skipping, still compute counts
+                # compute max without plotting
                 freqs = df['keyword_frequencies'].dropna().apply(json.loads)
-                counter = Counter(); [counter.update(d) for d in freqs]
+                counter = Counter()
+                for d in freqs:
+                    counter.update(d)
                 kw_max = max(counter.values()) if counter else 0
-            kw_max_by_school[school.name] = kw_max
+            kw_max_by_school[name] = kw_max
 
             # group histogram
             out_grp = fig_dir / "group_freq.png"
-            if args.mode=='replace' or not out_grp.exists():
-                grp_max = group_histogram(df, out_grp, school.name)
+            if args.mode == 'replace' or not out_grp.exists():
+                grp_max = group_histogram(df, out_grp, name, groups_universe)
             else:
                 groups = df['matched_groups'].dropna().str.split(';').explode()
-                counts = groups.value_counts()
-                grp_max = int(counts.max()) if not counts.empty else 0
-            grp_max_by_school[school.name] = grp_max
+                grp_max = int(groups.value_counts().max()) if not groups.empty else 0
+            grp_max_by_school[name] = grp_max
 
             # collapsed histogram
             out_coll = fig_dir / "collapsed_freq.png"
-            if args.mode=='replace' or not out_coll.exists():
-                coll_max = collapsed_histogram(df, out_coll, equiv_json, school.name)
+            if args.mode == 'replace' or not out_coll.exists():
+                coll_max = collapsed_histogram(df, out_coll, equiv_json, name, collapsed_universe)
             else:
-                mapping = json.loads(equiv_json.read_text(encoding='utf8'))
                 freqs = df['keyword_frequencies'].dropna().apply(json.loads)
                 counter = Counter()
                 for d in freqs:
@@ -198,33 +220,23 @@ def main():
                         canon = next((m for m, grp in mapping.items() if kw in grp), kw)
                         counter[canon] += cnt
                 coll_max = max(counter.values()) if counter else 0
-            coll_max_by_school[school.name] = coll_max
+            coll_max_by_school[name] = coll_max
 
-            if args.mode == 'replace':
-                print(f"Saved visuals for {school.name} (mode={args.mode})")
-            else:
-                # check if any of the files exist
-                if out_kw.exists() or out_grp.exists() or out_coll.exists():
-                    print(f"SKIP: {school.name} (mode={args.mode})")
-                    continue
-                else:
-                    print(f"Saved visuals for {school.name} (mode={args.mode})")
-    
-    # --- summary ---
-    # print("creating summary")
+            print(f"Saved visuals for {name} (mode={args.mode})")
+
+    # summary
     def top(d):
-        if not d: return ("n/a", 0)
-        school, val = max(d.items(), key=lambda kv: kv[1])
-        return school, val
+        if not d:
+            return ("n/a", 0)
+        return max(d.items(), key=lambda kv: kv[1])
 
-    # print(f"kwmax_by_school: {kw_max_by_school}")
     kw_school,   kw_val   = top(kw_max_by_school)
     grp_school,  grp_val  = top(grp_max_by_school)
     coll_school, coll_val = top(coll_max_by_school)
 
     print("\n=== VISUALS SUMMARY ===")
-    print(f"Highest raw-keyword count:     {kw_val}  ({kw_school})")
-    print(f"Highest group-keyword count:   {grp_val}  ({grp_school})")
+    print(f"Highest raw-keyword count:      {kw_val}  ({kw_school})")
+    print(f"Highest group-keyword count:    {grp_val}  ({grp_school})")
     print(f"Highest collapsed-keyword count: {coll_val}  ({coll_school})")
 
 if __name__ == "__main__":

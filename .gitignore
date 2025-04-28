@@ -4,6 +4,7 @@ schools/*/*/scraping_configs/__pycache__
 build_prompt.py
 prompt.txt
 report_tools/__pycache__
+tmp*
 
 
 
