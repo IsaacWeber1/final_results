@@ -50,12 +50,12 @@ def save_courses_to_json(courses, json_path):
         json.dump(courses, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python denmark_extract_courses.py <input.pdf> <output.json>")
-        sys.exit(1)
+    # if len(sys.argv) != 3:
+    #     print("Usage: python denmark_extract_courses.py <input.pdf> <output.json>")
+    #     sys.exit(1)
 
-    input_pdf = sys.argv[1]
-    output_json = sys.argv[2]
+    input_pdf = "denmark.pdf"
+    output_json = "denmark_pdf.json"
 
     try:
         raw_text = extract_text_from_pages(input_pdf, 183, 202)
