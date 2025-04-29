@@ -1,12 +1,13 @@
 # scripts/run_pdf_scrape.py
 
 """
-Script to run per‑school PDF scrapers as defined in each school's `pdf/` folder.
+Script to run per-school PDF scrapers as defined in each school's `pdfs/` folder.
 Assumptions:
-  - If no .py files found in pdf/, skip.
-  - If exactly one .py file, run it from inside the pdf/ directory.
+  - If no .py files found in pdfs/, skip.
+  - If exactly one .py file, run it from inside the pdfs/ directory.
   - If more than one .py file, report an error and skip.
-  - After running, check for creation of any .json, .csv, or .txt files as proof of success.
+  - After running, check for creation of any .json files as proof of success.
+  - Finally, move those .json files into pdfs/raw_data/.
 Usage:
   make pdf-scrape
   make pdf-scrape-all
@@ -24,36 +25,42 @@ from pathlib import Path
 def run_pdf_scraper(pdf_dir: Path) -> bool:
     """
     Locate and run the single PDF scraper in pdf_dir.
-    Returns True if scraper ran and emitted at least one output file (.json/.csv/.txt), else False.
+    Returns True if scraper ran and emitted at least one .json, else False.
     """
-    # find python scripts
     py_files = list(pdf_dir.glob("*.py"))
     if not py_files:
-        print(f"No PDF scraper found in {pdf_dir}, skipping.")
+        print(f"  • No PDF scraper found in {pdf_dir}, skipping.")
         return True
     if len(py_files) > 1:
         print(f"  ! Multiple scraper scripts in {pdf_dir}: {[p.name for p in py_files]}")
         return False
+
     scraper = py_files[0]
     print(f"  → Running PDF scraper: {scraper.name}")
     result = subprocess.run([sys.executable, scraper.name], cwd=str(pdf_dir))
     if result.returncode != 0:
         print(f"  ! Scraper {scraper.name} exited with code {result.returncode}")
         return False
-    # check outputs
-    outputs = []
-    for ext in ("*.json", "*.csv", "*.txt"):
-        outputs.extend(pdf_dir.glob(ext))
-    if not outputs:
-        print(f"  ! No output files (.json/.csv/.txt) in {pdf_dir} after running scraper")
+
+    # check for JSON outputs only
+    json_outputs = list(pdf_dir.glob("*.json"))
+    if not json_outputs:
+        print(f"  ! No .json output found in {pdf_dir} after running scraper")
         return False
-    print(f"  ✓ Output files: {[p.name for p in outputs]}")
+
+    # create /pdfs/raw_data and move JSONs there
+    raw_data_dir = pdf_dir / "raw_data"
+    raw_data_dir.mkdir(exist_ok=True)
+    for js in json_outputs:
+        dest = raw_data_dir / js.name
+        js.rename(dest)
+    print(f"  ✓ Moved JSON outputs to {raw_data_dir}: {[p.name for p in raw_data_dir.glob('*.json')]}")
     return True
 
 def main():
     parser = argparse.ArgumentParser(description="Run school PDF scrapers.")
     parser.add_argument('--mode', choices=['missing','all'], required=True,
-                        help="'missing': only schools without processed_data; 'all': every school")
+                        help="'missing': only schools without JSON in pdfs/raw_data; 'all': every school")
     args = parser.parse_args()
 
     project_root = Path(__file__).resolve().parents[1]
@@ -69,19 +76,19 @@ def main():
                 continue
 
             pdf_dir = school / 'pdfs'
+            raw_data_dir = pdf_dir / 'raw_data'
+            has_json = raw_data_dir.is_dir() and any(raw_data_dir.glob("*.json"))
 
-            existing_outputs = []
-            for ext in ("*.json", "*.csv", "*.txt"):
-                existing_outputs.extend(pdf_dir.glob(ext))
-
-            if args.mode == 'missing' and existing_outputs:
-                print(f"Skipping {category}/{school.name} (already has PDF outputs).")
+            # skip if already done
+            if args.mode == 'missing' and has_json:
+                print(f"Skipping {category}/{school.name} (already has PDF JSONs).")
                 continue
 
             if not pdf_dir.is_dir():
-                print(f"No pdf/ folder for {school.name}, skipping.")
+                print(f"  • No pdfs/ folder for {school.name}, skipping.")
                 continue
 
+            print(f"Processing {category}/{school.name} …")
             ok = run_pdf_scraper(pdf_dir)
             if not ok:
                 failures.append(f"{category}/{school.name}")
