@@ -1,6 +1,7 @@
 .venv
 .DS_Store
 schools/*/*/raw_data/*.json
+schools/*/*/*/raw_data/*.json
 schools/*/*/scraping_configs/__pycache__
 build_prompt.py
 prompt.txt

@@ -12,7 +12,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 import pandas as pd
 from report_tools.word_groups import calculate_score_and_matches
 
-def process_json_dir(input_dir: Path, output_csv: Path, label: str):
+def process_json_dir(input_dir: Path, output_csv: Path, label: str, category: str, school: str):
     """
     Load every JSON in input_dir, score & augment each entry,
     and write a filtered processed.csv to output_csv.
@@ -20,9 +20,10 @@ def process_json_dir(input_dir: Path, output_csv: Path, label: str):
     items = []
     if not input_dir.is_dir():
         # nothing to do
-        print(f"  • No {label} JSON directory at {input_dir}, skipping.")
+        # print(f"  • No {label} JSON directory at {input_dir}, skipping.")
         return
-
+    
+    raw_file = None
     # gather every JSON under input_dir
     for raw_file in input_dir.glob("*.json"):
         try:
@@ -34,16 +35,26 @@ def process_json_dir(input_dir: Path, output_csv: Path, label: str):
         except json.JSONDecodeError:
             print(f"   • warning: could not parse {raw_file.name}, skipping")
 
+    if not raw_file:
+        # empty directory
+        return
+    
     if not items:
         print(f"   • No records found in {input_dir}, skipping {label} processing.")
         return
-
+    
+    print(f"Processing {category}/{school} …")
     # Score & augment each item
     rows = []
     for item in items:
         title = item.get("course title") or item.get("title") or ""
         desc  = item.get("course description") or item.get("description") or ""
-        score, kws, groups, freqs = calculate_score_and_matches(title, desc)
+
+        if input_dir.parent.name == "pdfs":
+            content = " ".join(item.values())
+            score, kws, groups, freqs = calculate_score_and_matches(" ", content)
+        else:
+            score, kws, groups, freqs = calculate_score_and_matches(title, desc)
         item.update({
             "relevance_score":     score,
             "matched_keywords":    ";".join(kws),
@@ -59,6 +70,7 @@ def process_json_dir(input_dir: Path, output_csv: Path, label: str):
     # Build DataFrame and filter out zero‐score rows
     df = pd.DataFrame(rows)
     df = df[df["relevance_score"] > 0]
+    df = df[df.apply(lambda row: all(len(str(x).split()) < 1500 for x in row), axis=1)]
 
     for col in df.select_dtypes(include="object"):
         df[col] = (df[col]
@@ -87,17 +99,15 @@ def main():
             if not school.is_dir():
                 continue
 
-            print(f"\n== {category}/{school.name} ==")
-
             # 1) Web‐scrape output in raw_data → processed_data/processed.csv
             web_raw = school / "raw_data"
             web_out = school / "processed_data" / "processed.csv"
-            process_json_dir(web_raw, web_out, label="web raw_data")
+            process_json_dir(web_raw, web_out, label="web raw_data", category=category, school=school.name)
 
             # 2) PDF‐scrape output in pdfs/raw_data → pdfs/processed.csv
             pdf_raw = school / "pdfs" / "raw_data"
             pdf_out = school / "pdfs" / "processed.csv"
-            process_json_dir(pdf_raw, pdf_out, label="pdfs/raw_data")
+            process_json_dir(pdf_raw, pdf_out, label="pdfs/raw_data", category=category, school=school.name)
 
 if __name__ == "__main__":
     main()
