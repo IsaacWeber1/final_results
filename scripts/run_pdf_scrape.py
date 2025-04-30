@@ -87,7 +87,7 @@ def main():
                 print(f"  • No pdfs/ folder for {school.name}, skipping.")
                 continue
 
-            print(f"Processing {category}/{school.name} …")
+            # print(f"Processing {category}/{school.name} …")
             ok = run_pdf_scraper(pdf_dir)
             if not ok:
                 failures.append(f"{category}/{school.name}")
