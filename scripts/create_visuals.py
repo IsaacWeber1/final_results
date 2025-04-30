@@ -28,12 +28,13 @@ def keyword_histogram(df: pd.DataFrame, out_png: Path, name: str, keywords_unive
         return 0
 
     n_bars = len(keywords_universe)
-    fig_w  = max(8, n_bars * 0.3)
+    fig_w  = int(n_bars * 0.3)
     fig_h = 6
     fig, ax = plt.subplots(figsize=(fig_w, fig_h))
     ax.bar(keywords_universe, counts)
     ax.set_xticklabels(keywords_universe, rotation=90)
-    ax.set_title(f"{name} — Keyword Frequency Histogram")
+    ax.margins(x=0)
+    ax.set_title(f"{name} — Keyword Frequency Histogram", fontsize=30, fontweight="bold")
     plt.tight_layout()
     fig.savefig(out_png, dpi=300)
     plt.close(fig)
@@ -58,7 +59,7 @@ def group_histogram(df: pd.DataFrame, out_png: Path, name: str, groups_universe:
     fig, ax = plt.subplots(figsize=(fig_w, fig_h))
     ax.bar(groups_universe, counts)
     ax.set_xticklabels(groups_universe, rotation=90)
-    ax.set_title(f"{name} — Keyword Group Histogram")
+    ax.set_title(f"{name} — Keyword Group Histogram", fontsize=30)
     plt.tight_layout()
     fig.savefig(out_png, dpi=300)
     plt.close(fig)
@@ -189,7 +190,7 @@ def main():
             # keyword histogram
             out_kw = fig_dir / "keyword_freq.png"
             if args.mode == 'replace' or not out_kw.exists():
-                kw_max = keyword_histogram(df, out_kw, name, keywords_universe)
+                kw_max = keyword_histogram(df, out_kw, school.name, keywords_universe)
             else:
                 # compute max without plotting
                 freqs = df['keyword_frequencies'].dropna().apply(json.loads)
@@ -202,7 +203,7 @@ def main():
             # group histogram
             out_grp = fig_dir / "group_freq.png"
             if args.mode == 'replace' or not out_grp.exists():
-                grp_max = group_histogram(df, out_grp, name, groups_universe)
+                grp_max = group_histogram(df, out_grp, school.name, groups_universe)
             else:
                 groups = df['matched_groups'].dropna().str.split(';').explode()
                 grp_max = int(groups.value_counts().max()) if not groups.empty else 0
@@ -211,7 +212,7 @@ def main():
             # collapsed histogram
             out_coll = fig_dir / "collapsed_freq.png"
             if args.mode == 'replace' or not out_coll.exists():
-                coll_max = collapsed_histogram(df, out_coll, equiv_json, name, collapsed_universe)
+                coll_max = collapsed_histogram(df, out_coll, equiv_json, school.name, collapsed_universe)
             else:
                 freqs = df['keyword_frequencies'].dropna().apply(json.loads)
                 counter = Counter()
