@@ -10,7 +10,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-def compare_courses(PDF_path, WEB_path):
+def compare_courses(PDF_path: Path, WEB_path: Path):
     def process_csv(file_path):
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -69,9 +69,18 @@ def compare_courses(PDF_path, WEB_path):
             print(f"Error processing {file_path}: {e}")
             return 0, 0.0, {}
     
+    pdf_count, pdf_avg, pdf_duplicates = (0, 0.0, {})
+    web_count, web_avg, web_duplicates = (0, 0.0, {})
+
     # Process both files
-    pdf_count, pdf_avg, pdf_duplicates = process_csv(PDF_path)
-    web_count, web_avg, web_duplicates = process_csv(WEB_path)
+    if (PDF_path.exists()):
+        pdf_count, pdf_avg, pdf_duplicates = process_csv(PDF_path)
+    else:
+        print("PDF processed data not found")
+    if (WEB_path.exists()):
+        web_count, web_avg, web_duplicates = process_csv(WEB_path)
+    else:
+        print("Web processed data not found")
     
     # Calculate comparison metrics
     count_diff = web_count - pdf_count
@@ -183,11 +192,11 @@ def save_report(report, output_path):
         else:
             f.write("LOW similarity between sources\n")
 
-def process_school(school_arg: str):
+def process_school(school_dir: Path):
     # accept either "priority/uni_name" or "non_priority/uni_name"
-    school_dir = Path("schools") / school_arg
-    PDFCSV_file  = school_dir / "pdfs" / "processed.csv"
-    WEBCSV_file   = school_dir / "processed_data" / "processed.csv"
+    # school_dir = Path("schools") / school_arg
+    PDFCSV_file = school_dir / "pdfs" / "processed.csv"
+    WEBCSV_file = school_dir / "processed_data" / "processed.csv"
     report_file= school_dir / "comparison_report.txt"
 
     report = compare_courses(PDFCSV_file, WEBCSV_file)
@@ -198,11 +207,11 @@ def process_all():
     for category in ("priority", "non_priority"):
         for school in (base / category).iterdir():
             if school.is_dir():
-                school_arg = f"{category}/{school.name}"
+                # school_arg = f"{category}/{school.name}"
                 try:
-                    process_school(school_arg)
+                    process_school(school)
                 except Exception as e:
-                    print(f"! Error processing {school_arg}: {e}")
+                    print(f"! Error processing {school}: {e}")
 
 # if __name__ == "__main__":
 #     json_file = 'courses.json'  # path to JSON file

@@ -1,0 +1,39 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/university_of_chicago/pdfs/processed.csv
+WEB file: schools/non_priority/university_of_chicago/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 15
+WEB has 15 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 2.87
+WEB has higher average relevance by 2.87
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 2
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: MADD 25201. Art & Machine Intelligence. 100 Units.
+Description: Artists have long used autonomous processes to aid in the creation of their work. From 18th century ...
+Source: http://collegecatalog.uchicago.edu/thecollege/MediaArtsandDesign/
+Reason: duplicate description
+
+Duplicate 2:
+Title: ANTH 23094. Development and Environment in Latin America. 100 Units.
+Description: Description: This course will consider the relationship between development and the environment in L...
+Source: http://collegecatalog.uchicago.edu/thecollege/anthropology/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

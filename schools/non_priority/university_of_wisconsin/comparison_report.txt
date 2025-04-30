@@ -1,0 +1,507 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/university_of_wisconsin/pdfs/processed.csv
+WEB file: schools/non_priority/university_of_wisconsin/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 384
+WEB has 384 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.36
+WEB has higher average relevance by 3.36
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 80
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: SOIL\xa0SCI/\u200bHORT\xa0\xa0332
+Description: Nutrient requirements of turfgrasses; nature of turfgrass response to fertilization; soil and tissue...
+Source: https://guide.wisc.edu/courses/soil_sci/
+Reason: duplicate description
+
+Duplicate 2:
+Title: PUB\xa0AFFR/\u200bENVIR\xa0ST/\u200bURB\xa0R\xa0PL\xa0\xa0809
+Description: Strategy and policy problems in energy policy, both national and international....
+Source: https://guide.wisc.edu/courses/pub_affr/
+Reason: duplicate description
+
+Duplicate 3:
+Title: PHY\xa0ASST\xa0618
+Description: Emphasizes an understanding of basic research methodology, project development, collaborative resear...
+Source: https://guide.wisc.edu/courses/phy_asst/
+Reason: duplicate description
+
+Duplicate 4:
+Title: M&ENVTOX/\u200bPOP\xa0HLTH\xa0\xa0789
+Description: Provides an overview of the field of environmental health, using a systems thinking approach. System...
+Source: https://guide.wisc.edu/courses/m_envtox/
+Reason: duplicate description
+
+Duplicate 5:
+Title: M\xa0S\xa0&\xa0E/\u200bN\xa0E\xa0\xa0433
+Description: Thermodynamics and kinetics of metallic corrosion. The common forms of corrosion and corrosion susce...
+Source: https://guide.wisc.edu/courses/m_s_e/
+Reason: duplicate description
+
+Duplicate 6:
+Title: M\xa0H\xa0R\xa0710
+Description: Provides central knowledge and skills to tackle challenges at the intersection of business and susta...
+Source: https://guide.wisc.edu/courses/m_h_r/
+Reason: duplicate description
+
+Duplicate 7:
+Title: M\xa0E/\u200bM\xa0S\xa0&\xa0E\xa0\xa0462
+Description: Metallurgical principles applied to welding; mechanisms of strengthening, phase equilibria, and micr...
+Source: https://guide.wisc.edu/courses/m_e/
+Reason: duplicate description
+
+Duplicate 8:
+Title: LAND\xa0ARC/\u200bENVIR\xa0ST/\u200bGEOG/\u200bURB\xa0R\xa0PL\xa0\xa0532
+Description: Explores planning-related Geographic Information System (GIS) data, applications, analytical tools, ...
+Source: https://guide.wisc.edu/courses/land_arc/
+Reason: duplicate description
+
+Duplicate 9:
+Title: M\xa0E/\u200bI\xa0SY\xa0E\xa0\xa0512
+Description: Inspection data for quality control; sampling plans for acceptance inspection; charts for process co...
+Source: https://guide.wisc.edu/courses/m_e/
+Reason: duplicate description
+
+Duplicate 10:
+Title: M\xa0E/\u200bN\xa0E\xa0\xa0520
+Description: Two-phase flow and heat transfer in engineering systems. Pool boiling and flow boiling. Phenomenolog...
+Source: https://guide.wisc.edu/courses/m_e/
+Reason: duplicate description
+
+Duplicate 11:
+Title: LAND\xa0ARC/\u200bENVIR\xa0ST/\u200bSOIL\xa0SCI\xa0\xa0695
+Description: Modern GIS desktop and web-based workflows, analyses, and visualizations related to natural resource...
+Source: https://guide.wisc.edu/courses/land_arc/
+Reason: duplicate description
+
+Duplicate 12:
+Title: GEOSCI/\u200bCIV\xa0ENGR/\u200bENVIR\xa0ST/\u200bG\xa0L\xa0E\xa0\xa0444
+Description: Global positioning system surveying for field applications. Signals. Coordinate systems. Datums. Car...
+Source: https://guide.wisc.edu/courses/geosci/
+Reason: duplicate description
+
+Duplicate 13:
+Title: G\xa0L\xa0E/\u200bGEOSCI\xa0\xa0537
+Description: MATLAB is a powerful, high-level programming language and integrated development environment (IDE) t...
+Source: https://guide.wisc.edu/courses/g_l_e/
+Reason: duplicate description
+
+Duplicate 14:
+Title: GEN\xa0BUS/\u200bE\xa0P\xa0D/\u200bOTM\xa0\xa0784
+Description: Techniques that will help to plan, execute, and deliver projects with desired scope on time and on b...
+Source: https://guide.wisc.edu/courses/gen_bus/
+Reason: duplicate description
+
+Duplicate 15:
+Title: F&W\xa0ECOL/\u200bC&E\xa0SOC/\u200bSOC\xa0\xa0248
+Description: Introduces the concerns and principles of sociology through examination of human interaction with th...
+Source: https://guide.wisc.edu/courses/f_w_ecol/
+Reason: duplicate description
+
+Duplicate 16:
+Title: FOOD\xa0SCI/\u200bAN\xa0SCI/\u200bDY\xa0SCI/\u200bSOIL\xa0SCI\xa0\xa0472
+Description: Examines issues related to global agriculture and healthy sustainable development. Using a regional ...
+Source: https://guide.wisc.edu/courses/food_sci/
+Reason: duplicate description
+
+Duplicate 17:
+Title: FOOD\xa0SCI/\u200bAN\xa0SCI/\u200bDY\xa0SCI/\u200bSOIL\xa0SCI\xa0\xa0473
+Description: Examines issues related to global agriculture and healthy sustainable development. Using a regional ...
+Source: https://guide.wisc.edu/courses/food_sci/
+Reason: duplicate description
+
+Duplicate 18:
+Title: GEOG/\u200bENVIR\xa0ST/\u200bLAND\xa0ARC/\u200bURB\xa0R\xa0PL\xa0\xa0532
+Description: Explores planning-related Geographic Information System (GIS) data, applications, analytical tools, ...
+Source: https://guide.wisc.edu/courses/geog/
+Reason: duplicate description
+
+Duplicate 19:
+Title: ENTOM/\u200bBOTANY/\u200bZOOLOGY\xa0\xa0473
+Description: Multiple ways in which arthropods exploit plants, plant traits that deter or augment insects, enviro...
+Source: https://guide.wisc.edu/courses/entom/
+Reason: duplicate description
+
+Duplicate 20:
+Title: E\xa0P/\u200bM\xa0E\xa0\xa0566
+Description: Applications of cryogenics, material properties at low temperatures, refrigeration and liquefaction ...
+Source: https://guide.wisc.edu/courses/e_p/
+Reason: duplicate description
+
+Duplicate 21:
+Title: E\xa0P/\u200bM\xa0E\xa0\xa0777
+Description: Topics defining modern vacuum technology, including the kinetic theory of gases, conductance, pumpin...
+Source: https://guide.wisc.edu/courses/e_p/
+Reason: duplicate description
+
+Duplicate 22:
+Title: E\xa0M\xa0A/\u200bE\xa0P\xa0\xa0471
+Description: Use of computational tools for the solution of problems encountered in engineering physics applicati...
+Source: https://guide.wisc.edu/courses/e_m_a/
+Reason: duplicate description
+
+Duplicate 23:
+Title: ENVIR\xa0ST/\u200bILS\xa0\xa0126
+Description: Relates principles of environmental science to our daily activities, with an eye to sustainability, ...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 24:
+Title: ENVIR\xa0ST/\u200bENTOM\xa0\xa0205
+Description: An introduction to the multiple determinants of health, global disease burden and disparities, found...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 25:
+Title: ENVIR\xa0ST/\u200bGNS\xa0\xa0210
+Description: Exploration of the ideals and realities of sustainability in Central, Northern and East European con...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 26:
+Title: ENVIR\xa0ST/\u200bILS\xa0\xa0255
+Description: Explore the foundations of sustainability using the UW-Madison campus as a living laboratory. Ground...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 27:
+Title: E\xa0P\xa0D/\u200bGEN\xa0BUS/\u200bOTM\xa0\xa0784
+Description: Techniques that will help to plan, execute, and deliver projects with desired scope on time and on b...
+Source: https://guide.wisc.edu/courses/e_p_d/
+Reason: duplicate description
+
+Duplicate 28:
+Title: ENVIR\xa0ST/\u200bGEOG\xa0\xa0333
+Description: Over half of the world's population now lives in urban areas, with an expected increase of 2.5 billi...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 29:
+Title: ENVIR\xa0ST/\u200bCIV\xa0ENGR/\u200bGEOG\xa0\xa0377
+Description: Design, implementation and use of automated procedures for storage, analysis and display of spatial ...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 30:
+Title: ENVIR\xa0ST/\u200bGEOSCI\xa0\xa0411
+Description: A critical examination of the full spectrum of renewable and nonrenewable energy options, from the u...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 31:
+Title: ENVIR\xa0ST/\u200bGEOG\xa0\xa0439
+Description: Covers a broad cross-section of American environmental policy by focusing on specific statutes and p...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 32:
+Title: ENVIR\xa0ST/\u200bCIV\xa0ENGR/\u200bG\xa0L\xa0E/\u200bGEOSCI\xa0\xa0444
+Description: Global positioning system surveying for field applications. Signals. Coordinate systems. Datums. Car...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 33:
+Title: ENVIR\xa0ST/\u200bGEOG/\u200bLAND\xa0ARC/\u200bURB\xa0R\xa0PL\xa0\xa0532
+Description: Explores planning-related Geographic Information System (GIS) data, applications, analytical tools, ...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 34:
+Title: ENVIR\xa0ST/\u200bGEOG\xa0\xa0534
+Description: Covers real-world questions of how the environment is managed and governed through state policy, eco...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 35:
+Title: ENVIR\xa0ST/\u200bC&E\xa0SOC/\u200bSOC\xa0\xa0540
+Description: Sociological analysis of relationships among economic growth, environmental sustainability and socia...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 36:
+Title: ENVIR\xa0ST/\u200bCIV\xa0ENGR/\u200bLAND\xa0ARC\xa0\xa0556
+Description: Techniques of enhancement and quantification of remote sensing imagery. Emphasis on processing and a...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 37:
+Title: ENVIR\xa0ST/\u200bA\xa0A\xa0E/\u200bCIV\xa0ENGR/\u200bURB\xa0R\xa0PL\xa0\xa0561
+Description: Energy resources are an essential element of the world's business, political, technical and environm...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 38:
+Title: ENVIR\xa0ST/\u200bA\xa0A\xa0E/\u200bECON/\u200bURB\xa0R\xa0PL\xa0\xa0671
+Description: The method, application, and limitations of traditional economic approaches to the study of energy p...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 39:
+Title: ENVIR\xa0ST/\u200bLAND\xa0ARC/\u200bSOIL\xa0SCI\xa0\xa0695
+Description: Modern GIS desktop and web-based workflows, analyses, and visualizations related to natural resource...
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 40:
+Title: ENVIR\xa0ST/\u200bPUB\xa0AFFR/\u200bURB\xa0R\xa0PL\xa0\xa0809
+Description: Strategy and policy problems in energy policy, both national and international....
+Source: https://guide.wisc.edu/courses/envir_st/
+Reason: duplicate description
+
+Duplicate 41:
+Title: DY\xa0SCI/\u200bAN\xa0SCI/\u200bFOOD\xa0SCI/\u200bSOIL\xa0SCI\xa0\xa0472
+Description: Examines issues related to global agriculture and healthy sustainable development. Using a regional ...
+Source: https://guide.wisc.edu/courses/dy_sci/
+Reason: duplicate description
+
+Duplicate 42:
+Title: DY\xa0SCI/\u200bAN\xa0SCI/\u200bFOOD\xa0SCI/\u200bSOIL\xa0SCI\xa0\xa0473
+Description: Examines issues related to global agriculture and healthy sustainable development. Using a regional ...
+Source: https://guide.wisc.edu/courses/dy_sci/
+Reason: duplicate description
+
+Duplicate 43:
+Title: E\xa0C\xa0E/\u200bN\xa0E\xa0\xa0528
+Description: Introduction to basic understanding and techniques. Plasma processing of materials for semiconductor...
+Source: https://guide.wisc.edu/courses/e_c_e/
+Reason: duplicate description
+
+Duplicate 44:
+Title: E\xa0C\xa0E/\u200bM\xa0E\xa0\xa0733
+Description: Digital control theory, design methodology, and techniques for controller implementation on digital ...
+Source: https://guide.wisc.edu/courses/e_c_e/
+Reason: duplicate description
+
+Duplicate 45:
+Title: ECON/\u200bA\xa0A\xa0E/\u200bENVIR\xa0ST/\u200bURB\xa0R\xa0PL\xa0\xa0671
+Description: The method, application, and limitations of traditional economic approaches to the study of energy p...
+Source: https://guide.wisc.edu/courses/econ/
+Reason: duplicate description
+
+Duplicate 46:
+Title: C&E\xa0SOC/\u200bSOC\xa0\xa0140
+Description: Sociological examination of the linkages between the social and biophysical dimensions of the enviro...
+Source: https://guide.wisc.edu/courses/c_e_soc/
+Reason: duplicate description
+
+Duplicate 47:
+Title: C&E\xa0SOC/\u200bF&W\xa0ECOL/\u200bSOC\xa0\xa0248
+Description: Introduces the concerns and principles of sociology through examination of human interaction with th...
+Source: https://guide.wisc.edu/courses/c_e_soc/
+Reason: duplicate description
+
+Duplicate 48:
+Title: CURRIC/\u200bC&E\xa0SOC/\u200bENVIR\xa0ST\xa0\xa0405
+Description: How can education - for children and adults, in school and out - help to address crucial environment...
+Source: https://guide.wisc.edu/courses/curric/
+Reason: duplicate description
+
+Duplicate 49:
+Title: C&E\xa0SOC/\u200bCURRIC/\u200bENVIR\xa0ST\xa0\xa0405
+Description: How can education - for children and adults, in school and out - help to address crucial environment...
+Source: https://guide.wisc.edu/courses/c_e_soc/
+Reason: duplicate description
+
+Duplicate 50:
+Title: C&E\xa0SOC/\u200bENVIR\xa0ST/\u200bSOC\xa0\xa0540
+Description: Sociological analysis of relationships among economic growth, environmental sustainability and socia...
+Source: https://guide.wisc.edu/courses/c_e_soc/
+Reason: duplicate description
+
+Duplicate 51:
+Title: C&E\xa0SOC/\u200bSOC\xa0\xa0541
+Description: Application of sociological theory and analysis to environmental issues. Examines the ways in which ...
+Source: https://guide.wisc.edu/courses/c_e_soc/
+Reason: duplicate description
+
+Duplicate 52:
+Title: C&E\xa0SOC/\u200bSOC\xa0\xa0948
+Description: Examines topics such as theories of environment and society, the treadmill of production, environmen...
+Source: https://guide.wisc.edu/courses/c_e_soc/
+Reason: duplicate description
+
+Duplicate 53:
+Title: COMP\xa0SCI/\u200bDS\xa0\xa0579
+Description: Introduces students to the field of virtual reality and focuses on creating immersive, interactive v...
+Source: https://guide.wisc.edu/courses/comp_sci/
+Reason: duplicate description
+
+Duplicate 54:
+Title: CURRIC/\u200bENVIR\xa0ST\xa0\xa0932
+Description: Education is often portrayed as a critical part of the solution to the intertwined problems of envir...
+Source: https://guide.wisc.edu/courses/curric/
+Reason: duplicate description
+
+Duplicate 55:
+Title: COMP\xa0SCI/\u200bE\xa0C\xa0E\xa0\xa0750
+Description: Introduction to the unique issues in the design and analysis of computer systems for real-time appli...
+Source: https://guide.wisc.edu/courses/comp_sci/
+Reason: duplicate description
+
+Duplicate 56:
+Title: BOTANY/\u200bF&W\xa0ECOL\xa0\xa0250
+Description: Provides an overview of the geography, ecology, and economic importance of the world's forest biomes...
+Source: https://guide.wisc.edu/courses/botany/
+Reason: duplicate description
+
+Duplicate 57:
+Title: CHEM/\u200bCBE\xa0\xa0505
+Description: Learn the chemistry and chemical engineering that defines societies' standard of living. Commercial ...
+Source: https://guide.wisc.edu/courses/chem/
+Reason: duplicate description
+
+Duplicate 58:
+Title: BOTANY/\u200bZOOLOGY\xa0\xa0450
+Description: How ecological principles can be used to address contemporary environmental issues such as water qua...
+Source: https://guide.wisc.edu/courses/botany/
+Reason: duplicate description
+
+Duplicate 59:
+Title: BOTANY/\u200bENTOM/\u200bZOOLOGY\xa0\xa0473
+Description: Multiple ways in which arthropods exploit plants, plant traits that deter or augment insects, enviro...
+Source: https://guide.wisc.edu/courses/botany/
+Reason: duplicate description
+
+Duplicate 60:
+Title: CIV\xa0ENGR/\u200bENVIR\xa0ST/\u200bGEOG\xa0\xa0377
+Description: Design, implementation and use of automated procedures for storage, analysis and display of spatial ...
+Source: https://guide.wisc.edu/courses/civ_engr/
+Reason: duplicate description
+
+Duplicate 61:
+Title: CIV\xa0ENGR/\u200bG\xa0L\xa0E\xa0\xa0421
+Description: Uses the three paradigms of sustainability (environmental, social, and economic) for strategic envir...
+Source: https://guide.wisc.edu/courses/civ_engr/
+Reason: duplicate description
+
+Duplicate 62:
+Title: CIV\xa0ENGR/\u200bENVIR\xa0ST/\u200bG\xa0L\xa0E/\u200bGEOSCI\xa0\xa0444
+Description: Global positioning system surveying for field applications. Signals. Coordinate systems. Datums. Car...
+Source: https://guide.wisc.edu/courses/civ_engr/
+Reason: duplicate description
+
+Duplicate 63:
+Title: CIV\xa0ENGR/\u200bG\xa0L\xa0E\xa0\xa0520
+Description: Key scientific concepts related to fossil and renewable energy resources. Apply the fundamentals of ...
+Source: https://guide.wisc.edu/courses/civ_engr/
+Reason: duplicate description
+
+Duplicate 64:
+Title: CIV\xa0ENGR/\u200bG\xa0L\xa0E\xa0\xa0535
+Description: Wind Energy Development and Balance-of-Plant Design. Up-front coverage includes the science and mech...
+Source: https://guide.wisc.edu/courses/civ_engr/
+Reason: duplicate description
+
+Duplicate 65:
+Title: CIV\xa0ENGR/\u200bENVIR\xa0ST/\u200bLAND\xa0ARC\xa0\xa0556
+Description: Techniques of enhancement and quantification of remote sensing imagery. Emphasis on processing and a...
+Source: https://guide.wisc.edu/courses/civ_engr/
+Reason: duplicate description
+
+Duplicate 66:
+Title: CIV\xa0ENGR/\u200bA\xa0A\xa0E/\u200bENVIR\xa0ST/\u200bURB\xa0R\xa0PL\xa0\xa0561
+Description: Energy resources are an essential element of the world's business, political, technical and environm...
+Source: https://guide.wisc.edu/courses/civ_engr/
+Reason: duplicate description
+
+Duplicate 67:
+Title: BSE/\u200bENVIR\xa0ST\xa0\xa0367
+Description: Learn about the state-of-the-art in renewable energy applications including biomass for heat, electr...
+Source: https://guide.wisc.edu/courses/bse/
+Reason: duplicate description
+
+Duplicate 68:
+Title: B\xa0M\xa0E/\u200bCBE\xa0\xa0560
+Description: Properties of biological molecules; enzyme kinetics, enzyme reactors, and enzyme engineering; metabo...
+Source: https://guide.wisc.edu/courses/b_m_e/
+Reason: duplicate description
+
+Duplicate 69:
+Title: B\xa0M\xa0E/\u200bMED\xa0PHYS\xa0\xa0574
+Description: Concepts and principles of statistics and machine learning for medical physics-related research prob...
+Source: https://guide.wisc.edu/courses/b_m_e/
+Reason: duplicate description
+
+Duplicate 70:
+Title: ANTHRO/\u200bAMER\xa0IND/\u200bBOTANY\xa0\xa0474
+Description: Study of the interactions between human cultures and plants. Topics include: traditional resource ma...
+Source: https://guide.wisc.edu/courses/anthro/
+Reason: duplicate description
+
+Duplicate 71:
+Title: AN\xa0SCI/\u200bDY\xa0SCI/\u200bFOOD\xa0SCI/\u200bSOIL\xa0SCI\xa0\xa0472
+Description: Examines issues related to global agriculture and healthy sustainable development. Using a regional ...
+Source: https://guide.wisc.edu/courses/an_sci/
+Reason: duplicate description
+
+Duplicate 72:
+Title: AN\xa0SCI/\u200bDY\xa0SCI/\u200bFOOD\xa0SCI/\u200bSOIL\xa0SCI\xa0\xa0473
+Description: Examines issues related to global agriculture and healthy sustainable development. Using a regional ...
+Source: https://guide.wisc.edu/courses/an_sci/
+Reason: duplicate description
+
+Duplicate 73:
+Title: AMER\xa0IND/\u200bENVIR\xa0ST\xa0\xa0306
+Description: Indigenous peoples often have very close relationships to ancestral homelands, species and natural r...
+Source: https://guide.wisc.edu/courses/amer_ind/
+Reason: duplicate description
+
+Duplicate 74:
+Title: AMER\xa0IND/\u200bENVIR\xa0ST\xa0\xa0341
+Description: Native Nations show leadership globally in addressing major environmental issues. Indigenous languag...
+Source: https://guide.wisc.edu/courses/amer_ind/
+Reason: duplicate description
+
+Duplicate 75:
+Title: AMER\xa0IND/\u200bANTHRO/\u200bBOTANY\xa0\xa0474
+Description: Study of the interactions between human cultures and plants. Topics include: traditional resource ma...
+Source: https://guide.wisc.edu/courses/amer_ind/
+Reason: duplicate description
+
+Duplicate 76:
+Title: AGRONOMY/\u200bDY\xa0SCI\xa0\xa0471
+Description: Delves into aspects of natural sciences (biology and agricultural sciences) and social sciences unde...
+Source: https://guide.wisc.edu/courses/agronomy/
+Reason: duplicate description
+
+Duplicate 77:
+Title: A\xa0A\xa0E/\u200bENVIR\xa0ST\xa0\xa0244
+Description: The "economic way of thinking" about global and regional environmental issues. Topics include climat...
+Source: https://guide.wisc.edu/courses/a_a_e/
+Reason: duplicate description
+
+Duplicate 78:
+Title: A\xa0A\xa0E/\u200bECON\xa0\xa0371
+Description: Use microeconomic theory to analyze energy markets. Discuss the economics of oil, gas, and electrici...
+Source: https://guide.wisc.edu/courses/a_a_e/
+Reason: duplicate description
+
+Duplicate 79:
+Title: A\xa0A\xa0E/\u200bCIV\xa0ENGR/\u200bENVIR\xa0ST/\u200bURB\xa0R\xa0PL\xa0\xa0561
+Description: Energy resources are an essential element of the world's business, political, technical and environm...
+Source: https://guide.wisc.edu/courses/a_a_e/
+Reason: duplicate description
+
+Duplicate 80:
+Title: A\xa0A\xa0E/\u200bECON/\u200bENVIR\xa0ST/\u200bURB\xa0R\xa0PL\xa0\xa0671
+Description: The method, application, and limitations of traditional economic approaches to the study of energy p...
+Source: https://guide.wisc.edu/courses/a_a_e/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

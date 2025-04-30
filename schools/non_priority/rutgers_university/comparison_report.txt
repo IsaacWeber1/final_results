@@ -1,0 +1,26 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/rutgers_university/pdfs/processed.csv
+WEB file: schools/non_priority/rutgers_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 0
+Both sources have the same number of courses
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 0.00
+Both sources have the same average relevance
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 0
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 100.0%
+Relevance score similarity: 100.0%
+
+Overall similarity between sources: 100.0%
+VERY HIGH similarity between sources

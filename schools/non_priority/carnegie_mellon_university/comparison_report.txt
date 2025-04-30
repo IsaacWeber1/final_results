@@ -1,0 +1,291 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/carnegie_mellon_university/pdfs/processed.csv
+WEB file: schools/non_priority/carnegie_mellon_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 332
+WEB has 332 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.74
+WEB has higher average relevance by 3.74
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 44
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: 11-646 Applied Legal Analytics & Artificial Intelligence
+Description: Spring: 12 units Technological advances are affecting the legal profession and enable innovation by ...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/addlmajorsminors/courses/
+Reason: duplicate description
+
+Duplicate 2:
+Title: 02-450 Automation of Scientific Research
+Description: Spring: 9 units Automated scientific instruments are used widely in research and engineering. Robots...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 3:
+Title: 02-680 Essential Mathematics and Statistics for Scientists
+Description: Fall: 9 units This course rigorously introduces fundamental topics in mathematics and statistics to ...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 4:
+Title: 02-750 Automation of Scientific Research
+Description: Spring: 12 units Automated scientific instruments are used widely in research and engineering. Robot...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 5:
+Title: 02-761 Laboratory Methods for Automated Biology I
+Description: Fall: 12 units In order to rapidly generate reproducible experimental data, many modern biology labs...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 6:
+Title: 27-761 Kinetics of Metallurgical Reactions and Processes
+Description: Fall: 6 units This class uses examples from the ironmaking and steelmaking to illustrate different r...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/collegeofengineering/materialsscienceandengineering/courses/
+Reason: duplicate description
+
+Duplicate 7:
+Title: 73-336 International Energy Market and Sustainable Development
+Description: Intermittent: 3 units This course teaches you about economics of the energy industry by looking at v...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/dietrichcollegeofhumanitiesandsocialsciences/undergraduateeconomicsprogram/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 8:
+Title: 73-427 Sustainability
+Description: Fall: 9 units Topics related to sustainability and the environment are increasingly important to bus...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/dietrichcollegeofhumanitiesandsocialsciences/undergraduateeconomicsprogram/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 9:
+Title: 73-469 Global Electronic Markets: Economics and the Internet
+Description: Fall: 9 units The information revolution brought about by the Internet is having a dramatic impact o...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/dietrichcollegeofhumanitiesandsocialsciences/undergraduateeconomicsprogram/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 10:
+Title: 05-439 The Big Data Pipeline: Collecting and Using Big Data for Interactive Systems
+Description: Spring: 12 units This course covers techniques and technologies for creating data driven interfaces....
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 11:
+Title: 05-540 Rapid Prototyping of Computer Systems
+Description: Spring: 12 units This is a project-oriented course, which will deal with all four aspects of project...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 12:
+Title: 05-839 Interactive Data Science
+Description: Spring: 12 units This course covers techniques and technologies for creating data driven interfaces....
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 13:
+Title: 17-210 Introduction to Social Networks
+Description: Spring: 12 units Course Description What makes a recommendation system on social media effective? Wh...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 14:
+Title: 17-313 Foundations of Software Engineering
+Description: Fall and Spring: 12 units Students gain exposure to the fundamental principles of software engineeri...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 15:
+Title: 17-323 Quality Assurance
+Description: Fall: 6 units This class is fundamentally about software quality assurance and control. This course ...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 16:
+Title: 17-332 Software Project Management
+Description: Spring: 6 units Projects are temporary organizations set up to achieve a one time objective in an ag...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 17:
+Title: 17-340 Green Computing
+Description: Intermittent: 9 units Note: Previously offered as 08-340. Energy is a key societal resource. However...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 18:
+Title: 17-400 Machine Learning and Data Science at Scale
+Description: Fall and Spring: 12 units Datasets are growing, new systems for managing, distributing, and streamin...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 19:
+Title: 17-443 Quality Management
+Description: Spring: 6 units Managing software quality is a critical part of all software projects. Software engi...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 20:
+Title: 17-537 Artificial Intelligence Methods for Social Good
+Description: Spring: 9 units Optimization: mathematical programming, robust optimization, influence maximization ...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 21:
+Title: 17-634 Applied Machine Learning
+Description: Spring: 6 units Autonomous and intelligent systems increasingly rely on automated decision making ba...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 22:
+Title: 17-685 Dynamic Network Analysis
+Description: Spring: 12 units Who knows who? Who knows what? Who is influential? What is the social network, the ...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 23:
+Title: 17-691 Machine Learning in Practice
+Description: Spring: 6 units As Machine Learning and Artificial Intelligence methods have become common place in ...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 24:
+Title: 17-801 Dynamic Network Analysis
+Description: Spring: 12 units Who knows who? Who knows what? Who is influential? What is the social network, the ...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 25:
+Title: 11-488 Concepts in Digital Multimedia and Cyber Forensics
+Description: Spring: 12 units This course covers the use of computational methods in crime investigation (forensi...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 26:
+Title: 11-546 Applied Legal Analytics & Artificial Intelligence
+Description: Spring: 12 units Technological advances are affecting the legal profession and enable innovation by ...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 27:
+Title: 11-646 Applied Legal Analytics & Artificial Intelligence
+Description: Spring: 12 units Technological advances are affecting the legal profession and enable innovation by ...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 28:
+Title: 11-737 Multilingual Natural Language Processing.
+Description: Fall: 12 units 11737 Multilingual Natural Language Processing is an advanced graduate-level course o...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 29:
+Title: 10-805 Machine Learning with Large Datasets
+Description: Spring: 12 units Large datasets pose difficulties across the machine learning pipeline. They are dif...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 30:
+Title: 16-161 ROB Seminar: Artificial Intelligence and Humanity
+Description: Fall and Spring: 12 units In 1965 British mathematician I.J. Good wrote, An ultraintelligent machine...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 31:
+Title: 16-299 Introduction to Feedback Control Systems
+Description: Spring: 12 units This course is designed as a first course in feedback control systems for computer ...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 32:
+Title: 16-450 Robotics Systems Engineering
+Description: Fall: 12 units Systems engineering examines methods of specifying, designing, analyzing and testing ...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 33:
+Title: 16-456 Reality Computing Studio
+Description: Fall: 12 units [IDeATe collaborative course] Reality computing encompasses a constellation of techno...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 34:
+Title: 16-465 Game Engine Programming
+Description: Spring: 10 units This course is designed to help students understand, modify, and develop game engin...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 35:
+Title: 16-474 Robotics Capstone
+Description: Spring: 12 units In this course students refine the design of, build, integrate, test, and demonstra...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 36:
+Title: 16-667 Autonomous Air Vehicle Design and Development
+Description: All Semesters: 12 units OPEN TO GRADUATE AND UNDERGRADUATE STUDENTS; Autonomous Air Vehicles are fin...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 37:
+Title: 16-765 Robotics & AI for Agriculture
+Description: Spring: 12 units Robotics and artificial intelligence technologies have the potential to increase th...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 38:
+Title: 16-785 Integrated Intelligence in Robotics: Vision Language Planning
+Description: Intermittent: 12 units This is a project-oriented course that covers interdisciplinary topics on cog...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 39:
+Title: 16-848 Hands: Design and Control for Dexterous Manipulation
+Description: Spring: 12 units Research related to hands has increased dramatically over the past decade. Robot ha...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 40:
+Title: 16-882 Systems Engineering and Applied Robotics
+Description: Spring: 12 units This course is intended for graduate students of all disciplines who are interested...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/courses/
+Reason: duplicate title or duplicate description
+
+Duplicate 41:
+Title: 12-712 Sustainable Engineering Principles
+Description: Fall: 12 units This course presents an overview of the concept of sustainability, including changing...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/collegeofengineering/departmentofcivilandenvironmentalengineering/courses/
+Reason: duplicate description
+
+Duplicate 42:
+Title: 06-300 Junior Research Project
+Description: Fall and Spring Research projects under the direction of the Chemical Engineering faculty. The natur...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/collegeofengineering/departmentofchemicalengineering/courses/
+Reason: duplicate description
+
+Duplicate 43:
+Title: 06-400 Senior Research Project
+Description: Fall and Spring Research projects under the direction of the Chemical Engineering faculty. The natur...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/collegeofengineering/departmentofchemicalengineering/courses/
+Reason: duplicate description
+
+Duplicate 44:
+Title: 42-684 Principles of Immunoengineering and Development of Immunotherapy Drugs
+Description: Fall: 9 units This course will provide context for the application of engineering principles to modu...
+Source: http://coursecatalog.web.cmu.edu/schools-colleges/collegeofengineering/departmentofbiomedicalengineering/courses/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

@@ -1,0 +1,351 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/uc_davis/pdfs/processed.csv
+WEB file: schools/non_priority/uc_davis/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 355
+WEB has 355 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 2.95
+WEB has higher average relevance by 2.95
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 54
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: SAS 008 — Water Quality at Risk (3 units)
+Description: Course Description: Natural and human threats to water quality. Balance of science and policy in all...
+Source: https://catalog.ucdavis.edu/courses-subject-code/sas/
+Reason: duplicate description
+
+Duplicate 2:
+Title: SAF 191A — Workshop on Food System Sustainability (3 units)
+Description: Course Description: First in a two-quarter senior capstone course sequence. Identify projects addres...
+Source: https://catalog.ucdavis.edu/courses-subject-code/saf/
+Reason: duplicate description
+
+Duplicate 3:
+Title: PLS 007V — Just Coffee: The Biology
+Description: Course Description: Coffee used as a case study to examine biological, ecological and social factors...
+Source: https://catalog.ucdavis.edu/courses-subject-code/pls/
+Reason: duplicate description
+
+Duplicate 4:
+Title: MPM 210 — Advanced Health Leadership (1.5 units)
+Description: Course Description: Develop skills for effective scientific leadership, including: project managemen...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mpm/
+Reason: duplicate title or duplicate description
+
+Duplicate 5:
+Title: EMS 186B — Materials Design Project (3 units)
+Description: Course Description: Advanced materials design including examination of materials synthesis, processi...
+Source: https://catalog.ucdavis.edu/courses-subject-code/ems/
+Reason: duplicate description
+
+Duplicate 6:
+Title: EMS 186C — Materials Design Project (3 units)
+Description: Course Description: Advanced materials design including examination of materials synthesis, processi...
+Source: https://catalog.ucdavis.edu/courses-subject-code/ems/
+Reason: duplicate description
+
+Duplicate 7:
+Title: EMS 188B — Materials Design Project (4 units)
+Description: Course Description: Major materials design experience involving analysis of real materials synthesis...
+Source: https://catalog.ucdavis.edu/courses-subject-code/ems/
+Reason: duplicate description
+
+Duplicate 8:
+Title: MGP 204 — Marketing Management (3 units)
+Description: Course Description: Analysis of market opportunities, elements of market research, development of ma...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgp/
+Reason: duplicate description
+
+Duplicate 9:
+Title: MGP 207 — Management Information Systems (3 units)
+Description: Course Description: Introduction to computer programming and data handling skills. Use of computer i...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgp/
+Reason: duplicate description
+
+Duplicate 10:
+Title: MGB 404 — Marketing Management (4 units)
+Description: Course Description: Analysis of market opportunities, elements of market research, development of ma...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgb/
+Reason: duplicate description
+
+Duplicate 11:
+Title: MGB 404Y — Marketing Management (4 units)
+Description: Course Description: Analysis of market opportunities, elements of market research, development of ma...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgb/
+Reason: duplicate description
+
+Duplicate 12:
+Title: MGV 204V — Marketing Management (4 units)
+Description: Course Description: Analysis of market opportunities, elements of market research, development of ma...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgv/
+Reason: duplicate description
+
+Duplicate 13:
+Title: MGV 207V — Management Information Systems (4 units)
+Description: Course Description: Introduction to computer programming and data handling skills. Use of computer i...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgv/
+Reason: duplicate description
+
+Duplicate 14:
+Title: MGP 285 — Time Series Analysis & Forecasting (3 units)
+Description: Course Description: Considers application of time series methods to evaluation and forecasting probl...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgp/
+Reason: duplicate description
+
+Duplicate 15:
+Title: MGB 432V — Project Management with Applications in Healthcare (1 unit)
+Description: Course Description: Focuses on the heart of healthcare administration and how project management can...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgb/
+Reason: duplicate description
+
+Duplicate 16:
+Title: MGV 404V — Marketing Management (4 units)
+Description: Course Description: Analysis of market opportunities, elements of market research, development of ma...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgv/
+Reason: duplicate description
+
+Duplicate 17:
+Title: MGP 404 — Marketing Management (4 units)
+Description: Course Description: Analysis of market opportunities, elements of market research, development of ma...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgp/
+Reason: duplicate description
+
+Duplicate 18:
+Title: MGP 404Y — Marketing Management (4 units)
+Description: Course Description: Analysis of market opportunities, elements of market research, development of ma...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgp/
+Reason: duplicate description
+
+Duplicate 19:
+Title: MGP 415 — Climate Risks & Opportunities (1 unit)
+Description: Course Description: Provide a working knowledge of the risks and opportunities arising from climate ...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgp/
+Reason: duplicate description
+
+Duplicate 20:
+Title: MGP 431 — Project Management (1 unit)
+Description: Course Description: Students learn project management; including project scope, project planning, mi...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgp/
+Reason: duplicate description
+
+Duplicate 21:
+Title: MGP 432 — Project Management with Applications in Healthcare (1 unit)
+Description: Course Description: Focuses on the heart of healthcare administration and how project management can...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgp/
+Reason: duplicate description
+
+Duplicate 22:
+Title: MGP 432V — Project Management with Applications in Healthcare (1 unit)
+Description: Course Description: Focuses on the heart of healthcare administration and how project management can...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgp/
+Reason: duplicate description
+
+Duplicate 23:
+Title: MGT 204 — Marketing Management (3 units)
+Description: Course Description: Analysis of market opportunities, elements of market research, development of ma...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgt/
+Reason: duplicate description
+
+Duplicate 24:
+Title: MGT 207 — Management Information Systems (3 units)
+Description: Course Description: Introduction to computer programming and data handling skills. Use of computer i...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgt/
+Reason: duplicate description
+
+Duplicate 25:
+Title: MGT 285 — Time Series Analysis & Forecasting (3 units)
+Description: Course Description: Considers application of time series methods to evaluation and forecasting probl...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgt/
+Reason: duplicate description
+
+Duplicate 26:
+Title: MGT 404 — Marketing Management (4 units)
+Description: Course Description: Analysis of market opportunities, elements of market research, development of ma...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgt/
+Reason: duplicate description
+
+Duplicate 27:
+Title: MGT 415 — Climate Risks & Opportunities (1 unit)
+Description: Course Description: Provide a working knowledge of the risks and opportunities arising from climate ...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgt/
+Reason: duplicate description
+
+Duplicate 28:
+Title: MGT 431 — Project Management (1 unit)
+Description: Course Description: Students learn project management; including project scope, project planning, mi...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgt/
+Reason: duplicate description
+
+Duplicate 29:
+Title: MGT 432 — Project Management with Applications in Healthcare (1 unit)
+Description: Course Description: Focuses on the heart of healthcare administration and how project management can...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgt/
+Reason: duplicate description
+
+Duplicate 30:
+Title: MGT 432V — Project Management with Applications in Healthcare (1 unit)
+Description: Course Description: Focuses on the heart of healthcare administration and how project management can...
+Source: https://catalog.ucdavis.edu/courses-subject-code/mgt/
+Reason: duplicate description
+
+Duplicate 31:
+Title: HYD 110 — Irrigation Systems & Water Management (4 units)
+Description: Course Description: Soil and plant aspects of irrigation and drainage. Soil-water principles includi...
+Source: https://catalog.ucdavis.edu/courses-subject-code/hyd/
+Reason: duplicate description
+
+Duplicate 32:
+Title: FOR 280 — Forensic DNA Analysis (3 units)
+Description: Course Description: Foundation in theory and practice of forensic DNA analysis; past, present, and e...
+Source: https://catalog.ucdavis.edu/courses-subject-code/for/
+Reason: duplicate description
+
+Duplicate 33:
+Title: GEL 018V — Energy & the Environment (3 units)
+Description: Course Description: Conventional and alternative energy resources and their environmental impacts. B...
+Source: https://catalog.ucdavis.edu/courses-subject-code/gel/
+Reason: duplicate description
+
+Duplicate 34:
+Title: EEC 157BY — Control Systems II (4 units)
+Description: Course Description: Control system design; transfer-function and state-space methods; sampled-data i...
+Source: https://catalog.ucdavis.edu/courses-subject-code/eec/
+Reason: duplicate description
+
+Duplicate 35:
+Title: EEC 289G — Special Topics in Electrical & Computer Engineering: Control Systems (1-5 units)
+Description: Course Description: Special topics in Control Systems....
+Source: https://catalog.ucdavis.edu/courses-subject-code/eec/
+Reason: duplicate description
+
+Duplicate 36:
+Title: DSC 192 — Internship in Data Science (1-12 units)
+Description: Course Description: Work experience in Data Science. Supervised internship, on or off campus in area...
+Source: https://catalog.ucdavis.edu/courses-subject-code/dsc/
+Reason: duplicate description
+
+Duplicate 37:
+Title: EBS 144 — Groundwater Hydrology (4 units)
+Description: This version has ended; see updated course, below. Course Description: Global role of groundwater re...
+Source: https://catalog.ucdavis.edu/courses-subject-code/ebs/
+Reason: duplicate description
+
+Duplicate 38:
+Title: EBS 147 — Runoff
+Description: Course Description: Practical hydrology and runoff water quality management from disturbed watershed...
+Source: https://catalog.ucdavis.edu/courses-subject-code/ebs/
+Reason: duplicate description
+
+Duplicate 39:
+Title: EBS 190C — Research Group Conference in Biological Systems Engineering (1 unit)
+Description: Course Description: Research group conference....
+Source: https://catalog.ucdavis.edu/courses-subject-code/ebs/
+Reason: duplicate description
+
+Duplicate 40:
+Title: EBS 192 — Internship in Biological Systems Engineering (1-5 units)
+Description: Course Description: Supervised work experience in biological systems engineering....
+Source: https://catalog.ucdavis.edu/courses-subject-code/ebs/
+Reason: duplicate description
+
+Duplicate 41:
+Title: EBS 242 — Hydrology & Sustainability of Irrigated Lands (3 units)
+Description: Course Description: Impact of irrigated agricultural on groundwater depletion, surface water and gro...
+Source: https://catalog.ucdavis.edu/courses-subject-code/ebs/
+Reason: duplicate description
+
+Duplicate 42:
+Title: BIS 015LV — Introduction to Data Science for Biologists (2 units)
+Description: Course Description: Introduction to data science with a focus on developing practical computational ...
+Source: https://catalog.ucdavis.edu/courses-subject-code/bis/
+Reason: duplicate description
+
+Duplicate 43:
+Title: EBS 289B — Selected Topics in Biological Systems Engineering: Aquacultural Engineering (1-5 units)
+Description: Course Description: Special topics in Aquacultural Engineering....
+Source: https://catalog.ucdavis.edu/courses-subject-code/ebs/
+Reason: duplicate description
+
+Duplicate 44:
+Title: EBS 289F — Selected Topics in Biological Systems Engineering: Food Engineering (1-5 units)
+Description: Course Description: Special topics in Food Engineering....
+Source: https://catalog.ucdavis.edu/courses-subject-code/ebs/
+Reason: duplicate description
+
+Duplicate 45:
+Title: EBS 289G — Selected Topics in Biological Systems Engineering: Forest Engineering (1-5 units)
+Description: Course Description: Special topics in Forest Engineering....
+Source: https://catalog.ucdavis.edu/courses-subject-code/ebs/
+Reason: duplicate description
+
+Duplicate 46:
+Title: ECH 001Y — Design of Coffee–An Introduction to Chemical Engineering (3 units)
+Description: Course Description: Non-mathematical introduction to how chemical engineers think, illustrated by el...
+Source: https://catalog.ucdavis.edu/courses-subject-code/ech/
+Reason: duplicate description
+
+Duplicate 47:
+Title: ECI 244A — Life Cycle Assessment for Sustainable Engineering (4 units)
+Description: Course Description: Life cycle assessment methodology. Emphasis on applications to infrastructure an...
+Source: https://catalog.ucdavis.edu/courses-subject-code/eci/
+Reason: duplicate description
+
+Duplicate 48:
+Title: ECI 267 — Water Resource Management (4 units)
+Description: Course Description: Engineering, institutional, economic, and social basis for managing local and re...
+Source: https://catalog.ucdavis.edu/courses-subject-code/eci/
+Reason: duplicate description
+
+Duplicate 49:
+Title: ECH 172V — Chemical Process Safety Fundamentals (4 units)
+Description: Course Description: Process safety operations. Evaluation of risk and potential process hazard scena...
+Source: https://catalog.ucdavis.edu/courses-subject-code/ech/
+Reason: duplicate description
+
+Duplicate 50:
+Title: ECH 272V — Chemical Process Safety (4 units)
+Description: Course Description: Process safety. Development of source and dispersion models, evaluation of toxic...
+Source: https://catalog.ucdavis.edu/courses-subject-code/ech/
+Reason: duplicate description
+
+Duplicate 51:
+Title: ECH 390 — Teaching of Chemical Engineering (1 unit)
+Description: Course Description: Participation as a teaching assistant or associate-in in a designated engineerin...
+Source: https://catalog.ucdavis.edu/courses-subject-code/ech/
+Reason: duplicate description
+
+Duplicate 52:
+Title: ABT 110 — Irrigation Systems & Water Management (4 units)
+Description: Course Description: Soil and plant aspects of irrigation and drainage. Soil-water principles includi...
+Source: https://catalog.ucdavis.edu/courses-subject-code/abt/
+Reason: duplicate description
+
+Duplicate 53:
+Title: ABT 150 — Introduction to Geographic Information Systems (4 units)
+Description: Course Description: Basic concepts, principles, and methods of GIS are presented. Data structures, d...
+Source: https://catalog.ucdavis.edu/courses-subject-code/abt/
+Reason: duplicate description
+
+Duplicate 54:
+Title: ABT 182 — Environmental Analysis Using GIS (4 units)
+Description: Course Description: Ecosystem and landscape modeling with emphasis on hydrology and solute transport...
+Source: https://catalog.ucdavis.edu/courses-subject-code/abt/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

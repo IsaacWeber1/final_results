@@ -1,0 +1,45 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/california_polytechnic_pamona/pdfs/processed.csv
+WEB file: schools/non_priority/california_polytechnic_pamona/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 346
+WEB has 346 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 2.98
+WEB has higher average relevance by 2.98
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 3
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: ARC 3320 - Environmental Controls 2 (2)
+Description: Performance principles and systems to safeguard occupant comfort while reducing environmental impact...
+Source: 
+Reason: duplicate description
+
+Duplicate 2:
+Title: ARC 3310 - Environmental Controls Systems 1 (2)
+Description: Performance principles and systems to reduce the environmental impact of buildings and to address oc...
+Source: 
+Reason: duplicate description
+
+Duplicate 3:
+Title: ARC 5310 - Environmental Controls Systems 1 (2)
+Description: Performance principles and systems to reduce the environmental impact of buildings and to address oc...
+Source: 
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

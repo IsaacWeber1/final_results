@@ -76,11 +76,10 @@ def main():
                 continue
 
             pdf_dir = school / 'pdfs'
-            raw_data_dir = pdf_dir / 'raw_data'
-            has_json = raw_data_dir.is_dir() and any(raw_data_dir.glob("*.json"))
+            has_processed = pdf_dir.is_dir() and any(pdf_dir.glob("processed.csv"))
 
             # skip if already done
-            if args.mode == 'missing' and has_json:
+            if args.mode == 'missing' and has_processed:
                 print(f"Skipping {category}/{school.name} (already has PDF JSONs).")
                 continue
 
@@ -88,7 +87,7 @@ def main():
                 print(f"  • No pdfs/ folder for {school.name}, skipping.")
                 continue
 
-            print(f"Processing {category}/{school.name} …")
+            # print(f"Processing {category}/{school.name} …")
             ok = run_pdf_scraper(pdf_dir)
             if not ok:
                 failures.append(f"{category}/{school.name}")
