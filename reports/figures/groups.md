@@ -1,8 +1,8 @@
 <img src="../../schools/priority/appalachian_state_university/figures/group_freq.png" />
 <img src="../../schools/priority/california_institute_of_technology/figures/group_freq.png" />
 <img src="../../schools/priority/california_state_university_long_beach/figures/group_freq.png" />
+<img src="../../schools/priority/iowa_state_university/figures/group_freq.png" />
 <img src="../../schools/priority/louisiana_state_university/figures/group_freq.png" />
-<img src="../../schools/priority/massachusetts_institute_of_technology/figures/group_freq.png" />
 <img src="../../schools/priority/morgan_state_university/figures/group_freq.png" />
 <img src="../../schools/priority/north_carolina_state/figures/group_freq.png" />
 <img src="../../schools/priority/oklahoma_state/figures/group_freq.png" />

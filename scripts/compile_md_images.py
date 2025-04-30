@@ -30,20 +30,21 @@ def main():
             gp = fig_dir / "group_freq.png"
             cl = fig_dir / "collapsed_freq.png"
 
-            if kw.exists():
-                keyword_figures.append(os.path.relpath(kw, start=MD_DIR))
-            else:
-                print(f"⚠️  {school.name} missing {kw.name}")
+            if kw.exists() or gp.exists() or cl.exists():
+                if kw.exists():
+                    keyword_figures.append(os.path.relpath(kw, start=MD_DIR))
+                else:
+                    print(f"{school.name} missing {kw.name}")
 
-            if gp.exists():
-                group_figures.append(os.path.relpath(gp, start=MD_DIR))
-            else:
-                print(f"⚠️  {school.name} missing {gp.name}")
+                if gp.exists():
+                    group_figures.append(os.path.relpath(gp, start=MD_DIR))
+                else:
+                    print(f"{school.name} missing {gp.name}")
 
-            if cl.exists():
-                collapsed_figures.append(os.path.relpath(cl, start=MD_DIR))
-            else:
-                print(f"⚠️  {school.name} missing {cl.name}")
+                if cl.exists():
+                    collapsed_figures.append(os.path.relpath(cl, start=MD_DIR))
+                else:
+                    print(f"{school.name} missing {cl.name}")
 
     # helper to write a list of img tags to a markdown file
     def write_md(filename: str, rel_paths: list[str]):
