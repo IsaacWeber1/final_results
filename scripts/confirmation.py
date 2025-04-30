@@ -1,154 +1,196 @@
 # scripts/confirmation.py
 
 import argparse
+import csv
 import sys
 from pathlib import Path
-import json
-import re
-from collections import Counter
 
 
 # add project root to sys.path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-# TODO: ZACH
-
-# Should accept --school (and --mode all) so the Makefile can pass it through
-def load_json_courses(json_path):
-    with open(json_path, 'r', encoding='utf-8') as f:
-        json_data = json.load(f)
-
-    seen_descriptions = set()
-    titles = set()
-    codes = set()
-    duplicates = []
-
-    for entry in json_data:
-        title_field = entry.get('title')
-        description = entry.get('description', '').strip()
-
-        if description.upper() != "N/A" and description:
-            if description in seen_descriptions:
-                duplicates.append(description)
-            else:
-                seen_descriptions.add(description)
-
-        if isinstance(title_field, list):
-            for t in title_field:
-                clean_title = t.strip()
-                if ':' in clean_title:
-                    code_part, actual_title = map(str.strip, clean_title.split(':', 1))
-                    titles.add(actual_title)
-                    codes.add(code_part)
-                else:
-                    titles.add(clean_title)
-        elif isinstance(title_field, str):
-            clean_title = title_field.strip()
-            if ':' in clean_title:
-                code_part, actual_title = map(str.strip, clean_title.split(':', 1))
-                titles.add(actual_title)
-                codes.add(code_part)
-            else:
-                titles.add(clean_title)
-
-    return titles, codes, duplicates
-
-def load_txt_courses(txt_path):
-    with open(txt_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-
-    entries = re.split(r'-{10,}', content)
-
-    seen_descriptions = set()
-    titles = set()
-    codes = set()
-    duplicates = []
-
-    for entry in entries:
-        code_match = re.search(r'Code:\s*(.*)', entry)
-        title_match = re.search(r'Title:\s*(.*)', entry)
-        description_match = re.search(r'Description:\s*(.*)', entry, re.DOTALL)
-
-        description = ""
-        if description_match:
-            description = description_match.group(1).strip()
-
-        if description.upper() != "N/A" and description:
-            if description in seen_descriptions:
-                duplicates.append(description)
-            else:
-                seen_descriptions.add(description)
-
-        if code_match:
-            codes.add(code_match.group(1).strip())
-        if title_match:
-            titles.add(title_match.group(1).strip())
-
-    return titles, codes, duplicates
-
-def find_duplicates(descriptions):
-    counter = Counter(descriptions)
-    return [desc for desc, count in counter.items() if count > 1]
-
-def compare_courses(json_path, txt_path):
-    json_titles, json_codes, json_dupes = load_json_courses(json_path)
-    txt_titles, txt_codes, txt_dupes = load_txt_courses(txt_path)
-
-    matched_titles = json_titles.intersection(txt_titles)
-    matched_codes = json_codes.intersection(txt_codes)
-
-    total_json_courses = len(json_titles.union(json_codes))
-    matched_total = len(matched_titles.union(matched_codes))
-    match_percentage = (matched_total / total_json_courses) * 100 if total_json_courses else 0
-
-    missing = sorted((json_titles | json_codes) - (txt_titles | txt_codes))
-    extra = sorted((txt_titles | txt_codes) - (json_titles | json_codes))
+def compare_courses(PDF_path, WEB_path):
+    def process_csv(file_path):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                total_score = 0.0
+                count = 0
+                seen_titles = set()
+                seen_descriptions = set()
+                duplicates = []
+                for row in reader:
+                    try:
+                        # Extract and clean the title (handle the list format)
+                        title_str = row['title'].strip("[]").replace("'", "")
+                        titles_list = [t.strip() for t in title_str.split(',')]
+                        primary_title = titles_list[0] if titles_list else ""
+                        
+                        # Clean the description
+                        description = row['description'].strip() if 'description' in row else ""
+                        
+                        # Check for duplicates in title OR description
+                        is_duplicate = False
+                        duplicate_reason = []
+                        
+                        if primary_title in seen_titles:
+                            is_duplicate = True
+                            duplicate_reason.append("duplicate title")
+                        if description in seen_descriptions:
+                            is_duplicate = True
+                            duplicate_reason.append("duplicate description")
+                        
+                        if is_duplicate:
+                            duplicates.append({
+                                'title': primary_title,
+                                'description': description,
+                                'source': row.get('source', ''),
+                                'reason': " or ".join(duplicate_reason)
+                            })
+                        
+                        # Add to seen sets even if it's a duplicate
+                        seen_titles.add(primary_title)
+                        seen_descriptions.add(description)
+                        
+                        relevance = float(row['relevance_score'])
+                        total_score += relevance
+                        count += 1
+                    except (ValueError, KeyError) as e:
+                        continue
+                
+                avg_score = total_score / count if count > 0 else 0.0
+                return count, avg_score, duplicates
+                
+        except FileNotFoundError:
+            print(f"Error: File not found at {file_path}")
+            return 0, 0.0, {}
+        except Exception as e:
+            print(f"Error processing {file_path}: {e}")
+            return 0, 0.0, {}
+    
+    # Process both files
+    pdf_count, pdf_avg, pdf_duplicates = process_csv(PDF_path)
+    web_count, web_avg, web_duplicates = process_csv(WEB_path)
+    
+    # Calculate comparison metrics
+    count_diff = web_count - pdf_count
+    score_diff = web_avg - pdf_avg
 
     return {
-        'total_json_courses': total_json_courses,
-        'matched_courses': matched_total,
-        'match_percentage': match_percentage,
-        'missing_from_txt': missing,
-        'extra_in_txt': extra,
-        'json_duplicates': json_dupes,
-        'txt_duplicates': txt_dupes,
+    'pdf_stats': {
+        'file_path': str(PDF_path),
+        'course_count': pdf_count,
+        'avg_relevance': pdf_avg,
+        'duplicate_count': len(pdf_duplicates)
+    },
+    'web_stats': {
+        'file_path': str(WEB_path),
+        'course_count': web_count,
+        'avg_relevance': web_avg,
+        'duplicate_count': len(web_duplicates)
+    },
+    'comparison': {
+        'count_difference': count_diff,
+        'score_difference': score_diff
+    },
+    'duplicates': {
+        'pdf_duplicates': pdf_duplicates,
+        'web_duplicates': web_duplicates
     }
+}
 
 def save_report(report, output_path):
     with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(f"Match Percentage: {report['match_percentage']:.2f}%\n")
-        f.write(f"Matched Courses: {report['matched_courses']} / {report['total_json_courses']}\n\n")
-
-        f.write("Missing from TXT file:\n")
-        for item in report['missing_from_txt']:
-            f.write(f" - {item}\n")
-
-        f.write("\nExtra in TXT file:\n")
-        for item in report['extra_in_txt']:
-            f.write(f" - {item}\n")
-
-        f.write("\nDuplicate Descriptions in JSON:\n")
-        for dup in report['json_duplicates']:
-            f.write(f" - {dup}\n")  # Print a shortened version
-
-        f.write("\nDuplicate Descriptions in TXT:\n")
-        for dup in report['txt_duplicates']:
-            f.write(f" - {dup}\n")
+        # Write header
+        f.write("=== COURSE COMPARISON REPORT ===\n\n")
+        
+        # Write basic file info
+        f.write("=== FILE INFORMATION ===\n")
+        f.write(f"PDF file: {report['pdf_stats']['file_path']}\n")
+        f.write(f"WEB file: {report['web_stats']['file_path']}\n\n")
+        
+        # Write counts comparison
+        f.write("=== COURSE COUNTS ===\n")
+        f.write(f"PDF courses: {report['pdf_stats']['course_count']}\n")
+        f.write(f"WEB courses: {report['web_stats']['course_count']}\n")
+        count_diff = report['comparison']['count_difference']
+        if count_diff > 0:
+            f.write(f"WEB has {abs(count_diff)} more courses than PDF\n")
+        elif count_diff < 0:
+            f.write(f"PDF has {abs(count_diff)} more courses than WEB\n")
+        else:
+            f.write("Both sources have the same number of courses\n")
+        f.write("\n")
+        
+        # Write relevance comparison
+        f.write("=== AVERAGE RELEVANCE SCORES ===\n")
+        f.write(f"PDF average relevance: {report['pdf_stats']['avg_relevance']:.2f}\n")
+        f.write(f"WEB average relevance: {report['web_stats']['avg_relevance']:.2f}\n")
+        score_diff = report['comparison']['score_difference']
+        if score_diff > 0:
+            f.write(f"WEB has higher average relevance by {abs(score_diff):.2f}\n")
+        elif score_diff < 0:
+            f.write(f"PDF has higher average relevance by {abs(score_diff):.2f}\n")
+        else:
+            f.write("Both sources have the same average relevance\n")
+        f.write("\n")
+        
+        # Write duplicates summary
+        f.write("=== DUPLICATES SUMMARY ===\n")
+        f.write(f"PDF duplicates found: {report['pdf_stats']['duplicate_count']}\n")
+        f.write(f"WEB duplicates found: {report['web_stats']['duplicate_count']}\n\n")
+        
+        # Write PDF duplicates details
+        if report['pdf_stats']['duplicate_count'] > 0:
+            f.write("=== PDF DUPLICATES DETAILS ===\n")
+            for i, dup in enumerate(report['duplicates']['pdf_duplicates'], 1):
+                f.write(f"Duplicate {i}:\n")
+                f.write(f"Title: {dup['title']}\n")
+                f.write(f"Description: {dup['description'][:100]}...\n")  # First 100 chars
+                f.write(f"Source: {dup['source']}\n")
+                f.write(f"Reason: {dup.get('reason', 'duplicate title or description')}\n\n")
+        
+        # Write WEB duplicates details
+        if report['web_stats']['duplicate_count'] > 0:
+            f.write("=== WEB DUPLICATES DETAILS ===\n")
+            for i, dup in enumerate(report['duplicates']['web_duplicates'], 1):
+                f.write(f"Duplicate {i}:\n")
+                f.write(f"Title: {dup['title']}\n")
+                f.write(f"Description: {dup['description'][:100]}...\n")  # First 100 chars
+                f.write(f"Source: {dup['source']}\n")
+                f.write(f"Reason: {dup.get('reason', 'duplicate title or description')}\n\n")
+        
+        # Write overall similarity assessment
+        f.write("=== OVERALL SIMILARITY ASSESSMENT ===\n")
+        count_similarity = 1 - (abs(count_diff) / max(report['pdf_stats']['course_count'], 
+                                                    report['web_stats']['course_count'], 1))
+        score_similarity = 1 - (abs(score_diff) / max(report['pdf_stats']['avg_relevance'],
+                                                     report['web_stats']['avg_relevance'], 1))
+        
+        f.write(f"Course count similarity: {count_similarity*100:.1f}%\n")
+        f.write(f"Relevance score similarity: {score_similarity*100:.1f}%\n")
+        
+        overall_similarity = (count_similarity + score_similarity) / 2
+        f.write(f"\nOverall similarity between sources: {overall_similarity*100:.1f}%\n")
+        
+        if overall_similarity > 0.8:
+            f.write("VERY HIGH similarity between sources\n")
+        elif overall_similarity > 0.6:
+            f.write("HIGH similarity between sources\n")
+        elif overall_similarity > 0.4:
+            f.write("MODERATE similarity between sources\n")
+        else:
+            f.write("LOW similarity between sources\n")
 
 def process_school(school_arg: str):
     # accept either "priority/uni_name" or "non_priority/uni_name"
     school_dir = Path("schools") / school_arg
-    json_file  = school_dir / "raw_data" / "combined.json"
-    txt_file   = school_dir / "formatted_courses.txt"
+    PDFCSV_file  = school_dir / "pdfs" / "processed.csv"
+    WEBCSV_file   = school_dir / "processed_data" / "processed.csv"
     report_file= school_dir / "comparison_report.txt"
 
-    if not json_file.exists():
-        raise FileNotFoundError(f"{json_file} not found")
-    if not txt_file.exists():
-        raise FileNotFoundError(f"{txt_file} not found")
-
-    report = compare_courses(json_file, txt_file)
+    report = compare_courses(PDFCSV_file, WEBCSV_file)
     save_report(report, report_file)
 
 def process_all():
