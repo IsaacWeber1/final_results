@@ -1,0 +1,33 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/yale_university/pdfs/processed.csv
+WEB file: schools/priority/yale_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 5
+WEB has 5 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 4.50
+WEB has higher average relevance by 4.50
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 1
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: * HUMS 0245a / NELC 0090a
+Description: Harem conspiracies, kings’ assassinations, self-defense killings, witch hunts, and serial murderers....
+Source: https://catalog.yale.edu/ycps/courses/hums/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

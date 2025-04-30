@@ -1,0 +1,75 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/university_of_florida/pdfs/processed.csv
+WEB file: schools/priority/university_of_florida/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 181
+WEB has 181 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.06
+WEB has higher average relevance by 3.06
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 8
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: BSC\xa02862 Global Change Ecology and Sustainability
+Description: Examines key issues in sustainability and global environmental change from an ecological perspective...
+Source: https://catalog.ufl.edu/UGRD/courses/biological_sciences/
+Reason: duplicate title or duplicate description
+
+Duplicate 2:
+Title: BSC\xa04055 Climate Change and Human Systems
+Description: Principles derived from basic medical science, ecology, and relevant social sciences describe the ma...
+Source: https://catalog.ufl.edu/UGRD/courses/biological_sciences/
+Reason: duplicate title or duplicate description
+
+Duplicate 3:
+Title: BSC\xa02862 Global Change Ecology and Sustainability
+Description: Examines key issues in sustainability and global environmental change from an ecological perspective...
+Source: https://catalog.ufl.edu/UGRD/courses/biological_sciences/
+Reason: duplicate title or duplicate description
+
+Duplicate 4:
+Title: BSC\xa04055 Climate Change and Human Systems
+Description: Principles derived from basic medical science, ecology, and relevant social sciences describe the ma...
+Source: https://catalog.ufl.edu/UGRD/courses/biological_sciences/
+Reason: duplicate title or duplicate description
+
+Duplicate 5:
+Title: SPM\xa03109 Sport Event Management
+Description: This course introduces students to the fundamentals of project management and its application to spo...
+Source: https://catalog.ufl.edu/UGRD/courses/sport-management/
+Reason: duplicate title or duplicate description
+
+Duplicate 6:
+Title: SPM\xa04154 Managing Organizations in Sport
+Description: Discusses managerial principles and techniques applicable to a multitude of sport organizations, and...
+Source: https://catalog.ufl.edu/UGRD/courses/sport-management/
+Reason: duplicate title or duplicate description
+
+Duplicate 7:
+Title: SPM\xa04612 Environmental Sustainability and Sport
+Description: Students will learn about the components of successful environmental sustainability programs through...
+Source: https://catalog.ufl.edu/UGRD/courses/sport-management/
+Reason: duplicate title or duplicate description
+
+Duplicate 8:
+Title: CEN\xa03907C Computer Engineering Design 1
+Description: Reinforce basic computer engineering skills; design, produce, and report on a computer engineering p...
+Source: https://catalog.ufl.edu/UGRD/courses/computer_and_information_science_and_engineering/
+Reason: duplicate title or duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

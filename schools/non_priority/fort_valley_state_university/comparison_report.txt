@@ -1,0 +1,26 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/fort_valley_state_university/pdfs/processed.csv
+WEB file: schools/non_priority/fort_valley_state_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 8
+WEB has 8 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 2.12
+WEB has higher average relevance by 2.12
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 0
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

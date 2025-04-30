@@ -1,0 +1,63 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/louisiana_state_university/pdfs/processed.csv
+WEB file: schools/priority/louisiana_state_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 227
+WEB has 227 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.00
+WEB has higher average relevance by 3.00
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 6
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: ANTH 4042 Enterprise Geographic Information Systems (3)
+Description: See ....
+Source: 
+Reason: duplicate description
+
+Duplicate 2:
+Title: ANSC 4087 Best Practices for Environmental Sustainability in Agriculture (3)
+Description: No Description Found...
+Source: 
+Reason: duplicate description
+
+Duplicate 3:
+Title: BE 4340 Food and Bioprocess Engineering (3)
+Description: See ....
+Source: 
+Reason: duplicate description
+
+Duplicate 4:
+Title: CM 2100 Construction Materials and Methods I (3)
+Description: Principal materials and methods used in building construction, emphasizing common construction syste...
+Source: 
+Reason: duplicate description
+
+Duplicate 5:
+Title: RNR 2061 Problems in Natural Resource Management (1-4)
+Description: Individual, independent, mentored, and directed study....
+Source: 
+Reason: duplicate description
+
+Duplicate 6:
+Title: TAM 7900 Research and Project Development in Textiles
+Description: Directed research and focused project development under the supervision of the major professor....
+Source: 
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

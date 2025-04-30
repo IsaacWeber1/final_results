@@ -1,0 +1,39 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/morgan_state_university/pdfs/processed.csv
+WEB file: schools/priority/morgan_state_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 5
+WEB courses: 74
+WEB has 69 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 2.50
+WEB average relevance: 3.07
+WEB has higher average relevance by 0.57
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 2
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: SUEE 492 - Senior Review and Project Proposal
+Description: The capstone course sequence in Civil Engineering (SUEE 492 and 493) provide the culminating experie...
+Source: 
+Reason: duplicate description
+
+Duplicate 2:
+Title: SUEE 463 - Physical/Chemical Treatment of Wastewater
+Description: Theory and application of physical and chemical operation and processes for wastewater treatment. To...
+Source: 
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 6.8%
+Relevance score similarity: 81.5%
+
+Overall similarity between sources: 44.1%
+MODERATE similarity between sources

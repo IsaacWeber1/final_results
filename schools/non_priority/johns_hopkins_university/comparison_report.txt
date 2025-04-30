@@ -1,0 +1,39 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/johns_hopkins_university/pdfs/processed.csv
+WEB file: schools/non_priority/johns_hopkins_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 115
+WEB has 115 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.80
+WEB has higher average relevance by 3.80
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 2
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: EN.662.812. MSEM Seminar. 1 Credit.
+Description: Professional development seminar for engineering management students featuring outside speakers with...
+Source: https://e-catalogue.jhu.edu/course-descriptions/center_for_leadership_education/
+Reason: duplicate description
+
+Duplicate 2:
+Title: EN.560.836. Graduate Research. 3 - 20 Credits.
+Description: Graduate students pursue research problems with a faculty supervisor. This course will provide a Civ...
+Source: https://e-catalogue.jhu.edu/course-descriptions/civil_engineering/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

@@ -1,0 +1,45 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/new_york_university/pdfs/processed.csv
+WEB file: schools/non_priority/new_york_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 47
+WEB has 47 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.46
+WEB has higher average relevance by 3.46
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 3
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: SCA-UA 9890 Current Social
+Description: An introduction to urban societies and politics in Europe. Designed to provide students with practic...
+Source: https://bulletins.nyu.edu/undergraduate/arts-science/courses/sca-ua/
+Reason: duplicate description
+
+Duplicate 2:
+Title: ANTH-UA 490 Urban Political Ecology (4 Credits)
+Description: Explores the gap between aspirations for, and the enactment of, urban sustainability. How contests o...
+Source: https://bulletins.nyu.edu/undergraduate/arts-science/courses/anth-ua/
+Reason: duplicate description
+
+Duplicate 3:
+Title: ANTH-UA 9093 Current Social
+Description: An introduction to urban societies and politics in Europe. Designed to provide students with practic...
+Source: https://bulletins.nyu.edu/undergraduate/arts-science/courses/anth-ua/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

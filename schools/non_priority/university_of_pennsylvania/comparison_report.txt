@@ -1,0 +1,93 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/university_of_pennsylvania/pdfs/processed.csv
+WEB file: schools/non_priority/university_of_pennsylvania/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 501
+WEB has 501 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.83
+WEB has higher average relevance by 3.83
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 11
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: DYNM 6210 Leading through Solidarity: Strategies for Building a Culture of Belonging
+Description: This course sets out to cultivate critical thinking, self-reflection, and practical skills necessary...
+Source: https://catalog.upenn.edu/courses/dynm/
+Reason: duplicate description
+
+Duplicate 2:
+Title: EDSL 5010B Sustainability In Schools
+Description: Addresses an issue of great relevance to schools in the 21st century. As the leadership program come...
+Source: https://catalog.upenn.edu/courses/edsl/
+Reason: duplicate description
+
+Duplicate 3:
+Title: EAS 2220 SEAS Global Program - China I
+Description: Penn Engineering's global and local service learning courses aim to improve human lives through sust...
+Source: https://catalog.upenn.edu/courses/eas/
+Reason: duplicate description
+
+Duplicate 4:
+Title: EAS 2240 SEAS Global Program - Guatemala I
+Description: Penn Engineering's global and local service learning courses aim to improve human lives through sust...
+Source: https://catalog.upenn.edu/courses/eas/
+Reason: duplicate description
+
+Duplicate 5:
+Title: EAS 2250 SEAS Global Program - Guatemala II
+Description: Penn Engineering's global and local service learning courses aim to improve human lives through sust...
+Source: https://catalog.upenn.edu/courses/eas/
+Reason: duplicate description
+
+Duplicate 6:
+Title: EAS 2260 SEAS Global Program - Rwanda I
+Description: Penn Engineering's global and local service learning courses aim to improve human lives through sust...
+Source: https://catalog.upenn.edu/courses/eas/
+Reason: duplicate description
+
+Duplicate 7:
+Title: EAS 2270 SEAS Global Program - Rwanda II
+Description: Penn Engineering's global and local service learning courses aim to improve human lives through sust...
+Source: https://catalog.upenn.edu/courses/eas/
+Reason: duplicate description
+
+Duplicate 8:
+Title: EAS 2280 SEAS Global Program - Ghana I
+Description: Penn Engineering's global and local service learning courses aim to improve human lives through sust...
+Source: https://catalog.upenn.edu/courses/eas/
+Reason: duplicate description
+
+Duplicate 9:
+Title: EAS 2290 SEAS Global Program - Ghana II
+Description: Penn Engineering's global and local service learning courses aim to improve human lives through sust...
+Source: https://catalog.upenn.edu/courses/eas/
+Reason: duplicate description
+
+Duplicate 10:
+Title: EALC 5322 Chinese Fiction and Drama in Translation
+Description: This course explores Romance of Three Kingdoms the most popular classica l novel in East Asia and an...
+Source: https://catalog.upenn.edu/courses/ealc/
+Reason: duplicate description
+
+Duplicate 11:
+Title: EESC 4250 Our Water Planet
+Description: Water, the “universal solvent”, is a miraculous substance that makes Earth unique in the solar syste...
+Source: https://catalog.upenn.edu/courses/eesc/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

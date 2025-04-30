@@ -1,0 +1,45 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/texas_a_m/pdfs/processed.csv
+WEB file: schools/priority/texas_a_m/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 566
+WEB has 566 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.00
+WEB has higher average relevance by 3.00
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 3
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: PSAA 452 Energy Policy
+Description: Credits 3. 3 Lecture Hours. Externalities and optimal policy response to externalities; fossil fuels...
+Source: https://catalog.tamu.edu/undergraduate/government-public-service/public-service-administration/
+Reason: duplicate title or duplicate description
+
+Duplicate 2:
+Title: ISTM 630 MIS Project Management and Implementation
+Description: Credits 3. 3 Lecture Hours. Advanced coverage of systems development topics with emphasis on the man...
+Source: https://catalog.tamu.edu/undergraduate/business/information-operations-management/
+Reason: duplicate title or duplicate description
+
+Duplicate 3:
+Title: ISTM 660 Applied Predictive Analytics for Business
+Description: Credits 3. 3 Lecture Hours. Develop an understanding of the role of predictive analytics in shaping ...
+Source: https://catalog.tamu.edu/undergraduate/business/information-operations-management/
+Reason: duplicate title or duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

@@ -1,0 +1,39 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/baldwin_wallace_university/pdfs/processed.csv
+WEB file: schools/non_priority/baldwin_wallace_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 34
+WEB has 34 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.79
+WEB has higher average relevance by 3.79
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 2
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: SUS 298X - Sustainability Internship
+Description: The for-credit internship registration process is handled via the Career Center Handshake platform. ...
+Source: 
+Reason: duplicate description
+
+Duplicate 2:
+Title: PHL 273(X) - Environmental Ethics
+Description: An exploration of the ethical issues associated with the impact of human activity on the environment...
+Source: 
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

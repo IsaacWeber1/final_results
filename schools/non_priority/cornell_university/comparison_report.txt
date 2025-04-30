@@ -1,0 +1,189 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/cornell_university/pdfs/processed.csv
+WEB file: schools/non_priority/cornell_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 733
+WEB has 733 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.88
+WEB has higher average relevance by 3.88
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 27
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: BEE 4670 - Applied Water Research in NYS
+Description: Spring. 1 credit. S/U grades only. Co-meets with . B. Rahm. Every year, the New York State Water Res...
+Source: 
+Reason: duplicate description
+
+Duplicate 2:
+Title: AEM 4490 - Financial Markets and Sustainability
+Description: Fall. 3 credits. Letter grades only (no audit). Co-meets with . S. Thakor, J. Tobin. This course pro...
+Source: 
+Reason: duplicate description
+
+Duplicate 3:
+Title: AEM 4090 - Environmental Finance and Markets
+Description: (CU-CEL, CU-SBY) Spring. 3 credits. Letter grades only. Prerequisite: or equivalent. Co-meets with ....
+Source: 
+Reason: duplicate description
+
+Duplicate 4:
+Title: ANSC 3510 - Dairy Herd Management
+Description: (CU-CEL, CU-SBY) Spring. 4 credits. Letter grades only. Prerequisite: or permission of instructor. R...
+Source: 
+Reason: duplicate description
+
+Duplicate 5:
+Title: ANSC 3450 - Reproductive Physiology and Management of Dairy Cattle
+Description: (CU-SBY) Spring. 3 credits. Letter grades only. Prerequisite: . Co-meets with . J. Giordano. This co...
+Source: 
+Reason: duplicate description
+
+Duplicate 6:
+Title: ANSC 3100 - Animal Welfare
+Description: Spring. 3 credits. Student option grading. Prerequisite: one semester of college level Biology ( or ...
+Source: 
+Reason: duplicate description
+
+Duplicate 7:
+Title: ARCH 1611 - Environmental Systems I: Introduction to Sustainable Design
+Description: (CU-SBY) Fall. 3 credits. Letter grades only. Co-meets with . Staff. This course examines the relati...
+Source: 
+Reason: duplicate description
+
+Duplicate 8:
+Title: CEE 6726 - Intermediate Solid Mechanics
+Description: Fall, Summer. 4 credits. Letter grades only. Prerequisite: , and . Offered in summer through the Eng...
+Source: 
+Reason: duplicate description
+
+Duplicate 9:
+Title: CRP 3840 - Green Cities
+Description: (CU-SBY) Fall. 3 credits. Student option grading. Co-meets with . S. Schmidt. Cities are centers of ...
+Source: 
+Reason: duplicate description
+
+Duplicate 10:
+Title: ECE 4590 - Thin-Film Materials Science
+Description: Spring. 3 credits. Student option grading. Co-meets with . H. Nair. Provides fundamental information...
+Source: 
+Reason: duplicate description
+
+Duplicate 11:
+Title: FDSC 5920 - Food Systems Microbiology
+Description: Spring. 2 credits. Letter grades only. Prerequisite: one college-level course in microbiology, or pe...
+Source: 
+Reason: duplicate description
+
+Duplicate 12:
+Title: FDSC 5210 - Food Engineering Principles
+Description: Fall, Spring. 4 credits. Letter grades only (no audit). Prerequisite: and introductory physics. Co-m...
+Source: 
+Reason: duplicate description
+
+Duplicate 13:
+Title: HADM 6440 - [Lodging Industry Strategy and Innovation
+Description: Fall. Not offered: 2024-2025. Next offered: 2025-2026. 1.5 credits. Student option grading (no audit...
+Source: 
+Reason: duplicate description
+
+Duplicate 14:
+Title: INFO 4390 - Practical Principles for Designing Fair Algorithms
+Description: Spring. 3 credits. Student option grading. Students should have experience coding in Python and have...
+Source: 
+Reason: duplicate description
+
+Duplicate 15:
+Title: LEAD 5223 - Lifelong Learning
+Description: (crosslisted) , (CU-CEL, CU-SBY) Spring. 4 credits. Letter grades only. Prerequisite: experience in ...
+Source: 
+Reason: duplicate description
+
+Duplicate 16:
+Title: LEAD 4223 - Lifelong Learning
+Description: (crosslisted) , (CU-CEL, CU-SBY) Spring. 4 credits. Letter grades only. Recommended prerequisite: ex...
+Source: 
+Reason: duplicate description
+
+Duplicate 17:
+Title: MAE 5910 - Model Based Systems Engineering
+Description: (crosslisted) , , , Fall. 4 credits. Student option grading (no audit). Prerequisite or corequisite:...
+Source: 
+Reason: duplicate description
+
+Duplicate 18:
+Title: NTRES 4280 - Principles and Practices of Applied Wildlife Science
+Description: (CU-SBY) Spring. 3 credits. Student option grading. Prerequisite: or equivalent. Permission of instr...
+Source: 
+Reason: duplicate description
+
+Duplicate 19:
+Title: PUBPOL 3135 - World Food Systems and Public Policy
+Description: Fall. 3 credits. Letter grades only. Co-meets with . S. Pachauri. This course aims to teach students...
+Source: 
+Reason: duplicate description
+
+Duplicate 20:
+Title: PUBPOL 5860 - Women in Leadership and Entrepreneurship in Developing Country Contexts
+Description: Spring. 3 credits. Letter grades only. Co-meets with . S. Pachauri. This course investigates the evo...
+Source: 
+Reason: duplicate description
+
+Duplicate 21:
+Title: SYSEN 5480 - Human-Centered Design for Change in Complex Systems
+Description: Spring. 3 credits. Student option grading (no audit). A. Strong. Bringing about change in ourselves,...
+Source: 
+Reason: duplicate description
+
+Duplicate 22:
+Title: SYSEN 5210 - Economics of the Energy Transition
+Description: (crosslisted) , (CU-SBY) Fall. 3 credits. Letter grades only. Prerequisite: or , or . J. Mays. For d...
+Source: 
+Reason: duplicate description
+
+Duplicate 23:
+Title: SYSEN 5180 - Sociotechnical Systems and Policy
+Description: (CU-SBY) Fall. 3 credits. Student option grading. Co-meets with . E. Palmer. This transdisciplinary ...
+Source: 
+Reason: duplicate description
+
+Duplicate 24:
+Title: SYSEN 4050 - Systems Engineering Design Fundamentals
+Description: Spring. 2 credits. Letter grades only. Permission of instructor required. Homework and final project...
+Source: 
+Reason: duplicate description
+
+Duplicate 25:
+Title: VIEN 6310 - The Science and Technology of Beer Laboratory
+Description: (crosslisted) Fall. 2 credits. Student option grading (no audit). Prerequisite: and / . Permission o...
+Source: 
+Reason: duplicate description
+
+Duplicate 26:
+Title: VIEN 4310 - The Science and Technology of Beer Laboratory
+Description: (crosslisted) Fall. 2 credits. Student option grading (no audit). Prerequisite: and / . Permission o...
+Source: 
+Reason: duplicate description
+
+Duplicate 27:
+Title: AEM 2770 - Excursions in Computational Sustainability
+Description: (crosslisted) , (SBA-AG) (CU-SBY) Spring. 3 credits. Student option grading. Students are expected t...
+Source: 
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

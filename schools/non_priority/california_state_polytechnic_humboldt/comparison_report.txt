@@ -1,0 +1,45 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/california_state_polytechnic_humboldt/pdfs/processed.csv
+WEB file: schools/non_priority/california_state_polytechnic_humboldt/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 417
+WEB has 417 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 4.66
+WEB has higher average relevance by 4.66
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 3
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: ECON 306D - Economics of the Developing World - Additional Depth
+Description: Additional depth of content for . Students receive single grade for combined four units of and . Upp...
+Source: 
+Reason: duplicate description
+
+Duplicate 2:
+Title: PSCI 387 - International Education Colloquium
+Description: Earn credit by attending International Education Week events and participating in an online discussi...
+Source: 
+Reason: duplicate description
+
+Duplicate 3:
+Title: ANTH 387 - International Education Colloquium
+Description: Earn credit by attending International Education Week events and participating in an online discussi...
+Source: 
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

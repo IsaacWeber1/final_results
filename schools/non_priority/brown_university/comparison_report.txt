@@ -1,0 +1,45 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/brown_university/pdfs/processed.csv
+WEB file: schools/non_priority/brown_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 72
+WEB has 72 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.49
+WEB has higher average relevance by 3.49
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 3
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: ENGN 1920. Sustainable Energy: Science and Technology
+Description: The energy transition from fossil fuels to renewable sources may be the defining technological issue...
+Source: https://bulletin.brown.edu/engineering/
+Reason: duplicate description
+
+Duplicate 2:
+Title: ENGN 1932P. Sustainable Energy: Science and Technology
+Description: The energy transition from fossil fuels to renewable sources may be the defining technological issue...
+Source: https://bulletin.brown.edu/engineering/
+Reason: duplicate description
+
+Duplicate 3:
+Title: ENGN 2705. Sustainable Energy: Science and Technology
+Description: The energy transition from fossil fuels to renewable sources may be the defining technological issue...
+Source: https://bulletin.brown.edu/engineering/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

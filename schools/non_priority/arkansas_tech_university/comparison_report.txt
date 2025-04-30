@@ -1,0 +1,111 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/arkansas_tech_university/pdfs/processed.csv
+WEB file: schools/non_priority/arkansas_tech_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 106
+WEB has 106 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 2.86
+WEB has higher average relevance by 2.86
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 14
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: FW 2833
+Description: An introductory course dealing with computer organized spatial and attribute data. GIS is a system o...
+Source: https://catalog.atu.edu/courses/fw/
+Reason: duplicate description
+
+Duplicate 2:
+Title: FW 5103
+Description: Exploration of the complex interactions of social, political, institutional, economic and ecological...
+Source: https://catalog.atu.edu/courses/fw/
+Reason: duplicate description
+
+Duplicate 3:
+Title: MCEG 6892
+Description: Students will complete an engineering project approved by their Advisory Committee. The project must...
+Source: https://catalog.atu.edu/courses/mceg/
+Reason: duplicate description
+
+Duplicate 4:
+Title: MCEG 6893
+Description: Students will complete an engineering project approved by their Advisory Committee. The project must...
+Source: https://catalog.atu.edu/courses/mceg/
+Reason: duplicate description
+
+Duplicate 5:
+Title: MCEG 6894
+Description: Students will complete an engineering project approved by their Advisory Committee. The project must...
+Source: https://catalog.atu.edu/courses/mceg/
+Reason: duplicate description
+
+Duplicate 6:
+Title: MCEG 6895
+Description: Students will complete an engineering project approved by their Advisory Committee. The project must...
+Source: https://catalog.atu.edu/courses/mceg/
+Reason: duplicate description
+
+Duplicate 7:
+Title: MCEG 6896
+Description: Students will complete an engineering project approved by their Advisory Committee. The project must...
+Source: https://catalog.atu.edu/courses/mceg/
+Reason: duplicate description
+
+Duplicate 8:
+Title: ELEG 4202
+Description: This course serves as the first part of a two course sequence in which the student completes a senio...
+Source: https://catalog.atu.edu/courses/eleg/
+Reason: duplicate description
+
+Duplicate 9:
+Title: ELEG 6892
+Description: Students will complete an electrical engineering project approved by their Advisory Committee. The p...
+Source: https://catalog.atu.edu/courses/eleg/
+Reason: duplicate description
+
+Duplicate 10:
+Title: ELEG 6893
+Description: Students will complete an electrical engineering project approved by their Advisory Committee. The p...
+Source: https://catalog.atu.edu/courses/eleg/
+Reason: duplicate description
+
+Duplicate 11:
+Title: ELEG 6894
+Description: Students will complete an electrical engineering project approved by their Advisory Committee. The p...
+Source: https://catalog.atu.edu/courses/eleg/
+Reason: duplicate description
+
+Duplicate 12:
+Title: ELEG 6895
+Description: Students will complete an electrical engineering project approved by their Advisory Committee. The p...
+Source: https://catalog.atu.edu/courses/eleg/
+Reason: duplicate description
+
+Duplicate 13:
+Title: ELEG 6896
+Description: Students will complete an electrical engineering project approved by their Advisory Committee. The p...
+Source: https://catalog.atu.edu/courses/eleg/
+Reason: duplicate description
+
+Duplicate 14:
+Title: BDA 6323
+Description: This course will explore multivariate techniques to analyzing data (e.g. multivariate regression, di...
+Source: https://catalog.atu.edu/courses/bda/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

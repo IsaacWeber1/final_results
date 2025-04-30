@@ -1,0 +1,255 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/california_institute_of_technology/pdfs/processed.csv
+WEB file: schools/priority/california_institute_of_technology/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 115
+WEB has 115 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.25
+WEB has higher average relevance by 3.25
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 38
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: Advanced Work in Materials Science
+Description: The staff in materials science will arrange special courses or problems to meet the needs of advance...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/MS/
+Reason: duplicate title
+
+Duplicate 2:
+Title: Mechanics and Materials Aspects of Fracture
+Description: Analytical and experimental techniques in the study of fracture in metallic and nonmetallic solids. ...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/MS/
+Reason: duplicate title or duplicate description
+
+Duplicate 3:
+Title: Combustion Fundamentals
+Description: The course will cover chemical equilibrium, chemical kinetics, combustion chemistry, transport pheno...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/ME/
+Reason: duplicate title or duplicate description
+
+Duplicate 4:
+Title: Imperfections in Crystals
+Description: The relation of lattice defects to the physical and mechanical properties of crystalline solids. Int...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/ME/
+Reason: duplicate title or duplicate description
+
+Duplicate 5:
+Title: Mechanics and Materials Aspects of Fracture
+Description: Analytical and experimental techniques in the study of fracture in metallic and nonmetallic solids. ...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/ME/
+Reason: duplicate title or duplicate description
+
+Duplicate 6:
+Title: Closed Loop Flow Control
+Description: This course seeks to introduce students to recent developments in theoretical and practical aspects ...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/ME/
+Reason: duplicate title or duplicate description
+
+Duplicate 7:
+Title: Computational Methods for Flow in Porous Media
+Description: This course covers physical, mathematical, and simulation aspects of single and two-phase flow and t...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/Ge/
+Reason: duplicate title or duplicate description
+
+Duplicate 8:
+Title: First-Year Seminar: The Mathematics of Enzyme Kinetics
+Description: Enzymes are at the heart of biochemistry. We will begin with a down to earth discussion of how, as c...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/FS/
+Reason: duplicate title or duplicate description
+
+Duplicate 9:
+Title: Computational Methods for Flow in Porous Media
+Description: This course covers physical, mathematical, and simulation aspects of single and two-phase flow and t...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/ESE/
+Reason: duplicate title or duplicate description
+
+Duplicate 10:
+Title: Challenges and Opportunities in Quantitative Ecology
+Description: Ecosystems are defined by dynamical interactions between groups of organisms, the communities they c...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/ESE/
+Reason: duplicate title or duplicate description
+
+Duplicate 11:
+Title: Management of Technology
+Description: A course intended for students interested in learning how rapidly evolving technologies are harnesse...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/E/
+Reason: duplicate title or duplicate description
+
+Duplicate 12:
+Title: Human Nature
+Description: Policy makers since at least the time of Jeremy Bentham have argued that welfare maximization ought ...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/HPS/
+Reason: duplicate title or duplicate description
+
+Duplicate 13:
+Title: Waste in the World
+Description: The things that human beings make and throw away rarely stay where we put them. Just as humans have ...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/Hum/
+Reason: duplicate title or duplicate description
+
+Duplicate 14:
+Title: Waste in the World
+Description: The things that human beings make and throw away rarely stay where we put them. Just as humans have ...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/H/
+Reason: duplicate title or duplicate description
+
+Duplicate 15:
+Title: Closed Loop Flow Control
+Description: This course seeks to introduce students to recent developments in theoretical and practical aspects ...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/CDS/
+Reason: duplicate title or duplicate description
+
+Duplicate 16:
+Title: Computational Mechanics
+Description: Numerical methods and techniques for solving initial boundary value problems in continuum mechanics ...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/CE/
+Reason: duplicate title or duplicate description
+
+Duplicate 17:
+Title: Computational Methods for Flow in Porous Media
+Description: This course covers physical, mathematical, and simulation aspects of single and two-phase flow and t...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/CE/
+Reason: duplicate title or duplicate description
+
+Duplicate 18:
+Title: Multidisciplinary Systems Engineering
+Description: This course presents the fundamentals of modern multidisciplinary systems engineering in the context...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/EE/
+Reason: duplicate title or duplicate description
+
+Duplicate 19:
+Title: Computational Cameras
+Description: Computational cameras overcome the limitations of traditional cameras, by moving part of the image f...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/EE/
+Reason: duplicate title or duplicate description
+
+Duplicate 20:
+Title: Dynamics and Control of Chemical Systems
+Description: An introduction to analysis and design of feedback control systems in the time and frequency domain,...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/ChE/
+Reason: duplicate description
+
+Duplicate 21:
+Title: Challenges and Opportunities in Quantitative Ecology
+Description: Ecosystems are defined by dynamical interactions between groups of organisms, the communities they c...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/CNS/
+Reason: duplicate title or duplicate description
+
+Duplicate 22:
+Title: Multidisciplinary Systems Engineering
+Description: This course presents the fundamentals of modern multidisciplinary systems engineering in the context...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/CS/
+Reason: duplicate title or duplicate description
+
+Duplicate 23:
+Title: Computational Cameras
+Description: Computational cameras overcome the limitations of traditional cameras, by moving part of the image f...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/CS/
+Reason: duplicate title or duplicate description
+
+Duplicate 24:
+Title: Computer Graphics Laboratory
+Description: This is a challenging course that introduces the basic ideas behind computer graphics and some of it...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/CS/
+Reason: duplicate title or duplicate description
+
+Duplicate 25:
+Title: Introduction to Astronomical Observation
+Description: This hands-on, project-based course covers the design, proposal, and execution of astronomical obser...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/Ay/
+Reason: duplicate title or duplicate description
+
+Duplicate 26:
+Title: Computational Mechanics
+Description: Numerical methods and techniques for solving initial boundary value problems in continuum mechanics ...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/AM/
+Reason: duplicate title or duplicate description
+
+Duplicate 27:
+Title: Mechanics and Materials Aspects of Fracture
+Description: Analytical and experimental techniques in the study of fracture in metallic and nonmetallic solids. ...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/AM/
+Reason: duplicate title or duplicate description
+
+Duplicate 28:
+Title: Challenges and Opportunities in Quantitative Ecology
+Description: Ecosystems are defined by dynamical interactions between groups of organisms, the communities they c...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/BE/
+Reason: duplicate title or duplicate description
+
+Duplicate 29:
+Title: Introduction to Biomolecular Engineering
+Description: The course introduces rational design and evolutionary methods for engineering functional protein an...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/BE/
+Reason: duplicate title or duplicate description
+
+Duplicate 30:
+Title: Chemical Synthesis and Characterization for Chemical Engineering
+Description: Instruction in synthesis, separation, purification, and physical and spectroscopic characterization ...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/Ch/
+Reason: duplicate title or duplicate description
+
+Duplicate 31:
+Title: Data Science for Chemical Systems
+Description: Through lectures, in-class activities, and problem sets, students learn and use methods in data scie...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/Ch/
+Reason: duplicate title or duplicate description
+
+Duplicate 32:
+Title: Challenges in Data Science for Chemical Systems
+Description: Student groups complete a one-term, data-science project that addresses an instructor-approved chemi...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/Ch/
+Reason: duplicate title or duplicate description
+
+Duplicate 33:
+Title: Principles and Applications of Semiconductor Photoelectrochemistry
+Description: The properties and photoelectrochemistry of semiconductors and semiconductor/liquid junction solar c...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/Ch/
+Reason: duplicate title or duplicate description
+
+Duplicate 34:
+Title: Environmental Physical Organic Chemistry Part II
+Description: This course will cover selected aspects of the organic chemistry of aquatic systems and coupled air-...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/Ch/
+Reason: duplicate title or duplicate description
+
+Duplicate 35:
+Title: Computational Solid State Physics and Materials Science
+Description: The course will cover first-principles computational methods to study electronic structure, lattice ...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/APh/
+Reason: duplicate title or duplicate description
+
+Duplicate 36:
+Title: Introduction to Biochemistry
+Description: Lectures and recitation introducing the molecular basis of life processes. In the first term, topics...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/Bi/
+Reason: duplicate title or duplicate description
+
+Duplicate 37:
+Title: Challenges and Opportunities in Quantitative Ecology
+Description: Ecosystems are defined by dynamical interactions between groups of organisms, the communities they c...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/Bi/
+Reason: duplicate title or duplicate description
+
+Duplicate 38:
+Title: Calculus of Variations
+Description: First and second variations; Euler-Lagrange equation; Hamiltonian formalism; action principle; Hamil...
+Source: https://www.catalog.caltech.edu/current/2024-25/department/ACM/
+Reason: duplicate title or duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources
