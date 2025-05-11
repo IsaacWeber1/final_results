@@ -178,5 +178,6 @@ confirm-all:
 # REPORT-IMAGES
 # -----------------------------------------------------------------------------
 report-images:
-	@echo "Creating report images markdown…"
+	@echo "Creating report images markdown and meta figures…"
 	@$(PYTHON) scripts/compile_md_images.py
+	@$(PYTHON) scripts/report_visuals.py
