@@ -1,0 +1,436 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/pennsylvania_state_university/pdfs/processed.csv
+WEB file: schools/priority/pennsylvania_state_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 620
+WEB courses: 641
+WEB has 21 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 3.68
+WEB average relevance: 3.80
+WEB has higher average relevance by 0.12
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 15
+WEB duplicates found: 53
+
+=== PDF DUPLICATES DETAILS ===
+Duplicate 1:
+Title: AFR 205: Development and Sustainability in Africa
+Description: N/A...
+Source: PDF
+Reason: duplicate description
+
+Duplicate 2:
+Title: AFR 205: Development and Sustainability in Africa
+Description: N/A...
+Source: PDF
+Reason: duplicate title or duplicate description
+
+Duplicate 3:
+Title: SUST 242N: Issues in Sustainability
+Description: N/A...
+Source: PDF
+Reason: duplicate description
+
+Duplicate 4:
+Title: SUST 242N: Issues in Sustainability
+Description: N/A...
+Source: PDF
+Reason: duplicate title or duplicate description
+
+Duplicate 5:
+Title: MATH 33: Mathematics for Sustainability
+Description: N/A...
+Source: PDF
+Reason: duplicate title or duplicate description
+
+Duplicate 6:
+Title: AFR 205: Development and Sustainability in Africa
+Description: N/A...
+Source: PDF
+Reason: duplicate title or duplicate description
+
+Duplicate 7:
+Title: SUST 242N: Issues in Sustainability
+Description: N/A...
+Source: PDF
+Reason: duplicate title or duplicate description
+
+Duplicate 8:
+Title: CE 333W: Construction Management I
+Description: N/A...
+Source: PDF
+Reason: duplicate description
+
+Duplicate 9:
+Title: MATSE 492W: Materials Engineering Methodology and Design
+Description: N/A...
+Source: PDF
+Reason: duplicate description
+
+Duplicate 10:
+Title: AE 471: CONSTRUCTION MANAGEMENT OF RESIDENTIAL BUILDING
+Description: N/A...
+Source: PDF
+Reason: duplicate description
+
+Duplicate 11:
+Title: CHE 494: Research Projects in Chemical Engineering
+Description: N/A...
+Source: PDF
+Reason: duplicate description
+
+Duplicate 12:
+Title: CHE 494H: Research Projects in Chemical Engineering (Honors)
+Description: N/A...
+Source: PDF
+Reason: duplicate description
+
+Duplicate 13:
+Title: EMSC 240N: Energy and Sustainability in Contemporary Culture
+Description: N/A...
+Source: PDF
+Reason: duplicate description
+
+Duplicate 14:
+Title: MATSE 421: Corrosion Engineering
+Description: N/A...
+Source: PDF
+Reason: duplicate description
+
+Duplicate 15:
+Title: SC 290: Renewable Energy in Costa Rica
+Description: N/A...
+Source: PDF
+Reason: duplicate description
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: SC 150N: The Science of Sustainable Development
+Description: This course will focus on how human society depends on the environment for its continued existence. ...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/sc/
+Reason: duplicate description
+
+Duplicate 2:
+Title: NURS 325N: Health and Environmental Sustainability
+Description: NURS / : Health in Environmental Sustainability; 3 credits. (Inter-Domain), (GHW), (GN). People live...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/nurs/
+Reason: duplicate description
+
+Duplicate 3:
+Title: MNPR 401H: Mineral Process Engineering
+Description: Unit operations for processing particulate materials: comminution, screening, classification, slurry...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/mnpr/
+Reason: duplicate description
+
+Duplicate 4:
+Title: MGMT 415: Project Portfolio Management and Organizations
+Description: An advanced course in project management focusing on portfolio planning and control within the conte...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/mgmt/
+Reason: duplicate description
+
+Duplicate 5:
+Title: MATSE 201H: Introduction to Materials Science
+Description: Concepts of relationships between structure and thermal, optical, magnetic, electrical, and mechanic...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/matse/
+Reason: duplicate description
+
+Duplicate 6:
+Title: MATSE 426: Aqueous Processing
+Description: A study of the chemical and engineering principles pertinent to metal processing in aqueous systems:...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/matse/
+Reason: duplicate description
+
+Duplicate 7:
+Title: ME 406: Introduction to Statistical Thermodynamics
+Description: Statistical description of systems composed of large numbers of particles in the context of classica...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/me/
+Reason: duplicate description
+
+Duplicate 8:
+Title: KINES 1: Introduction to Outdoor Pursuits
+Description: Introduction to Outdoor Pursuits ( / ) is a course that is designed to introduce the student to sele...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/kines/
+Reason: duplicate description
+
+Duplicate 9:
+Title: GLIS 410: The Global Impact of Education
+Description: This course examines the global impact of education on human rights, health, economic development, p...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/glis/
+Reason: duplicate description
+
+Duplicate 10:
+Title: HIST 6N: History and Weather: How Weather Played an Instrumental Role in Great World Events
+Description: In / , we'll survey how weather and history are integrated throughout time. Moving from past to pres...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/hist/
+Reason: duplicate description
+
+Duplicate 11:
+Title: ERM 435: Limnology
+Description: Biogeochemistry and natural history of freshwater ecosystems. W F S (E R M) 435 Limnology (3)This co...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/erm/
+Reason: duplicate description
+
+Duplicate 12:
+Title: ERM 440: Chemistry of the Environment: Soil
+Description: This course is designed for junior and senior undergraduates with some previous chemistry background...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/erm/
+Reason: duplicate description
+
+Duplicate 13:
+Title: GEOG 332N: Science and policy of global greenhouse gas emissions and management
+Description: This interdomain course introduces students to the science and policy of greenhouse gas emissions. T...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/geog/
+Reason: duplicate description
+
+Duplicate 14:
+Title: ERM 450: Wetland Science and Sustainability
+Description: Wetlands are unique ecosystems, differing in many ways from both terrestrial and aquatic environment...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/erm/
+Reason: duplicate description
+
+Duplicate 15:
+Title: EMCH 461: Finite Elements in Engineering
+Description: Computer modeling and fundamental analysis of solid, fluid, and heat flow problems using existing co...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/emch/
+Reason: duplicate description
+
+Duplicate 16:
+Title: ENGR 115N: Science
+Description: The 20th century was a time of great scientific advancement - advancements that were used both for g...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/engr/
+Reason: duplicate description
+
+Duplicate 17:
+Title: EGEE 101: Energy and the Environment
+Description: Energy utilization and technological development, energy resources, conversion and consequences on t...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/egee/
+Reason: duplicate description
+
+Duplicate 18:
+Title: EGEE 101A: Energy and the Environment
+Description: Energy utilization and technological development, energy resources, conversion and consequences on t...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/egee/
+Reason: duplicate description
+
+Duplicate 19:
+Title: GEOG 432: Energy Policy
+Description: Analysis, formulation, implementation, and impacts of energy-related policies, regulations, and init...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/geog/
+Reason: duplicate description
+
+Duplicate 20:
+Title: ESC 450: Synthesis and Processing of Electronic and Photonic Materials
+Description: The materials science of applying thin film coatings, etching, and bulk crystal growth; includes mat...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/esc/
+Reason: duplicate description
+
+Duplicate 21:
+Title: ESC 460W: Multidisciplinary Design Project
+Description: This course will provide students with the opportunity to learn the design process in the context of...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/esc/
+Reason: duplicate description
+
+Duplicate 22:
+Title: EGEE 430: Introduction to Combustion
+Description: Concepts related to laminar and turbulent premixed and nonpremixed combustion with applications to p...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/egee/
+Reason: duplicate description
+
+Duplicate 23:
+Title: ENGR 405: Project Management for Professionals
+Description: Covers the essential concepts and skills needed to make effective contributions on projects, on time...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/engr/
+Reason: duplicate description
+
+Duplicate 24:
+Title: EDTHP 410: The Global Impact of Education
+Description: This course examines the global impact of education on human rights, health, economic development, p...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/edthp/
+Reason: duplicate description
+
+Duplicate 25:
+Title: EGEE 456: Introduction to Neural Networks
+Description: Artificial Neural Networks as a solving tool for difficult problems for which conventional methods a...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/egee/
+Reason: duplicate description
+
+Duplicate 26:
+Title: HIST 182: Asian Trade: Economy
+Description: An historical overview of economy, industrialization, globalization and capitalism in Asia from the ...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/hist/
+Reason: duplicate description
+
+Duplicate 27:
+Title: HIST 292N: Witches and Witchcraft from the Middle Ages to the Present
+Description: This course will explore the social and cultural history of witches and witchcraft from the late Mid...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/hist/
+Reason: duplicate description
+
+Duplicate 28:
+Title: EE 405: Capstone Proposal Preparation
+Description: This course guides students in the development of their capstone design project proposal and will mi...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/ee/
+Reason: duplicate description
+
+Duplicate 29:
+Title: EE 456: Introduction to Neural Networks
+Description: Artificial Neural Networks as a solving tool for difficult problems for which conventional methods a...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/ee/
+Reason: duplicate description
+
+Duplicate 30:
+Title: CRIM 466: Solving Community Problems
+Description: Explains how communities solve local problems by partnering with researchers, practitioners, and pol...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/crim/
+Reason: duplicate description
+
+Duplicate 31:
+Title: CMPMT 419: Computational Materials Science and Engineering
+Description: Introduction to computational material science and engineering. Overview of the computational method...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/cmpmt/
+Reason: duplicate description
+
+Duplicate 32:
+Title: CRIMJ 432: Crime and the American Court System
+Description: This course examines the American court system including structure and the way courts process offend...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/crimj/
+Reason: duplicate description
+
+Duplicate 33:
+Title: CED 400N: Exploring Indigenous Ways of Knowing in Great Lakes Region: Lecture
+Description: Exploring Indigenous Ways of Knowing in the Great Lakes Region explores concepts and values distinct...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/ced/
+Reason: duplicate description
+
+Duplicate 34:
+Title: CIED 410: The Global Impact of Education
+Description: This course examines the global impact of education on human rights, health, economic development, p...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/cied/
+Reason: duplicate description
+
+Duplicate 35:
+Title: BA 442: Sustainable Behavior of Consumers
+Description: Sustainability is a broad domain concerning the extent to which environmental, economic, and social ...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/ba/
+Reason: duplicate description
+
+Duplicate 36:
+Title: CHE 210H: Introduction to Material Balances (Honors)
+Description: An integrated approach to the study of material balances and industrial chemical processes important...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/che/
+Reason: duplicate description
+
+Duplicate 37:
+Title: CHE 220H: Introduction to Chemical Engineering Thermodynamics (Honors)
+Description: This is the introductory course in chemical engineering thermodynamics and is normally scheduled in ...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/che/
+Reason: duplicate description
+
+Duplicate 38:
+Title: CHEM 406: Nuclear and Radiochemistry
+Description: Theory of radioactive decay processes, nuclear properties and structure, nuclear reactions, interact...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/chem/
+Reason: duplicate description
+
+Duplicate 39:
+Title: CHE 432: Petroleum Processing
+Description: Transportation of people and goods in many parts of the world depend almost completely on petroleum ...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/che/
+Reason: duplicate description
+
+Duplicate 40:
+Title: CHE 439: Alternative Fuels from Biomass Sources
+Description: This course will examine technologies of bio-based sources for power generation and transportation, ...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/che/
+Reason: duplicate description
+
+Duplicate 41:
+Title: BME 443: Biomedical Materials
+Description: Describe properties of materials and composites and their in vivo interactions. ( ) Biomedical Mater...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/bme/
+Reason: duplicate description
+
+Duplicate 42:
+Title: CHEM 494H: Chemical Research
+Description: Experimental investigation of an original research problem. Preparation of a formal thesis is option...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/chem/
+Reason: duplicate description
+
+Duplicate 43:
+Title: BMB 485: Human Genomics and Biomedical Informatics
+Description: The purpose of this course is to introduce students to the field of Human Genomics and Biomedical In...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/bmb/
+Reason: duplicate description
+
+Duplicate 44:
+Title: ANSC 332N: Science and policy of global greenhouse gas emissions and management
+Description: This interdomain course introduces students to the science and policy of greenhouse gas emissions. T...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/ansc/
+Reason: duplicate description
+
+Duplicate 45:
+Title: ABSM 309: Measurement & Monitoring of Hydrologic Systems
+Description: This course is an introduction to measurement and monitoring equipment/techniques commonly used in a...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/absm/
+Reason: duplicate description
+
+Duplicate 46:
+Title: ABSM 327: Soil and Water Resource Management
+Description: This course equips students with the ability to understand land measurements, mapping, soils, hydrol...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/absm/
+Reason: duplicate description
+
+Duplicate 47:
+Title: ABSM 392: Leadership and Ethics for BE and ABSM Students
+Description: This course is the second half of a two-semester experience in leadership, ethics, and communication...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/absm/
+Reason: duplicate description
+
+Duplicate 48:
+Title: ABSM 402: Foundations of Sustainable Business
+Description: This course will provide students with an understanding of how environmental and sustainability issu...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/absm/
+Reason: duplicate description
+
+Duplicate 49:
+Title: AGECO 457: Principles of Integrated Pest Management
+Description: Integrated study of pest complexes and their management, emphasizing ecological principles drawing o...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/ageco/
+Reason: duplicate description
+
+Duplicate 50:
+Title: ANTH 434N: Black Ecologies
+Description: African and African Diasporic peoples have been central to the creation and transformation of global...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/anth/
+Reason: duplicate description
+
+Duplicate 51:
+Title: AERSP 423: Introduction to Numerical Methods in Fluid Dynamics
+Description: This course provides an introduction to the important and growing field of Computational Fluid Dynam...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/aersp/
+Reason: duplicate description
+
+Duplicate 52:
+Title: AFAM 435N: Black Ecologies
+Description: African and African Diasporic peoples have been central to the creation and transformation of global...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/afam/
+Reason: duplicate description
+
+Duplicate 53:
+Title: AFAM 467: African American Novel II
+Description: This course examines the African American novel, its forms, and its traditions starting during the H...
+Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/afam/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 96.7%
+Relevance score similarity: 96.9%
+
+Overall similarity between sources: 96.8%
+VERY HIGH similarity between sources

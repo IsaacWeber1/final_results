@@ -17,3 +17,5 @@ pytz==2025.2
 six==1.17.0
 tzdata==2025.2
 PyPDF2==3.0.1
+pdfminer==20191125
+pdfminer.six==20250416

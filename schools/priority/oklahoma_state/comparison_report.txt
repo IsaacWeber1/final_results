@@ -1,0 +1,45 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/oklahoma_state/pdfs/processed.csv
+WEB file: schools/priority/oklahoma_state/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 402
+WEB has 402 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 2.91
+WEB has higher average relevance by 2.91
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 3
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: BAE\xa05010
+Description: Description: New and emerging areas of study in Biosystems Engineering. Offered for variable credit,...
+Source: http://catalog.okstate.edu/courses/bae/
+Reason: duplicate description
+
+Duplicate 2:
+Title: ENVR\xa05523
+Description: Description: Provides students with an overview and broad understanding of ecology principles as app...
+Source: http://catalog.okstate.edu/courses/envr/
+Reason: duplicate description
+
+Duplicate 3:
+Title: ENGR\xa05103
+Description: Description: Principles and impact of U.S. and international laws and regulations on technical profe...
+Source: http://catalog.okstate.edu/courses/engr/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

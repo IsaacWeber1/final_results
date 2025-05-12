@@ -1,0 +1,51 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/rice_university/pdfs/processed.csv
+WEB file: schools/priority/rice_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 321
+WEB has 321 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.84
+WEB has higher average relevance by 3.84
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 4
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: MSNE 451 - MATERIALS SCIENCE SEMINAR
+Description: Description: A series of seminars on selected topics in Materials Science. Recommended for Materials...
+Source: https://ga.rice.edu/programs-study/courses/msne/
+Reason: duplicate description
+
+Duplicate 2:
+Title: ENST 316 - ENVIRONMENTAL MEDIA: GAMING THE ENVIRONMENT
+Description: Description: Explores the ways film and other media represent the environment and environmental issu...
+Source: https://ga.rice.edu/programs-study/courses/enst/
+Reason: duplicate description
+
+Duplicate 3:
+Title: EDES 355 - DIGITAL DESIGN AND VISUALIZATION
+Description: Description: Students will acquire intermediate-level proficiency in the creation of virtual models ...
+Source: https://ga.rice.edu/programs-study/courses/edes/
+Reason: duplicate description
+
+Duplicate 4:
+Title: FWIS 209 - CONTEMPORARY ART AND ENVIRONMENT
+Description: Description: This course delves into questions of environment, ecology and sustainability through th...
+Source: https://ga.rice.edu/programs-study/courses/fwis/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

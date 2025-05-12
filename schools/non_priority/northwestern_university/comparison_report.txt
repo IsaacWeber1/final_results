@@ -1,0 +1,57 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/northwestern_university/pdfs/processed.csv
+WEB file: schools/non_priority/northwestern_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 45
+WEB has 45 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.42
+WEB has higher average relevance by 3.42
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 5
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: PHYSICS 339-2 Quantum Mechanics (1 Unit)
+Description: Introduction to quantum theory. Applications to atomic and molecular systems. The harmonic oscillato...
+Source: https://catalogs.northwestern.edu/undergraduate/courses-az/physics/
+Reason: duplicate description
+
+Duplicate 2:
+Title: MAT_SCI 396-2 Senior Project in Materials Science and Engineering (1 Unit)
+Description: To be taken in two consecutive quarters. Independent basic or applied research project, conceived an...
+Source: https://catalogs.northwestern.edu/undergraduate/courses-az/mat_sci/
+Reason: duplicate description
+
+Duplicate 3:
+Title: INTL_ST 393-SA Development in the Global Context: Participation
+Description: Central debates and issues of international development. Global poverty, development goals, alternat...
+Source: https://catalogs.northwestern.edu/undergraduate/courses-az/intl_st/
+Reason: duplicate description
+
+Duplicate 4:
+Title: GEN_ENG 220-2 Analy/Comp Graph II (0.5 Unit)
+Description: Introduction to AutoCAD, geographic information systems (GIS), and electronic surveying and measurin...
+Source: https://catalogs.northwestern.edu/undergraduate/courses-az/gen_eng/
+Reason: duplicate description
+
+Duplicate 5:
+Title: CHEM 152-0 General Chemistry II (1 Unit)
+Description: Chemical equilibrium, aqueous solution equilibria, chemical kinetics, metals in chemistry and biolog...
+Source: https://catalogs.northwestern.edu/undergraduate/courses-az/chem/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

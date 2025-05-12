@@ -1,0 +1,3670 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/iowa_state_university/pdfs/processed.csv
+WEB file: schools/priority/iowa_state_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 30
+WEB courses: 583
+WEB has 553 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 2.40
+WEB average relevance: 2.59
+WEB has higher average relevance by 0.19
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 29
+WEB duplicates found: 578
+
+=== PDF DUPLICATES DETAILS ===
+Duplicate 1:
+Title: Globalization and Sustainability
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 2:
+Title: Human Resource Management
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 3:
+Title: Sustainability and Green Architecture
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 4:
+Title: Electrochemical Methods of Analysis
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 5:
+Title: Exploration of Environmental and Sustainability Issues
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 6:
+Title: Integrating GPS and GIS for Natural Resource Management
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 7:
+Title: Integrating GPS and GIS for Natural Resource Management
+Description: ...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 8:
+Title: Globalization and Sustainability
+Description: ...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 9:
+Title: Landscape Construction Management
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 10:
+Title: Advanced Human Resource Management I
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 11:
+Title: Personnel and Human Resource Management
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 12:
+Title: Human Resource Management Analytics
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 13:
+Title: Project Management
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 14:
+Title: Project Management
+Description: ...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 15:
+Title: Teams
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 16:
+Title: Natural Resource Management under the North American
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 17:
+Title: Integrating GPS and GIS for Natural Resource Management
+Description: ...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 18:
+Title: Controversies in Natural Resource Management
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 19:
+Title: Integrating GPS and GIS for Natural Resource Management
+Description: ...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 20:
+Title: Globalization and Sustainability
+Description: ...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 21:
+Title: Statistical Quality Assurance
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 22:
+Title: Project Management
+Description: ...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 23:
+Title: Sustainable Supply Chain Management
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 24:
+Title: Applied Project Management in Technology
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 25:
+Title: Automation Systems
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 26:
+Title: Agricultural and Biosystems Engineering Department Study
+Description: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 27:
+Title: Agricultural and Biosystems Engineering Department Study
+Description: ...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 28:
+Title: Risk Assessment for Food
+Description: ...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 29:
+Title: Risk Assessment for Food
+Description: ...
+Source: 
+Reason: duplicate title or duplicate description
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 2:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 3:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 4:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 5:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 6:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 7:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 8:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 9:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 10:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 11:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 12:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 13:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 14:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 15:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 16:
+Title: WESEP 5010: Wind Energy Resources
+Description: Forecasting, wind measurement and analysis, site placement, aerodynamic principles associated with b...
+Source: https://catalog.iastate.edu/azcourses/wesep/
+Reason: duplicate title or duplicate description
+
+Duplicate 17:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 18:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 19:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 20:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 21:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 22:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 23:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 24:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 25:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 26:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 27:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 28:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 29:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 30:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 31:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 32:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 33:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 34:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 35:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 36:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 37:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 38:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 39:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 40:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 41:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 42:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 43:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 44:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 45:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 46:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 47:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 48:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 49:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 50:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 51:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 52:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 53:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 54:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 55:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 56:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 57:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 58:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 59:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 60:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 61:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 62:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 63:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 64:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 65:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 66:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 67:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 68:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 69:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 70:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 71:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 72:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 73:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 74:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 75:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 76:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 77:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 78:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 79:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 80:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 81:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 82:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 83:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 84:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 85:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 86:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 87:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 88:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 89:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 90:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 91:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 92:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 93:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 94:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 95:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 96:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 97:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 98:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 99:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 100:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 101:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 102:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 103:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 104:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 105:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 106:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 107:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 108:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 109:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 110:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 111:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 112:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 113:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 114:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 115:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 116:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 117:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 118:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 119:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 120:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 121:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 122:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 123:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 124:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 125:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 126:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 127:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 128:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 129:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 130:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 131:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 132:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 133:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 134:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 135:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 136:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 137:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 138:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 139:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 140:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 141:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 142:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 143:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 144:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 145:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 146:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 147:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 148:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 149:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 150:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 151:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 152:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 153:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 154:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 155:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 156:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 157:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 158:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 159:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 160:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 161:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 162:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 163:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 164:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 165:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 166:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 167:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 168:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 169:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 170:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 171:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 172:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 173:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 174:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 175:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 176:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 177:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 178:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 179:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 180:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 181:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 182:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 183:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 184:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 185:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 186:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 187:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 188:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 189:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 190:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 191:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 192:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 193:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 194:
+Title: MSE 5010: Fundamentals of Materials Science and Engineering I
+Description: An examination of structure-property-process relationships in materials, focusing on control and mea...
+Source: https://catalog.iastate.edu/azcourses/m_s_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 195:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 196:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 197:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 198:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 199:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 200:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 201:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 202:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 203:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 204:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 205:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 206:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 207:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 208:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 209:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 210:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 211:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 212:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 213:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 214:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 215:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 216:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 217:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 218:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 219:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 220:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 221:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 222:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 223:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 224:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 225:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 226:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 227:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 228:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 229:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 230:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 231:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 232:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 233:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 234:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 235:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 236:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 237:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 238:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 239:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 240:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 241:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 242:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 243:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 244:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 245:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 246:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 247:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 248:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 249:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 250:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 251:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 252:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 253:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 254:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 255:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 256:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 257:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 258:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 259:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 260:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 261:
+Title: MATE 1010: Materials Science & Engineering Learning Community Seminar
+Description: Introduction to the Materials Science & Engineering Department and resources available to support st...
+Source: https://catalog.iastate.edu/azcourses/mat_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 262:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 263:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 264:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 265:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 266:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 267:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 268:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 269:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 270:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 271:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 272:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 273:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 274:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 275:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 276:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 277:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 278:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 279:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 280:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 281:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 282:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 283:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 284:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 285:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 286:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 287:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 288:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 289:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 290:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 291:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 292:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 293:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 294:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 295:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 296:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 297:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 298:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 299:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 300:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 301:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 302:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 303:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 304:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 305:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 306:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 307:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 308:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 309:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 310:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 311:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 312:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 313:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 314:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 315:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 316:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 317:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 318:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 319:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 320:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 321:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 322:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 323:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 324:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 325:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 326:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 327:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 328:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 329:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 330:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 331:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 332:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 333:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 334:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 335:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 336:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 337:
+Title: CDEV 5020: Community and Natural Resource Management
+Description: Detailed introduction to community resource management. Theoretical frameworks, methodological inves...
+Source: https://catalog.iastate.edu/azcourses/c_dev/
+Reason: duplicate title or duplicate description
+
+Duplicate 338:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 339:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 340:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 341:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 342:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 343:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 344:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 345:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 346:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 347:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 348:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 349:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 350:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 351:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 352:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 353:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 354:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 355:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 356:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 357:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 358:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 359:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 360:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 361:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 362:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 363:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 364:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 365:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 366:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 367:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 368:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 369:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 370:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 371:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 372:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 373:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 374:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 375:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 376:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 377:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 378:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 379:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 380:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 381:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 382:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 383:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 384:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 385:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 386:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 387:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 388:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 389:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 390:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 391:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 392:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 393:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 394:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 395:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 396:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 397:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 398:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 399:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 400:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 401:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 402:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 403:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 404:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 405:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 406:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 407:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 408:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 409:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 410:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 411:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 412:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 413:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 414:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 415:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 416:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 417:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 418:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 419:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 420:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 421:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 422:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 423:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 424:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 425:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 426:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 427:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 428:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 429:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 430:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 431:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 432:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 433:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 434:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 435:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 436:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 437:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 438:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 439:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 440:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 441:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 442:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 443:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 444:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 445:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 446:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 447:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 448:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 449:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 450:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 451:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 452:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 453:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 454:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 455:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 456:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 457:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 458:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 459:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 460:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 461:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 462:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 463:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 464:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 465:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 466:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 467:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 468:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 469:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 470:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 471:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 472:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 473:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 474:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 475:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 476:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 477:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 478:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 479:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 480:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 481:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 482:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 483:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 484:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 485:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 486:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 487:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 488:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 489:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 490:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 491:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 492:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 493:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 494:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 495:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 496:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 497:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 498:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 499:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 500:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 501:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 502:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 503:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 504:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 505:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 506:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 507:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 508:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 509:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 510:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 511:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 512:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 513:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 514:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 515:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 516:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 517:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 518:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 519:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 520:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 521:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 522:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 523:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 524:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 525:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 526:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 527:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 528:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 529:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 530:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 531:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 532:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 533:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 534:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 535:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 536:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 537:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 538:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 539:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 540:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 541:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 542:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 543:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 544:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 545:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 546:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 547:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 548:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 549:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 550:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 551:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 552:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 553:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 554:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 555:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 556:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 557:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 558:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 559:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 560:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 561:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 562:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 563:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 564:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 565:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 566:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 567:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 568:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 569:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 570:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 571:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 572:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 573:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 574:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 575:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 576:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 577:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+Duplicate 578:
+Title: CHE 1040: Chemical Engineering Learning Community
+Description: Curriculum in career planning and academic course support for Freshmen learning team. (...
+Source: https://catalog.iastate.edu/azcourses/ch_e/
+Reason: duplicate title or duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 5.1%
+Relevance score similarity: 92.8%
+
+Overall similarity between sources: 49.0%
+MODERATE similarity between sources

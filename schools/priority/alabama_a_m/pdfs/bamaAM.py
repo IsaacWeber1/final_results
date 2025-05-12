@@ -55,12 +55,12 @@ def pdf_to_json(pdf_path, json_path):
         print(f"❌ An error occurred: {e}")
 
 def main():
-    if len(sys.argv) != 3:
-        print("Usage: python script.py <input.pdf> <output.json>")
-        return
+    # if len(sys.argv) != 3:
+    #     print("Usage: python script.py <input.pdf> <output.json>")
+    #     return
 
-    input_pdf = sys.argv[1]
-    output_json = sys.argv[2]
+    input_pdf = "bamaAM.pdf"
+    output_json = "raw_data/alabama_pdf.json"
 
     pdf_to_json(input_pdf, output_json)
 

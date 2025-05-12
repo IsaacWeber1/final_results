@@ -1,0 +1,33 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/california_state_university_san_diego_state/pdfs/processed.csv
+WEB file: schools/non_priority/california_state_university_san_diego_state/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 164
+WEB has 164 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.05
+WEB has higher average relevance by 3.05
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 1
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: SUSTN 353 - Sustainability and Culture
+Description: Units: GE - CSU Upper Division D - Explorations of Human Experience - Social and Behavioral Sciences...
+Source: 
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

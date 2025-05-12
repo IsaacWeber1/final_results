@@ -1,0 +1,39 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/university_of_california_berkeley/pdfs/processed.csv
+WEB file: schools/non_priority/university_of_california_berkeley/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 21
+WEB has 21 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.36
+WEB has higher average relevance by 3.36
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 2
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: CYBER 233 Privacy Engineering 3 Units
+Description: Terms offered: Spring 2025, Fall 2024, Spring 2024 This course surveys privacy mechanisms applicable...
+Source: https://guide.berkeley.edu/courses/cyber/
+Reason: duplicate description
+
+Duplicate 2:
+Title: A
+Description: Terms offered: Fall 2025, Fall 2024, Fall 2023 Theory of renewable and nonrenewable natural resource...
+Source: https://guide.berkeley.edu/courses/a,resec/
+Reason: duplicate title
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

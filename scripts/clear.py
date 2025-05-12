@@ -10,15 +10,16 @@ def clear_raw(schools_root: Path):
         if not cat_dir.is_dir():
             continue
         for school in cat_dir.iterdir():
-            raw_dir = school / "raw_data"
-            if not raw_dir.is_dir():
-                continue
-            for jf in raw_dir.glob("*.json"):
-                try:
-                    jf.unlink()
-                    deleted += 1
-                except Exception as e:
-                    print(f"  ! error deleting {jf}: {e}")
+            for raw_sub in ("raw_data", "pdfs/raw_data"):
+                raw_dir = school / raw_sub
+                if not raw_dir.is_dir():
+                    continue
+                for jf in raw_dir.glob("*.json"):
+                    try:
+                        jf.unlink()
+                        deleted += 1
+                    except Exception as e:
+                        print(f"  ! error deleting {jf}: {e}")
     print(f"✓ Deleted {deleted} raw JSON file(s).")
 
 def clear_visuals(schools_root: Path):

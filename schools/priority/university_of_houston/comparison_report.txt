@@ -1,0 +1,45 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/university_of_houston/pdfs/processed.csv
+WEB file: schools/priority/university_of_houston/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 147
+WEB has 147 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.16
+WEB has higher average relevance by 3.16
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 3
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: ARAB 3377 - Energy
+Description: 3 0 . Examination of energy, culture and sustainability in Middle East and North Africa (MENA). Surv...
+Source: 
+Reason: duplicate description
+
+Duplicate 2:
+Title: CHEE 5320 - Intro Nanomaterials Engineering
+Description: 3 0 or , concurrent enrollment in , or consent of instructor; all prerequisites must be completed wi...
+Source: 
+Reason: duplicate description
+
+Duplicate 3:
+Title: CHEE 3399 - Senior Honors Thesis
+Description: senior standing; 3.00 cumulative grade point average in chemical engineering and overall....
+Source: 
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

@@ -12,10 +12,10 @@ def create_relational_tables(raw_csv: Path, out_dir: Path):
 
     # Example: if a column holds comma‑separated lists
     for col in df.columns:
-        if df[col].dtype == object and df[col].str.contains(",").any():
+        if df[col].dtype == object and df[col].str.contains("[,;]").any():
             relations = []
             for idx, cell in df[col].dropna().items():
-                for val in map(str.strip, cell.split(",")):
+                for val in map(str.strip, cell.split("[,;]")):
                     relations.append({"id": idx, col: val})
             rel_df = pd.DataFrame(relations)
             rel_df.to_csv(out_dir / f"{col}_relation.csv", index=False)

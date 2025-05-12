@@ -1,0 +1,147 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/non_priority/clemson_university/pdfs/processed.csv
+WEB file: schools/non_priority/clemson_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 210
+WEB has 210 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.05
+WEB has higher average relevance by 3.05
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 20
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: CHE 2301 - Fluids/Heat Transfer Laboratory
+Description: 0 Credits (2 Contact Hours) Non-credit laboratory to accompany . Coreq: ....
+Source: 
+Reason: duplicate description
+
+Duplicate 2:
+Title: BE 3990 - Creative Inquiry in Biosystems Engineering III
+Description: 1-3 Credits (1-3 Contact Hours) In consultation with and under the direction of a faculty member, st...
+Source: 
+Reason: duplicate description
+
+Duplicate 3:
+Title: BE 2990 - Creative Inquiry in Biosystems Engineering II
+Description: 1-3 Credits (1-3 Contact Hours) In consultation with and under the direction of a faculty member, st...
+Source: 
+Reason: duplicate description
+
+Duplicate 4:
+Title: BE 2101 - Introduction to Biosystems Engineering Laboratory
+Description: 0 Credits (3 Contact Hours) Non-credit laboratory to accompany . Coreq: ....
+Source: 
+Reason: duplicate description
+
+Duplicate 5:
+Title: BE 1990 - Creative Inquiry in Biosystems Engineering I
+Description: 1-3 Credits (1-3 Contact Hours) In consultation with and under the direction of a faculty member, st...
+Source: 
+Reason: duplicate description
+
+Duplicate 6:
+Title: CRP 4301 - The Nature of Geographic Information Systems (GIS) Laboratory
+Description: 0 Credits (3 Contact Hours) Non-credit laboratory to accompany . Coreq: . This 4000-level course has...
+Source: 
+Reason: duplicate description
+
+Duplicate 7:
+Title: IE 4891 - Industrial Ergonomics and Automation Laboratory
+Description: 0 Credits (3 Contact Hours) Non-credit laboratory to accompany . Coreq: . This 4000-level course has...
+Source: 
+Reason: duplicate description
+
+Duplicate 8:
+Title: JUST (ANTH
+Description: 3 Credits (3 Contact Hours) This course examines the theories and methods used in spatial inequality...
+Source: 
+Reason: duplicate description
+
+Duplicate 9:
+Title: ETOX (GEOL
+Description: 3 Credits (3 Contact Hours) Study of soil chemical processes (sorption, desorption, ion exchange, pr...
+Source: 
+Reason: duplicate description
+
+Duplicate 10:
+Title: EES (BE
+Description: 1 Credit (2 Contact Hours) Topics dealing with development and protection of land, air, water, and r...
+Source: 
+Reason: duplicate description
+
+Duplicate 11:
+Title: ENR (FOR
+Description: 3 Credits (2 Contact Hours) Develops competence in geographic information systems (GIS) technology a...
+Source: 
+Reason: duplicate title
+
+Duplicate 12:
+Title: FOR (BE
+Description: 1 Credit (2 Contact Hours) Topics dealing with development and protection of land, air, water, and r...
+Source: 
+Reason: duplicate description
+
+Duplicate 13:
+Title: FOR (ENR
+Description: 0 Credits (3 Contact Hours) Non-credit laboratory to accompany . May also be offered as or . Coreq: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 14:
+Title: FOR (ENR
+Description: 3 Credits (2 Contact Hours) Develops competence in geographic information systems (GIS) technology a...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 15:
+Title: FOR 4251 - Forest Resource Management Plans Laboratory
+Description: 0 Credits (3 Contact Hours) Non-credit laboratory to accompany . Coreq: ....
+Source: 
+Reason: duplicate description
+
+Duplicate 16:
+Title: FDSC 4081 - Food Process Engineering Laboratory
+Description: 0 Credits (3 Contact Hours) Non-credit laboratory to accompany . Coreq: . This 4000-level course has...
+Source: 
+Reason: duplicate description
+
+Duplicate 17:
+Title: CE (MSE) 4520 - Corrosion and Oxidation
+Description: 3 Credits (3 Contact Hours) Provides a comprehensive review of the subject and covers electrochemica...
+Source: 
+Reason: duplicate description
+
+Duplicate 18:
+Title: SOC (ANTH
+Description: 3 Credits (3 Contact Hours) This course examines the theories and methods used in spatial inequality...
+Source: 
+Reason: duplicate description
+
+Duplicate 19:
+Title: WFB (ENR
+Description: 0 Credits (3 Contact Hours) Non-credit laboratory to accompany . May also be offered as or . Coreq: ...
+Source: 
+Reason: duplicate description
+
+Duplicate 20:
+Title: WFB (ENR
+Description: 3 Credits (2 Contact Hours) Develops competence in geographic information systems (GIS) technology a...
+Source: 
+Reason: duplicate title or duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

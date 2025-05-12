@@ -1,0 +1,87 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/tuskegee_university/pdfs/processed.csv
+WEB file: schools/priority/tuskegee_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 113
+WEB has 113 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 2.77
+WEB has higher average relevance by 2.77
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 10
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: CSMT 0501 - Construction Management Co-Op Elective(S)
+Description: 3 1st, 2nd, Summer Semester A pre-approved co-op assignment of planned and supervised work experienc...
+Source: 
+Reason: duplicate description
+
+Duplicate 2:
+Title: CSMT 0500 - Construction Management Co-Op Elective(S)
+Description: 3 1st, 2nd, Summer Semester A pre-approved co-op assignment of planned and supervised work experienc...
+Source: 
+Reason: duplicate description
+
+Duplicate 3:
+Title: CSMT 0100 - Introduction to Careers in Architecture and Construction Science and Management
+Description: 1 1st Semester The purpose of this seminar is to assist students in making informed decisions regard...
+Source: 
+Reason: duplicate description
+
+Duplicate 4:
+Title: CSIT 0463 - Introduction to Computer Gaming
+Description: 3 1st Semester 3 This course discusses the process of game development. It examines the roles of dif...
+Source: 
+Reason: duplicate description
+
+Duplicate 5:
+Title: CSIT 0415 - Management Information Systems
+Description: 3 1st Semester 3 Understanding the values and uses of information and information technology for man...
+Source: 
+Reason: duplicate description
+
+Duplicate 6:
+Title: CSIT 0405 - Systems Analysis and Design
+Description: 3 2nd Semester 3 Survey of tools and techniques for systems analysis and design used by systems anal...
+Source: 
+Reason: duplicate description
+
+Duplicate 7:
+Title: EVSC 0522 - Introduction to Toxicology
+Description: 3 2nd Semester. 3 This course is designed to expose students to the sciences of toxins (poisons) and...
+Source: 
+Reason: duplicate description
+
+Duplicate 8:
+Title: FORE 0505 - Issues in Wildlife Ecology and Natural Resource Management
+Description: 3 1st Semester. 3 Introduction to wildlife and conservation issues; relationships between humans and...
+Source: 
+Reason: duplicate description
+
+Duplicate 9:
+Title: MSEG 0402 - Introduction to Biomaterials Science and Engineering
+Description: 3 3 Types of Biomaterials used in medical applications. Biocompatibility of materials in terms of im...
+Source: 
+Reason: duplicate description
+
+Duplicate 10:
+Title: MSEG 0401 - Materials and Society
+Description: 3 3 Interrelation of Society and Materials Engineering. Materials to solve technical and sociocultur...
+Source: 
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

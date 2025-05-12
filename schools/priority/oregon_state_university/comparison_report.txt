@@ -1,0 +1,99 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/oregon_state_university/pdfs/processed.csv
+WEB file: schools/priority/oregon_state_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 378
+WEB has 378 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 3.13
+WEB has higher average relevance by 3.13
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 12
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: ANTH 597
+Description: Archaeological field strategies emphasizing reconnaissance and survey. Application of field equipmen...
+Source: https://catalog.oregonstate.edu/courses/anth/
+Reason: duplicate description
+
+Duplicate 2:
+Title: WSE 571
+Description: Explores material selection options, applications, and performance characteristics. Covers residenti...
+Source: https://catalog.oregonstate.edu/courses/wse/
+Reason: duplicate description
+
+Duplicate 3:
+Title: TOX 580
+Description: Provides an in-depth understanding of the current systems biology paradigm for chemical risk and dru...
+Source: https://catalog.oregonstate.edu/courses/tox/
+Reason: duplicate description
+
+Duplicate 4:
+Title: PS 573
+Description: Addresses US energy policy with respect to how the U.S. governs the production and use of different ...
+Source: https://catalog.oregonstate.edu/courses/ps/
+Reason: duplicate description
+
+Duplicate 5:
+Title: PS 578
+Description: Renewable energy policy with respect to how the U.S. governs the market development, production and ...
+Source: https://catalog.oregonstate.edu/courses/ps/
+Reason: duplicate description
+
+Duplicate 6:
+Title: LEAD 542
+Description: Focuses on the development and refinement of the following leadership skills: utilizing diversity, t...
+Source: https://catalog.oregonstate.edu/courses/lead/
+Reason: duplicate description
+
+Duplicate 7:
+Title: GEOG 530
+Description: Causes and consequences of conflict over natural resource management at local to global scales; prin...
+Source: https://catalog.oregonstate.edu/courses/geog/
+Reason: duplicate description
+
+Duplicate 8:
+Title: GEOG 540
+Description: Examine why nations rise and fall based on water availability and investigate why the United States ...
+Source: https://catalog.oregonstate.edu/courses/geog/
+Reason: duplicate description
+
+Duplicate 9:
+Title: FW 519
+Description: Addresses the natural history of whales as a unique example of adaptation in an evolutionary lineage...
+Source: https://catalog.oregonstate.edu/courses/fw/
+Reason: duplicate description
+
+Duplicate 10:
+Title: FW 526
+Description: Study of the ecology and management of coastal marine and freshwater ecosystems as well as natural r...
+Source: https://catalog.oregonstate.edu/courses/fw/
+Reason: duplicate description
+
+Duplicate 11:
+Title: CH 517X
+Description: Analyzes fundamental aspects of metalloenzymes in metabolism and synthesis, technical applications o...
+Source: https://catalog.oregonstate.edu/courses/ch/
+Reason: duplicate description
+
+Duplicate 12:
+Title: CH 582
+Description: Introduces the definitions and basic principles of materials chemistry in secondary batteries. Exami...
+Source: https://catalog.oregonstate.edu/courses/ch/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

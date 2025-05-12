@@ -1,0 +1,26 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/denmark_technical_college/pdfs/processed.csv
+WEB file: schools/priority/denmark_technical_college/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 13
+WEB courses: 0
+PDF has 13 more courses than WEB
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 3.46
+WEB average relevance: 0.00
+PDF has higher average relevance by 3.46
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 0
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

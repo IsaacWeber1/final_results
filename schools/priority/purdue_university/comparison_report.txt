@@ -1,0 +1,231 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/purdue_university/pdfs/processed.csv
+WEB file: schools/priority/purdue_university/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 428
+WEB courses: 0
+PDF has 428 more courses than WEB
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 3.03
+WEB average relevance: 0.00
+PDF has higher average relevance by 3.03
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 34
+WEB duplicates found: 0
+
+=== PDF DUPLICATES DETAILS ===
+Duplicate 1:
+Title: Design And Advanced Manufacturing Processes For Internal Combustion Engines
+Description: This course introduces the manufacture and assembly of machined piece parts into a functional assemb...
+Source: 
+Reason: duplicate title
+
+Duplicate 2:
+Title: Cooperative Experience II
+Description: Professional experience in chemical engineering. Program coordinated by school with cooperation of p...
+Source: 
+Reason: duplicate description
+
+Duplicate 3:
+Title: Cooperative Experience III
+Description: Professional experience in chemical engineering. Program coordinated by school with cooperation of p...
+Source: 
+Reason: duplicate description
+
+Duplicate 4:
+Title: Extensive Cooperative Experience V
+Description: Professional experience in chemical engineering. Program coordinated by school with cooperation of p...
+Source: 
+Reason: duplicate description
+
+Duplicate 5:
+Title: Chemical Engineering Seminar
+Description: Continuation of CHE 30000. Lectures to acquaint the senior students with professional ethics, servic...
+Source: 
+Reason: duplicate title
+
+Duplicate 6:
+Title: General Chemistry
+Description: A continuation of CHM 11500. Solutions; quantitative equilibria in aqueous solution; introductory th...
+Source: 
+Reason: duplicate title
+
+Duplicate 7:
+Title: Foundations In Homeland Security Studies
+Description: An interdisciplinary course addressing prevention, mitigation, preparation, response, and recovery f...
+Source: 
+Reason: duplicate title
+
+Duplicate 8:
+Title: Infrastructure Planning
+Description: Introduction to the planning and analysis of infrastructure projects. The focus will be on the prior...
+Source: 
+Reason: duplicate title
+
+Duplicate 9:
+Title: Environmental Science And Conservation
+Description: (AGRY 12500, FNR 12500, NRES 12500) Introduction to environmental science and conservation includes ...
+Source: 
+Reason: duplicate title
+
+Duplicate 10:
+Title: Environmental Science And Conservation
+Description: (AGRY 12500, EAPS 12500, NRES 12500) Introduction to environmental science and conservation includes...
+Source: 
+Reason: duplicate title
+
+Duplicate 11:
+Title: Information Technology Project Management
+Description: The purpose of this class is to provide students with a basic understanding of the tasks and challen...
+Source: 
+Reason: duplicate title
+
+Duplicate 12:
+Title: Industrial Relations I
+Description: An in-depth examination of human resource management in the context of union-management relations. E...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 13:
+Title: Industrial Internet Of Things
+Description: This course offers a practical exploration of Industrial Internet of Things (IIoT) in converged info...
+Source: 
+Reason: duplicate title
+
+Duplicate 14:
+Title: Cooperative Experience I
+Description: Professional experience in materials engineering. Program coordinated by school with cooperation of ...
+Source: 
+Reason: duplicate title
+
+Duplicate 15:
+Title: Cooperative Experience II
+Description: Professional experience in materials engineering. Program coordinated by school with cooperation of ...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 16:
+Title: Cooperative Experience III
+Description: Professional experience in materials engineering. Program coordinated by school with cooperation of ...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 17:
+Title: Extensive Cooperative Experience IV
+Description: Professional experience in materials engineering. Program coordinated by school with cooperation of ...
+Source: 
+Reason: duplicate description
+
+Duplicate 18:
+Title: Extensive Cooperative Experience V
+Description: Professional experience in materials engineering. Program coordinated by school with cooperation of ...
+Source: 
+Reason: duplicate title or duplicate description
+
+Duplicate 19:
+Title: Internal Combustion Engines
+Description: This course covers the fundamentals of internal combustion engine design and operation, with a focus...
+Source: 
+Reason: duplicate title
+
+Duplicate 20:
+Title: Environmental Science And Conservation
+Description: (AGRY 12500, EAPS 12500, FNR 12500) Introduction to environmental science and conservation includes ...
+Source: 
+Reason: duplicate title
+
+Duplicate 21:
+Title: Interdisciplinary Approaches To Environmental And Sustainability Studies
+Description: This course is the lynchpin of the undergraduate Certificate in Environmental and Sustainability Stu...
+Source: 
+Reason: duplicate title
+
+Duplicate 22:
+Title: Project Management
+Description: This course provides the basics of the project management discipline and allows the student to apply...
+Source: 
+Reason: duplicate title
+
+Duplicate 23:
+Title: Language And The Brain
+Description: (PSY 40100) This course is an overview of the neutral systems that underlie the core components of l...
+Source: 
+Reason: duplicate title
+
+Duplicate 24:
+Title: Project Management
+Description: Project management is an ad hoc technique for accomplishing specialized missions or work. Examples o...
+Source: 
+Reason: duplicate title
+
+Duplicate 25:
+Title: First Year Participation In Vertically Integrated Projects (VIP) II
+Description: This course provides an opportunity for undergraduate students to engage in authentic and extended r...
+Source: 
+Reason: duplicate description
+
+Duplicate 26:
+Title: First Year Participation In Vertically Integrated Projects (VIP)
+Description: This course provides an opportunity for undergraduate students to engage in authentic and extended r...
+Source: 
+Reason: duplicate description
+
+Duplicate 27:
+Title: Sophomore Participation In Vertically Integrated Projects (VIP)
+Description: This course provides an opportunity for undergraduate students to engage in authentic and extended r...
+Source: 
+Reason: duplicate description
+
+Duplicate 28:
+Title: Junior Participation In Vertically Integrated Projects (VIP) Lim
+Description: This course provides an opportunity for undergraduate students to engage in authentic and extended r...
+Source: 
+Reason: duplicate description
+
+Duplicate 29:
+Title: Junior Participation In Vertically Integrated Projects (VIP)
+Description: This course provides an opportunity for undergraduate students to engage in authentic and extended r...
+Source: 
+Reason: duplicate description
+
+Duplicate 30:
+Title: Senior Participation In Vertically Integrated Projects (VIP) Lim
+Description: This course provides an opportunity for undergraduate students to engage in authentic and extended r...
+Source: 
+Reason: duplicate description
+
+Duplicate 31:
+Title: Senior Participation In Vertically Integrated Projects (VIP)
+Description: This course provides an opportunity for undergraduate students to engage in authentic and extended r...
+Source: 
+Reason: duplicate description
+
+Duplicate 32:
+Title: Senior Design Participation In Vertically Integrated Projects (VIP) I
+Description: This course provides an opportunity for undergraduate students to engage in authentic and extended r...
+Source: 
+Reason: duplicate description
+
+Duplicate 33:
+Title: Senior Design Participation In Vertically Integrated Projects (VIP) II
+Description: This course provides an opportunity for undergraduate students to engage in authentic and extended r...
+Source: 
+Reason: duplicate description
+
+Duplicate 34:
+Title: Senior Participation In Vertically Integrated Projects (VIP) Ext
+Description: This course provides an opportunity for undergraduate students to engage in authentic and extended r...
+Source: 
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources

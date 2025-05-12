@@ -11,13 +11,14 @@ SCHOOLS  := schools
 # -----------------------------------------------------------------------------
 # PHONY TARGETS
 # -----------------------------------------------------------------------------
-.PHONY: help install populate-folders \
+.PHONY: help install \
         web-scrape web-scrape-all \
 		pdf-scrape pdf-scrape-all \
 		metrics view-metrics \
         process-data relational clear-raw \
 		add-visuals replace-visuals clear-visuals \
-        compile-all compile-keywords confirm-schools confirm-all
+        compile-all compile-keywords confirm-schools confirm-all \
+		report-images
 
 # -----------------------------------------------------------------------------
 # DEFAULT
@@ -29,7 +30,6 @@ help:
 	@echo "Available targets:"
 	@echo ""
 	@echo "	install                         Install Python dependencies"
-	@echo "	populate-folders                Create subfolders & .gitignore for each school"
 	@echo "	web-scrape                      Run web scrapers for schools missing processed_data"
 	@echo "	web-scrape-all                  Run web scrapers for ALL schools"
 	@echo "	metrics                         Generate metrics.csv overview"
@@ -49,15 +49,6 @@ help:
 install:
 	@echo "Installing Python dependencies…"
 	$(PIP) -r $(REQ)
-
-# -----------------------------------------------------------------------------
-# POPULATE FOLDERS
-# -----------------------------------------------------------------------------
-populate-folders:
-	@echo "Populating school directories (create folders & .gitignore)…"
-	@$(PYTHON) scripts/directory_initialization/create_folders.py
-	@$(PYTHON) scripts/directory_initialization/populate_folders.py
-	@$(PYTHON) scripts/directory_initialization/add_gitignores.py
 
 # -----------------------------------------------------------------------------
 # WEB-SCRAPE (missing only)
@@ -182,3 +173,10 @@ confirm-schools:
 confirm-all:
 	@echo "Confirming data for ALL schools…"
 	@$(PYTHON) scripts/confirmation.py --mode all
+
+# -----------------------------------------------------------------------------
+# REPORT-IMAGES
+# -----------------------------------------------------------------------------
+report-images:
+	@echo "Creating report images markdown…"
+	@$(PYTHON) scripts/compile_md_images.py

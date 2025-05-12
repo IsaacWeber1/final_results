@@ -1,14 +1,16 @@
 import re
 import sys
+import json
 from PyPDF2 import PdfReader
 
 def extract_courses(pdf_path, output_path, format1_range=(3188, 3275), format2_range=(3300, 4772)):
     """
-    Extracts courses in two different formats and outputs in the specified format:
-    Code: CODE
-    Title: TITLE
-    Description: DESCRIPTION
-    ----------
+    Extracts courses in two different formats and outputs in JSON format:
+    {
+        "title": "CODE: TITLE",
+        "description": "DESCRIPTION",
+        "source": "PDF"
+    }
     """
     # Pattern for format 1: single line courses
     pattern1 = re.compile(r'^([A-Z]{2,}\s\d+[A-Z]?)\s+(.+?)\s+(\d+)$')
@@ -50,9 +52,9 @@ def extract_courses(pdf_path, output_path, format1_range=(3188, 3275), format2_r
                             code, title, _ = match.groups()  # We ignore credits in this format
                             # Format 1 courses don't have descriptions
                             courses.append({
-                                'code': code,
-                                'title': title,
-                                'description': 'N/A'
+                                'title': f"{code}: {title}",
+                                'description': 'N/A',
+                                'source': 'PDF'
                             })
                 except Exception as e:
                     print(f"\nError processing page {page_num+1}: {str(e)}")
@@ -75,7 +77,11 @@ def extract_courses(pdf_path, output_path, format1_range=(3188, 3275), format2_r
                         code_title_match = pattern2_code_title.match(line)
                         if code_title_match:
                             if current_course:  # Save previous course if exists
-                                courses.append(current_course)
+                                courses.append({
+                                    'title': f"{current_course['code']}: {current_course['title']}",
+                                    'description': current_course['description'],
+                                    'source': 'PDF'
+                                })
                             code, title = code_title_match.groups()
                             current_course = {
                                 'code': code,
@@ -103,18 +109,18 @@ def extract_courses(pdf_path, output_path, format1_range=(3188, 3275), format2_r
         
             # Add the last course if exists
             if current_course:
-                courses.append(current_course)
+                courses.append({
+                    'title': f"{current_course['code']}: {current_course['title']}",
+                    'description': current_course['description'],
+                    'source': 'PDF'
+                })
             
             print(f"\nFound {len(courses)} courses")
             
-            # Write in the requested format
+            # Write in JSON format
             with open(output_path, 'w', encoding='utf-8') as f:
-                for course in courses:
-                    f.write(f"Code: {course['code']}\n")
-                    f.write(f"Title: {course['title']}\n")
-                    f.write(f"Description: {course['description']}\n")
-                    f.write("----------\n")
-            print(f"Successfully saved to {output_path} in the requested format")
+                json.dump(courses, f, indent=4, ensure_ascii=False)
+            print(f"Successfully saved to {output_path} in JSON format")
             
     except FileNotFoundError:
         print(f"Error: The file '{pdf_path}' was not found.")
@@ -130,6 +136,6 @@ if __name__ == "__main__":
     if len(sys.argv) > 2:
         output_path = sys.argv[2]
     else:
-        output_path = "courses.txt"
+        output_path = "PDFCourses.json"
     
     extract_courses(pdf_path, output_path)

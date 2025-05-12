@@ -1,0 +1,477 @@
+=== COURSE COMPARISON REPORT ===
+
+=== FILE INFORMATION ===
+PDF file: schools/priority/north_carolina_state/pdfs/processed.csv
+WEB file: schools/priority/north_carolina_state/processed_data/processed.csv
+
+=== COURSE COUNTS ===
+PDF courses: 0
+WEB courses: 473
+WEB has 473 more courses than PDF
+
+=== AVERAGE RELEVANCE SCORES ===
+PDF average relevance: 0.00
+WEB average relevance: 2.94
+WEB has higher average relevance by 2.94
+
+=== DUPLICATES SUMMARY ===
+PDF duplicates found: 0
+WEB duplicates found: 75
+
+=== WEB DUPLICATES DETAILS ===
+Duplicate 1:
+Title: GIS 511/ GIS 411 Coding for Geospatial Applications (2 credit hours)
+Description: Exploration of the intersection between coding and Geographic Information Systems. This course provi...
+Source: https://catalog.ncsu.edu/course-descriptions/gis/
+Reason: duplicate description
+
+Duplicate 2:
+Title: WLSP 545/ WLSP 445 Spanish Environmental Cultural Studies (3 credit hours)
+Description: This seminar will serve as an exploration of environmental cultural studies in contemporary Spain. I...
+Source: https://catalog.ncsu.edu/course-descriptions/fls/
+Reason: duplicate description
+
+Duplicate 3:
+Title: TOX 501/ TOX 401 Principles of Toxicology (4 credit hours)
+Description: Introduce students to the basic principles of toxicology. Will cover the history and scope of the fi...
+Source: https://catalog.ncsu.edu/course-descriptions/tox/
+Reason: duplicate description
+
+Duplicate 4:
+Title: TT 530/ TTM 530 Textile Quality and Process Control (3 credit hours)
+Description: Quality control and improvement methods for textile processes and products including quality systems...
+Source: https://catalog.ncsu.edu/course-descriptions/tt/
+Reason: duplicate description
+
+Duplicate 5:
+Title: TT 533/ TTM 533 / TE 533 Lean Six Sigma Quality (3 credit hours)
+Description: Systematic approach (Lean Six Sigma philosophy) for improving products and processes. Defining the i...
+Source: https://catalog.ncsu.edu/course-descriptions/tt/
+Reason: duplicate description
+
+Duplicate 6:
+Title: TE 533/ TT 533 / TTM 533 Lean Six Sigma Quality (3 credit hours)
+Description: Systematic approach (Lean Six Sigma philosophy) for improving products and processes. Defining the i...
+Source: https://catalog.ncsu.edu/course-descriptions/te/
+Reason: duplicate description
+
+Duplicate 7:
+Title: TE 566/ BME 566 / TE 466 / BME 466 Polymeric Biomaterials Engineering (3 credit hours)
+Description: In-depth study of the engineering design of biomedical polymers and implants. Polymeric biomaterials...
+Source: https://catalog.ncsu.edu/course-descriptions/te/
+Reason: duplicate description
+
+Duplicate 8:
+Title: ST 535/ ST 435 Statistical Methods for Quality and Productivity Improvement (3 credit hours)
+Description: Use of statistics for quality control and productivity improvement. Control chart calculations and g...
+Source: https://catalog.ncsu.edu/course-descriptions/st/
+Reason: duplicate description
+
+Duplicate 9:
+Title: SMT 507/ SMT 407 Sustainable Product Development Capstone (3 credit hours)
+Description: This course will provide the students with a systematic approach to developing environmentally respo...
+Source: https://catalog.ncsu.edu/course-descriptions/smt/
+Reason: duplicate description
+
+Duplicate 10:
+Title: SSC 540/ SSC 440 Geographic Information Systems (GIS) in Soil Science and Agriculture (3 credit hours)
+Description: Geographic information systems (GIS), global positioning system (GPS), and remote sensing to manage ...
+Source: https://catalog.ncsu.edu/course-descriptions/ssc/
+Reason: duplicate description
+
+Duplicate 11:
+Title: SSC 573/ SSC 473 / BAE 473 / BAE 573 Introduction to Hydrologic and Water Quality Modeling (3 credit hours)
+Description: Concepts in basic hydrologic, erosion and chemical transport used in modeling. Evaluation of typical...
+Source: https://catalog.ncsu.edu/course-descriptions/ssc/
+Reason: duplicate description
+
+Duplicate 12:
+Title: PSE 576/ FB 476 / PSE 476 / FB 576 Environmental Life Cycle Analysis (3 credit hours)
+Description: Overview of the various aspects of conducting and interpreting an environmental life cycle analysis ...
+Source: https://catalog.ncsu.edu/course-descriptions/pse/
+Reason: duplicate description
+
+Duplicate 13:
+Title: PRT 214/ HESM 214 Foundations in Outdoor Leadership and Adventure Education (3 credit hours)
+Description: Foundations in outdoor leadership and adventure education topics include outdoor education history, ...
+Source: https://catalog.ncsu.edu/course-descriptions/prt/
+Reason: duplicate description
+
+Duplicate 14:
+Title: PRT 552/ PRT 452 Field Experience in Nature-Based Recreation & Tourism Management (3 credit hours)
+Description: This dual-listed course provides undergraduate and graduate students with hands-on exposure to the m...
+Source: https://catalog.ncsu.edu/course-descriptions/prt/
+Reason: duplicate description
+
+Duplicate 15:
+Title: OR 533/ ISE 433 / ISE 533 / OR 433 Service Systems Engineering (3 credit hours)
+Description: This course intends to provide a comprehensive treatment on the use of quantitative modeling for dec...
+Source: https://catalog.ncsu.edu/course-descriptions/or/
+Reason: duplicate description
+
+Duplicate 16:
+Title: NTR 558/ TOX 558 / FS 558 Food Toxicology (3 credit hours)
+Description: This course evaluates the weight of evidence from peer-reviewed scientific literature relating the p...
+Source: https://catalog.ncsu.edu/course-descriptions/ntr/
+Reason: duplicate description
+
+Duplicate 17:
+Title: NE 509/ MSE 509 / NE 409 / MSE 409 Nuclear Materials (3 credit hours)
+Description: Introduces students to properties and selection of materials for nuclear steam supply systems and to...
+Source: https://catalog.ncsu.edu/course-descriptions/ne/
+Reason: duplicate description
+
+Duplicate 18:
+Title: NE 560/ NE 460 Probabilistic Risk Assessment and Management of Nuclear Systems (3 credit hours)
+Description: This course introduces principles of probabilistic risk assessment and management of complex enginee...
+Source: https://catalog.ncsu.edu/course-descriptions/ne/
+Reason: duplicate description
+
+Duplicate 19:
+Title: MT 471/ PCC 471 The Chemistry of Synthetic and Natural Bipolymers (3 credit hours)
+Description: Introduction to natural and synthetic biopolymers used for biomedical applications. Goals and challe...
+Source: https://catalog.ncsu.edu/course-descriptions/mt/
+Reason: duplicate description
+
+Duplicate 20:
+Title: NR 500/ NR 400 Natural Resource Management (4 credit hours)
+Description: Theory and practice of integrated natural resource management. Quantitative optimization, economics ...
+Source: https://catalog.ncsu.edu/course-descriptions/nr/
+Reason: duplicate description
+
+Duplicate 21:
+Title: NR 520/ FOR 420 / NR 420 / FOR 520 Watershed and Wetlands Hydrology (4 credit hours)
+Description: Principles of hydrologic science; classification and assessment of watersheds and stream networks; h...
+Source: https://catalog.ncsu.edu/course-descriptions/nr/
+Reason: duplicate description
+
+Duplicate 22:
+Title: NR 525/ ES 425 / NR 425 / ES 525 Water Quality and Health (3 credit hours)
+Description: The water we drink is intricately linked to our wellbeing. This course provides an introduction to c...
+Source: https://catalog.ncsu.edu/course-descriptions/nr/
+Reason: duplicate description
+
+Duplicate 23:
+Title: NR 560/ NR 460 Renewable Natural Resource Management and Policy (3 credit hours)
+Description: The interaction of legal principles and governmental institutions in the development and implementat...
+Source: https://catalog.ncsu.edu/course-descriptions/nr/
+Reason: duplicate description
+
+Duplicate 24:
+Title: MB 715/ PP 715 Applied Evolutionary Population Genetics (3 credit hours)
+Description: This course will introduce students to nonparametric and model-based methods for making inferences o...
+Source: https://catalog.ncsu.edu/course-descriptions/mb/
+Reason: duplicate description
+
+Duplicate 25:
+Title: MB 774/ PB 774 Phycology (3 credit hours)
+Description: Introduction to taxonomy, morphology, reproduction and ecological importance of organisms which may ...
+Source: https://catalog.ncsu.edu/course-descriptions/mb/
+Reason: duplicate description
+
+Duplicate 26:
+Title: MSE 409/ NE 509 / MSE 509 / NE 409 Nuclear Materials (3 credit hours)
+Description: Introduces students to properties and selection of materials for nuclear steam supply systems and to...
+Source: https://catalog.ncsu.edu/course-descriptions/mse/
+Reason: duplicate description
+
+Duplicate 27:
+Title: MSE 509/ NE 409 / MSE 409 / NE 509 Nuclear Materials (3 credit hours)
+Description: Introduces students to properties and selection of materials for nuclear steam supply systems and to...
+Source: https://catalog.ncsu.edu/course-descriptions/mse/
+Reason: duplicate description
+
+Duplicate 28:
+Title: MSE 540/ MSE 440 Processing of Metallic Materials (3 credit hours)
+Description: Fundamental concepts of solidification and their application to foundry and welding practices; metal...
+Source: https://catalog.ncsu.edu/course-descriptions/mse/
+Reason: duplicate description
+
+Duplicate 29:
+Title: MSE 580/ MSE 480 Materials Forensics and Degradation (3 credit hours)
+Description: Covers principles and prevention of the degradation of materials. The topics will include dissolutio...
+Source: https://catalog.ncsu.edu/course-descriptions/mse/
+Reason: duplicate description
+
+Duplicate 30:
+Title: MSE 801 Seminar (1 credit hours)
+Description: Reports and discussion of special topics in materials science and engineering and allied fields. Typ...
+Source: https://catalog.ncsu.edu/course-descriptions/mse/
+Reason: duplicate description
+
+Duplicate 31:
+Title: MA 719/ OR 719 Vector Space Methods in System Optimization (3 credit hours)
+Description: Introduction to algebraic and function-analytic concepts used in system modeling and optimization: v...
+Source: https://catalog.ncsu.edu/course-descriptions/ma/
+Reason: duplicate description
+
+Duplicate 32:
+Title: MA 747/ ST 747 Probability and Stochastic Processes II (3 credit hours)
+Description: Fundamental mathematical results of probabilistic measure theory needed for advanced applications in...
+Source: https://catalog.ncsu.edu/course-descriptions/ma/
+Reason: duplicate description
+
+Duplicate 33:
+Title: ISE 433/ ISE 533 / OR 433 / OR 533 Service Systems Engineering (3 credit hours)
+Description: This course intends to provide a comprehensive treatment on the use of quantitative modeling for dec...
+Source: https://catalog.ncsu.edu/course-descriptions/ise/
+Reason: duplicate description
+
+Duplicate 34:
+Title: ISE 533/ OR 433 / OR 533 / ISE 433 Service Systems Engineering (3 credit hours)
+Description: This course intends to provide a comprehensive treatment on the use of quantitative modeling for dec...
+Source: https://catalog.ncsu.edu/course-descriptions/ise/
+Reason: duplicate description
+
+Duplicate 35:
+Title: ISE 816/ MA 816 Advanced Special Topics Sys Opt (1-6 credit hours)
+Description: Advanced topics in some phase of system optimization. Identification of various specific topics and ...
+Source: https://catalog.ncsu.edu/course-descriptions/ise/
+Reason: duplicate description
+
+Duplicate 36:
+Title: HS 428/ SSC 428 Soil Management Principles for Sustainable Agriculture (1 credit hours)
+Description: The course is designed to be taken as a companion course to SSC 427 and provides hands-on field and ...
+Source: https://catalog.ncsu.edu/course-descriptions/hs/
+Reason: duplicate description
+
+Duplicate 37:
+Title: HS 520/ HS 420 Green Infrastructure (3 credit hours)
+Description: Green infrastructure is defined as the interconnected networks of natural and constructed ecological...
+Source: https://catalog.ncsu.edu/course-descriptions/hs/
+Reason: duplicate description
+
+Duplicate 38:
+Title: FS 516/ FS 416 Quality Control in Food and Bioprocessing (3 credit hours)
+Description: This course provides an overview of the principles of quality management, assurance and control in t...
+Source: https://catalog.ncsu.edu/course-descriptions/fs/
+Reason: duplicate description
+
+Duplicate 39:
+Title: FS 540/ FSA 540 Food Safety and Public Health (3 credit hours)
+Description: Issues and developments related to the relationship between food safety and public health, including...
+Source: https://catalog.ncsu.edu/course-descriptions/fs/
+Reason: duplicate description
+
+Duplicate 40:
+Title: FS 558/ NTR 558 / TOX 558 Food Toxicology (3 credit hours)
+Description: This course evaluates the weight of evidence from peer-reviewed scientific literature relating the p...
+Source: https://catalog.ncsu.edu/course-descriptions/fs/
+Reason: duplicate description
+
+Duplicate 41:
+Title: FOR 515/ ECG 515 Environmental and Resource Policy (3 credit hours)
+Description: Application of price theory and benefit-cost analysis to public decisions related to resources and e...
+Source: https://catalog.ncsu.edu/course-descriptions/for/
+Reason: duplicate description
+
+Duplicate 42:
+Title: FOR 520/ NR 520 / FOR 420 / NR 420 Watershed and Wetlands Hydrology (4 credit hours)
+Description: Principles of hydrologic science; classification and assessment of watersheds and stream networks; h...
+Source: https://catalog.ncsu.edu/course-descriptions/for/
+Reason: duplicate description
+
+Duplicate 43:
+Title: FM 580/ PO 580 Feed and Ingrdient Quality Assurance (3 credit hours)
+Description: The course will teach students the principles of feed and ingredient quality assurance and how to de...
+Source: https://catalog.ncsu.edu/course-descriptions/fm/
+Reason: duplicate description
+
+Duplicate 44:
+Title: FM 790/ NTR 790 Advanced Feed Formulation (3 credit hours)
+Description: Principles of feed and ingredient quality assurance and how to develop a comprehensive quality assur...
+Source: https://catalog.ncsu.edu/course-descriptions/fm/
+Reason: duplicate description
+
+Duplicate 45:
+Title: ES 425/ NR 425 / ES 525 / NR 525 Water Quality and Health (3 credit hours)
+Description: The water we drink is intricately linked to our wellbeing. This course provides an introduction to c...
+Source: https://catalog.ncsu.edu/course-descriptions/es/
+Reason: duplicate description
+
+Duplicate 46:
+Title: ES 525/ NR 525 / ES 425 / NR 425 Water Quality and Health (3 credit hours)
+Description: The water we drink is intricately linked to our wellbeing. This course provides an introduction to c...
+Source: https://catalog.ncsu.edu/course-descriptions/es/
+Reason: duplicate description
+
+Duplicate 47:
+Title: FTM 480/ TT 480 Operations Management Decisions for Textiles (3 credit hours)
+Description: Quantitative techniques for decision making and management in the textile complex. Applications incl...
+Source: https://catalog.ncsu.edu/course-descriptions/ftm/
+Reason: duplicate description
+
+Duplicate 48:
+Title: FTM 485/ TT 485 Textile Computer Integrated Enterprise (3 credit hours)
+Description: Survey of information technology in textile and apparel industries. Topics discussed include: comput...
+Source: https://catalog.ncsu.edu/course-descriptions/ftm/
+Reason: duplicate description
+
+Duplicate 49:
+Title: ECE 552/ ECE 452 Renewable Electric Energy Systems (3 credit hours)
+Description: Principles and characteristics of renewable energy based electric power generation technologies such...
+Source: https://catalog.ncsu.edu/course-descriptions/ece/
+Reason: duplicate description
+
+Duplicate 50:
+Title: ECE 561/ ECE 461 Embedded System Design (3 credit hours)
+Description: Design and implementation of software for embedded computer systems. The students will learn to desi...
+Source: https://catalog.ncsu.edu/course-descriptions/ece/
+Reason: duplicate description
+
+Duplicate 51:
+Title: CS 530/ CS 430 Advanced Agroecology (4 credit hours)
+Description: This course applies agroecological principles and critical thinking to evaluate various agroecosyste...
+Source: https://catalog.ncsu.edu/course-descriptions/cs/
+Reason: duplicate description
+
+Duplicate 52:
+Title: CS 565/ CS 465 Turf Management Systems and Environmental Quality (3 credit hours)
+Description: Integration of turfgrass management systems and the use of BMPs and IPM to protect environmental qua...
+Source: https://catalog.ncsu.edu/course-descriptions/cs/
+Reason: duplicate description
+
+Duplicate 53:
+Title: CHE 560/ CHE 460 Chemical Processing of Electronic Materials (3 credit hours)
+Description: This course is an introduction to electronic materials, chemical processes used in their fabrication...
+Source: https://catalog.ncsu.edu/course-descriptions/che/
+Reason: duplicate description
+
+Duplicate 54:
+Title: CHE 575/ CHE 475 Advances in Pollution Prevention: Environmental Management for the Future (3 credit hours)
+Description: Design of industrial processes which minimize or eliminate wastes. Regulations and the corporate org...
+Source: https://catalog.ncsu.edu/course-descriptions/che/
+Reason: duplicate description
+
+Duplicate 55:
+Title: BMA 573/ MA 573 Mathematical Modeling of Physical and Biological Processes I (3 credit hours)
+Description: Introduction to model development for physical and biological applications. Mathematical and statist...
+Source: https://catalog.ncsu.edu/course-descriptions/bma/
+Reason: duplicate description
+
+Duplicate 56:
+Title: CSC 546/ ISE 546 Management Decision and Control Systems (3 credit hours)
+Description: Planning, design, and development and implementation of comprehensive computer-based information sys...
+Source: https://catalog.ncsu.edu/course-descriptions/csc/
+Reason: duplicate description
+
+Duplicate 57:
+Title: CSC 577/ ECE 577 Switched Network Management (3 credit hours)
+Description: Topics related to design and management of campus enterprise networks, including VLAN design; virtua...
+Source: https://catalog.ncsu.edu/course-descriptions/csc/
+Reason: duplicate description
+
+Duplicate 58:
+Title: CSC 581/ CSC 481 Game Engine Foundations (3 credit hours)
+Description: In this course we will examine some of the components of a commercial strength game engine. We will ...
+Source: https://catalog.ncsu.edu/course-descriptions/csc/
+Reason: duplicate description
+
+Duplicate 59:
+Title: BEC 575/ BEC 475 Global Regulatory Affairs for Medical Products (3 credit hours)
+Description: This lecture-based course introduces students to the quality systems used to meet the regulatory req...
+Source: https://catalog.ncsu.edu/course-descriptions/bec/
+Reason: duplicate description
+
+Duplicate 60:
+Title: BEC 577/ CHE 577 Advanced Biomanufacturing and Biocatalysis (3 credit hours)
+Description: Overview of biomanufacturing using microorganisms (bacteria, yeast, fungi), eukaryotic cells (hybrid...
+Source: https://catalog.ncsu.edu/course-descriptions/bec/
+Reason: duplicate description
+
+Duplicate 61:
+Title: BIT 579/ BIT 479 High-Throughput Discovery (2 credit hours)
+Description: In this eight-week lab module, participants will be introduced to high-throughput (HT) discovery sci...
+Source: https://catalog.ncsu.edu/course-descriptions/bit/
+Reason: duplicate description
+
+Duplicate 62:
+Title: CH 335/ PSE 335 Principles of Green Chemistry (4 credit hours)
+Description: Introduction to the topic of green chemistry as an emerging field; Identification of hazards and cla...
+Source: https://catalog.ncsu.edu/course-descriptions/ch/
+Reason: duplicate description
+
+Duplicate 63:
+Title: BME 566/ TE 466 / BME 466 / TE 566 Polymeric Biomaterials Engineering (3 credit hours)
+Description: In-depth study of the engineering design of biomedical polymers and implants. Polymeric biomaterials...
+Source: https://catalog.ncsu.edu/course-descriptions/bme/
+Reason: duplicate description
+
+Duplicate 64:
+Title: CE 479/ MEA 479 Air Quality (3 credit hours)
+Description: Introduction to: risk assessment, health effects, and regulation of air pollutants; air pollution st...
+Source: https://catalog.ncsu.edu/course-descriptions/ce/
+Reason: duplicate description
+
+Duplicate 65:
+Title: CE 501/ CE 401 Transportation Systems Engineering (3 credit hours)
+Description: Multi-modal transportation systems; railroads, airports, highways, and other modes. Planning, analys...
+Source: https://catalog.ncsu.edu/course-descriptions/ce/
+Reason: duplicate description
+
+Duplicate 66:
+Title: CE 502/ CE 402 Traffic Operations (3 credit hours)
+Description: Highway capacity; traffic control systems; intelligent vehicle/highway systems; and other advanced t...
+Source: https://catalog.ncsu.edu/course-descriptions/ce/
+Reason: duplicate description
+
+Duplicate 67:
+Title: CE 575/ CE 475 Renewable Energy and the Grid (3 credit hours)
+Description: Renewable energy technologies such as wind and solar power make up a growing share of the generation...
+Source: https://catalog.ncsu.edu/course-descriptions/ce/
+Reason: duplicate description
+
+Duplicate 68:
+Title: CE 578/ CE 478 Energy and Climate (3 credit hours)
+Description: Interdisciplinary analysis of energy technology, natural resources, and the impact on anthropogenic ...
+Source: https://catalog.ncsu.edu/course-descriptions/ce/
+Reason: duplicate description
+
+Duplicate 69:
+Title: CE 772/ NE 772 Environmental Exposure and Risk Analysis (3 credit hours)
+Description: Course covers the identification, transport, and fate of hazardious substances in the environment; q...
+Source: https://catalog.ncsu.edu/course-descriptions/ce/
+Reason: duplicate description
+
+Duplicate 70:
+Title: BAE 573/ SSC 573 / SSC 473 / BAE 473 Introduction to Hydrologic and Water Quality Modeling (3 credit hours)
+Description: Concepts in basic hydrologic, erosion and chemical transport used in modeling. Evaluation of typical...
+Source: https://catalog.ncsu.edu/course-descriptions/bae/
+Reason: duplicate description
+
+Duplicate 71:
+Title: BAE 586/ BAE 486 Aquacultural Engineering (3 credit hours)
+Description: This course starts with a general background of aquaculture, both theoretical and practical. Based o...
+Source: https://catalog.ncsu.edu/course-descriptions/bae/
+Reason: duplicate description
+
+Duplicate 72:
+Title: AEC 509/ AEC 409 Ecology and Conservation of Freshwater Invertebrates (4 credit hours)
+Description: This course will introduce the student to the identification and ecology of freshwater invertebrates...
+Source: https://catalog.ncsu.edu/course-descriptions/aec/
+Reason: duplicate description
+
+Duplicate 73:
+Title: AEC 519/ AEC 419 Freshwater Ecology (4 credit hours)
+Description: The course explores the structure and function of streams, lakes, and wetlands, including physical, ...
+Source: https://catalog.ncsu.edu/course-descriptions/aec/
+Reason: duplicate description
+
+Duplicate 74:
+Title: ANT 575/ ANT 475 Environmental Archaeology (3 credit hours)
+Description: Archaeological investigation of human-environmental interactions and human impacts on ancient enviro...
+Source: https://catalog.ncsu.edu/course-descriptions/ant/
+Reason: duplicate description
+
+Duplicate 75:
+Title: ANT 587/ HI 587 Cultural Resource Management (3 credit hours)
+Description: Theoretical and practical overview of U.S. federal and state laws, institutions, and practices relat...
+Source: https://catalog.ncsu.edu/course-descriptions/ant/
+Reason: duplicate description
+
+=== OVERALL SIMILARITY ASSESSMENT ===
+Course count similarity: 0.0%
+Relevance score similarity: 0.0%
+
+Overall similarity between sources: 0.0%
+LOW similarity between sources
