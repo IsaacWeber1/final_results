@@ -1,3 +1,5 @@
+# report_tools/viz.py
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
@@ -6,7 +8,7 @@ from pathlib import Path
 def heatmap_keyword_frequencies(relations_dir: Path, out_png: Path):
     """
     Build a school × keyword heatmap of raw counts from
-    data/relational_output/keyword_frequencies.csv and save as an interactive HTML.
+    data/relational_output/keyword_frequencies.csv and save as a png.
     """
     freq_csv = relations_dir / "keyword_frequencies.csv"
     if not freq_csv.exists():
@@ -35,7 +37,7 @@ def heatmap_keyword_frequencies(relations_dir: Path, out_png: Path):
 def heatmap_group_matches(relations_dir: Path, out_png: Path):
     """
     Build a school × group heatmap of occurrence counts from
-    data/relational_output/group_matches.csv and save as an interactive HTML.
+    data/relational_output/group_matches.csv and save as png.
     """
     grp_csv = relations_dir / "group_matches.csv"
     if not grp_csv.exists():
