@@ -2,34 +2,42 @@
 import streamlit as st
 import subprocess, glob, os, json
 
-st.set_page_config(page_title="H2 Workforce Tools", layout="wide")
+# Page config
+st.set_page_config(page_title="H2 Toolkit", layout="wide")
 st.title("💧 Hydrogen Scraper Toolkit")
 
-# —–––––––––––––––––––––––––
-# Part 1: Run any script
-# —–––––––––––––––––––––––––
-st.subheader("Run a script")
-scripts = [os.path.basename(p) for p in glob.glob("scripts/*.py") if p.endswith(".py") and p!='ui.py']
-sel = st.selectbox("Select script to run", scripts)
-if st.button("▶️ Run"):
-    with st.spinner(f"Running {sel}…"):
-        proc = subprocess.run(
-            ["python3", os.path.join("scripts", sel)],
-            capture_output=True, text=True
-        )
-    st.text_area("Output", proc.stdout + proc.stderr, height=300)
+# Sidebar for controls
+st.sidebar.header("▶️ Run a Script")
+# fetch and filter scripts
+all_scripts = sorted(p for p in os.listdir("scripts") if p.endswith(".py") and p != "ui.py")
+filter_txt = st.sidebar.text_input("Filter", "")
+scripts = [s for s in all_scripts if filter_txt.lower() in s.lower()]
+sel = st.sidebar.selectbox("Script", scripts)
+args = st.sidebar.text_input("Args (space-separated)")
+if st.sidebar.button("Run Script"):
+    cmd = ["python3", os.path.join("scripts", sel)] + args.split()
+    with st.spinner("Running..."):
+        proc = subprocess.run(cmd, capture_output=True, text=True)
+    st.subheader(f"Output: {sel}")
+    st.code(proc.stdout + proc.stderr)
 
-st.markdown("---")
-
-# —–––––––––––––––––––––––––
-# Part 2: Inspect raw JSON data
-# —–––––––––––––––––––––––––
-st.subheader("Browse raw data outputs")
+st.sidebar.markdown("---")
+st.sidebar.header("📂 Browse Raw JSON")
 json_paths = sorted(glob.glob("schools/*/*/raw_data/*.json"))
-for path in json_paths:
-    if st.checkbox(path):
-        try:    
-            data = json.load(open(path, "r", encoding="utf8"))
-            st.json(data)
-        except Exception as e:
-            st.error(f"Failed to load {path}: {e}")
+jsel = st.sidebar.selectbox("JSON File", [""] + json_paths)
+if jsel:
+    try:
+        data = json.load(open(jsel, "r"))
+        st.subheader(os.path.basename(jsel))
+        st.json(data)
+        st.download_button(
+            "Download JSON",
+            data=json.dumps(data, indent=2),
+            file_name=os.path.basename(jsel),
+            mime="application/json"
+        )
+    except Exception as e:
+        st.error(f"Failed to load: {e}")
+
+# Main area tips
+st.info("Use the sidebar to run any script or inspect raw JSON outputs.")
