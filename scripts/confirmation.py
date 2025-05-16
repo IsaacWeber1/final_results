@@ -138,8 +138,8 @@ def save_report(report, output_path):
         
         # Write relevance comparison
         f.write("=== AVERAGE RELEVANCE SCORES ===\n")
-        f.write(f"PDF average relevance: {report['pdf_stats']['avg_relevance']:.2f}\n")
-        f.write(f"WEB average relevance: {report['web_stats']['avg_relevance']:.2f}\n")
+        f.write(f"PDF average keyword count score: {report['pdf_stats']['avg_relevance']:.2f}\n")
+        f.write(f"WEB average keyword count score: {report['web_stats']['avg_relevance']:.2f}\n")
         score_diff = report['comparison']['score_difference']
         if score_diff > 0:
             f.write(f"WEB has higher average relevance by {abs(score_diff):.2f}\n")
@@ -182,7 +182,7 @@ def save_report(report, output_path):
                                                      report['web_stats']['avg_relevance'], 1))
         
         f.write(f"Course count similarity: {count_similarity*100:.1f}%\n")
-        f.write(f"Relevance score similarity: {score_similarity*100:.1f}%\n")
+        f.write(f"Average keyword count similarity: {score_similarity*100:.1f}%\n")
         
         overall_similarity = (count_similarity + score_similarity) / 2
         f.write(f"\nOverall similarity between sources: {overall_similarity*100:.1f}%\n")
