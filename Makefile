@@ -18,7 +18,34 @@ SCHOOLS  := schools
         process-data relational clear-raw \
 		add-visuals replace-visuals clear-visuals \
         compile-all compile-keywords confirm-schools confirm-all \
-		report-images
+		report-images \
+		scripts run-script ui
+
+
+
+SCRIPTS := $(patsubst scripts/%.py,%, $(wildcard scripts/*.py))
+
+# Show available scripts
+scripts:
+	@echo "Available scripts:"
+	@printf '  %s\n' $(SCRIPTS)
+
+# Run a specific script by name:
+#    make run-script name=<script>
+run-script:
+	@if [ -z "$(name)" ]; then \
+	  echo "Usage: make run-script name=<script>"; exit 1; \
+	fi
+	@echo "→ Running scripts/$(name).py…"
+	@$(PYTHON) scripts/$(name).py
+
+# Launch minimal Streamlit UI
+ui:
+	@echo "Launching UI at http://localhost:8501"
+	streamlit run scripts/ui.py
+
+
+
 
 # -----------------------------------------------------------------------------
 # DEFAULT
