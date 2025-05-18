@@ -1,11 +1,10 @@
 # report_tools/viz.py
 
 import pandas as pd
-import matplotlib.pyplot as plt
 import plotly.express as px
 from pathlib import Path
 
-def heatmap_keyword_frequencies(relations_dir: Path, out_png: Path):
+def heatmap_keyword_frequencies(relations_dir: Path, out_png: Path, y_max: int = None):
     """
     Build a school × keyword heatmap of raw counts from
     data/relational_output/keyword_frequencies.csv and save as a png.
@@ -27,14 +26,21 @@ def heatmap_keyword_frequencies(relations_dir: Path, out_png: Path):
         y=pivot.index,
         labels={"x": "Keyword", "y": "School", "color": "Count"},
         aspect="auto",
-        title="Keyword Frequency Heatmap"
+        title="Keyword Frequency Heatmap",
+        zmax=y_max
     )
+    if y_max is not None:
+        # make colorbar ticks at 0 and y_max+
+        fig.update_coloraxes(
+            colorbar_tickvals=[0, y_max],
+            colorbar_ticktext=["0", f"{y_max}+"]
+        )
     fig.update_xaxes(side="bottom")
     fig.write_image(file=out_png, format="png", scale=1.0)
     print(f"Saved keyword‐frequency heatmap to {out_png}")
 
 
-def heatmap_group_matches(relations_dir: Path, out_png: Path):
+def heatmap_group_matches(relations_dir: Path, out_png: Path, y_max: int = None):
     """
     Build a school × group heatmap of occurrence counts from
     data/relational_output/group_matches.csv and save as png.
@@ -54,8 +60,14 @@ def heatmap_group_matches(relations_dir: Path, out_png: Path):
         y=pivot.index,
         labels={"x": "Group", "y": "School", "color": "Count"},
         aspect="auto",
-        title="Keyword‐Group Occurrence Heatmap"
+        title="Keyword‐Group Occurrence Heatmap",
+        zmax=y_max
     )
+    if y_max is not None:
+        fig.update_coloraxes(
+            colorbar_tickvals=[0, y_max],
+            colorbar_ticktext=["0", f"{y_max}+"]
+        )
     fig.update_xaxes(side="bottom")
     fig.write_image(file=out_png, format="png", scale=1.0)
     print(f"Saved group‐match heatmap to {out_png}")

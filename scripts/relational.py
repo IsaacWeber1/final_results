@@ -20,7 +20,7 @@ def main():
     group_rows     = []
     freq_rows      = []
 
-    for category in ("priority", "non_priority"):
+    for category in ("priority"): #, "non_priority"):
         category_dir = schools_root / category
         if not category_dir.is_dir():
             continue
