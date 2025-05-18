@@ -73,7 +73,7 @@ def group_histogram(df: pd.DataFrame, out_png: Path, name: str, groups_universe:
     fig, ax = plt.subplots(figsize=(fig_w, fig_h))
     ax.bar(groups_universe, clipped)
     ax.set_xticklabels(groups_universe, rotation=90)
-    ax.set_title(f"{name} — Keyword Group Histogram", fontsize=30)
+    ax.set_title(f"{name} — Keyword Group Histogram", fontsize=12)
 
     if y_max is not None:
         ax.set_ylim(0, y_max)
