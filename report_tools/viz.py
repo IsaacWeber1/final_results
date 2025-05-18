@@ -35,8 +35,9 @@ def heatmap_keyword_frequencies(relations_dir: Path, out_png: Path, y_max: int =
             colorbar_tickvals=[0, y_max],
             colorbar_ticktext=["0", f"{y_max}+"]
         )
+    fig.update_layout(font=dict(size=10))
     fig.update_xaxes(side="bottom")
-    fig.write_image(file=out_png, format="png", scale=1.0)
+    fig.write_image(file=out_png, format="png", scale=3.0, width=3500, height=2500)
     print(f"Saved keyword‐frequency heatmap to {out_png}")
 
 

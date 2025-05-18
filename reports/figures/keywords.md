@@ -1,7 +1,6 @@
 <img src="../../schools/priority/appalachian_state_university/figures/keyword_freq.png" />
 <img src="../../schools/priority/california_institute_of_technology/figures/keyword_freq.png" />
 <img src="../../schools/priority/california_state_university_long_beach/figures/keyword_freq.png" />
-<img src="../../schools/priority/iowa_state_university/figures/keyword_freq.png" />
 <img src="../../schools/priority/louisiana_state_university/figures/keyword_freq.png" />
 <img src="../../schools/priority/morgan_state_university/figures/keyword_freq.png" />
 <img src="../../schools/priority/north_carolina_state/figures/keyword_freq.png" />
@@ -14,7 +13,6 @@
 <img src="../../schools/priority/university_of_florida/figures/keyword_freq.png" />
 <img src="../../schools/priority/university_of_houston/figures/keyword_freq.png" />
 <img src="../../schools/priority/western_michigan_university/figures/keyword_freq.png" />
-<img src="../../schools/priority/yale_university/figures/keyword_freq.png" />
 <img src="../../schools/non_priority/adams_state_university/figures/keyword_freq.png" />
 <img src="../../schools/non_priority/arkansas_tech_university/figures/keyword_freq.png" />
 <img src="../../schools/non_priority/baldwin_wallace_university/figures/keyword_freq.png" />
