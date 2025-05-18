@@ -35,10 +35,10 @@ def heatmap_keyword_frequencies(relations_dir: Path, out_png: Path, y_max: int =
             colorbar_tickvals=[0, y_max],
             colorbar_ticktext=["0", f"{y_max}+"]
         )
-    fig.update_layout(font=dict(size=10))
+    fig.update_layout(font=dict(size=10), title=dict(font=dict(size=60)))
     fig.update_xaxes(side="bottom")
     fig.write_image(file=out_png, format="png", scale=3.0, width=3500, height=2500)
-    print(f"Saved keyword‐frequency heatmap to {out_png}")
+    print(f"Saved keyword frequency heatmap to {out_png}")
 
 
 def heatmap_group_matches(relations_dir: Path, out_png: Path, y_max: int = None):
@@ -61,7 +61,7 @@ def heatmap_group_matches(relations_dir: Path, out_png: Path, y_max: int = None)
         y=pivot.index,
         labels={"x": "Group", "y": "School", "color": "Count"},
         aspect="auto",
-        title="Keyword‐Group Occurrence Heatmap",
+        title="Keyword Group Occurrence Heatmap",
         zmax=y_max
     )
     if y_max is not None:
@@ -69,6 +69,7 @@ def heatmap_group_matches(relations_dir: Path, out_png: Path, y_max: int = None)
             colorbar_tickvals=[0, y_max],
             colorbar_ticktext=["0", f"{y_max}+"]
         )
+    fig.update_layout(font=dict(size=10), title=dict(font=dict(size=40)))
     fig.update_xaxes(side="bottom")
-    fig.write_image(file=out_png, format="png", scale=1.0)
+    fig.write_image(file=out_png, format="png", scale=3.0,  width=1000, height=750)
     print(f"Saved group‐match heatmap to {out_png}")

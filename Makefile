@@ -127,11 +127,11 @@ clear-visuals:
 
 add-visuals:
 	@echo "➕ adding missing visuals…"
-	@$(PYTHON) scripts/create_visuals.py --mode add
+	@$(PYTHON) scripts/create_visuals.py --mode add --ymax 75
 
 replace-visuals:
 	@echo "♻️  regenerating visuals…"
-	@$(PYTHON) scripts/create_visuals.py --mode replace
+	@$(PYTHON) scripts/create_visuals.py --mode replace --ymax 75
 
 compile-all: compile-keywords relational
 
