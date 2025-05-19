@@ -14,10 +14,41 @@ def heatmap_keyword_frequencies(relations_dir: Path, out_png: Path, y_max: int =
         raise FileNotFoundError(f"{freq_csv} not found")
 
     df = pd.read_csv(freq_csv)
-    # pivot into matrix: schools on rows, keywords on columns
-    pivot = (
+
+    # course_counts = (
+    #     df[['school','course_id']]
+    #     .drop_duplicates()
+    #     .groupby('school')
+    #     .size()
+    #     .rename('n_courses')
+    # )
+
+    # count distinct courses per school×keyword
+    course_counts = (
         df
-        .pivot_table(index="school", columns="keyword", values="count", aggfunc="sum", fill_value=0)
+        .groupby(['school','keyword'])['course_id']
+        .nunique()
+        .reset_index(name='n_courses')
+    )
+
+    # raw sum of counts per school×keyword
+    # pivot_raw = (
+    #     df.pivot_table(
+    #         index="school",
+    #         columns="keyword",
+    #         values="count",
+    #         aggfunc="sum",
+    #         fill_value=0
+    #     )
+    # )
+
+    # # normalize: average count per course
+    # pivot = pivot_raw.div(course_counts, axis=0)
+
+    pivot = (
+        course_counts
+        .pivot(index='school', columns='keyword', values='n_courses')
+        .fillna(0)
     )
 
     fig = px.imshow(
@@ -26,7 +57,7 @@ def heatmap_keyword_frequencies(relations_dir: Path, out_png: Path, y_max: int =
         y=pivot.index,
         labels={"x": "Keyword", "y": "School", "color": "Count"},
         aspect="auto",
-        title="Keyword Frequency Heatmap",
+        title="Course Frequency for Each Keyword",
         zmax=y_max
     )
     if y_max is not None:

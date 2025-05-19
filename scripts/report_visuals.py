@@ -14,7 +14,7 @@ from report_tools.viz import heatmap_keyword_frequencies, heatmap_group_matches
 heatmap_keyword_frequencies(
     relations_dir=Path("data/relational_output"),
     out_png=Path("reports/keyword_heatmap.png"),
-    y_max=100
+    y_max=50
 )
 
 heatmap_group_matches(
