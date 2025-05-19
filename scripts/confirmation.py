@@ -6,7 +6,8 @@ import sys
 from pathlib import Path
 
 """
-
+This function is intended to compare the processed CSV files from the WEB and PDF scrapers to ensure a majority of classes were not missed.
+To do this we focused on two main factors: the total number of courses found with desired keywords, and the average keyword value of the document
 """
 
 
@@ -18,6 +19,14 @@ def compare_courses(PDF_path: Path, WEB_path: Path):
     def process_csv(file_path):
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
+                """
+                setting values for scoring
+                total_score keeps track of the "relevance_score" from the CSV file where it will be divided by the length of the document to get the average
+                count will keep track of how long the document is
+                seen_titles will keep a list of the course titles. This lets us see if there are duplicate titles and report them.
+                seen_description will keep a list of the course descriptions. This lets us see if there are duplicate titles and report them.
+                duplicates is a list of the duplicates, title or description that is sent in the report.
+                """
                 reader = csv.DictReader(f)
                 total_score = 0.0
                 count = 0
@@ -34,8 +43,9 @@ def compare_courses(PDF_path: Path, WEB_path: Path):
                         # Clean the description
                         description = row['description'].strip() if 'description' in row else ""
                         
-                        # Check for duplicates in title OR description
+                        # variable to handle if the course is a duplicate
                         is_duplicate = False
+                        #list of explanations for which kind of duplication occured
                         duplicate_reason = []
                         
                         if primary_title in seen_titles:
@@ -100,7 +110,7 @@ def compare_courses(PDF_path: Path, WEB_path: Path):
     'web_stats': {
         'file_path': str(WEB_path),
         'course_count': web_count,
-        'avg_relevance': web_avg,
+        'avg_keyword_count': web_avg,
         'duplicate_count': len(web_duplicates)
     },
     'comparison': {
@@ -125,8 +135,8 @@ def save_report(report, output_path):
         
         # Write counts comparison
         f.write("=== COURSE COUNTS ===\n")
-        f.write(f"PDF courses: {report['pdf_stats']['course_count']}\n")
-        f.write(f"WEB courses: {report['web_stats']['course_count']}\n")
+        f.write(f"PDF course count: {report['pdf_stats']['course_count']}\n")
+        f.write(f"WEB course count: {report['web_stats']['course_count']}\n")
         count_diff = report['comparison']['count_difference']
         if count_diff > 0:
             f.write(f"WEB has {abs(count_diff)} more courses than PDF\n")
@@ -136,10 +146,10 @@ def save_report(report, output_path):
             f.write("Both sources have the same number of courses\n")
         f.write("\n")
         
-        # Write relevance comparison
+        # Write keyword count comparison
         f.write("=== AVERAGE RELEVANCE SCORES ===\n")
-        f.write(f"PDF average keyword count score: {report['pdf_stats']['avg_relevance']:.2f}\n")
-        f.write(f"WEB average keyword count score: {report['web_stats']['avg_relevance']:.2f}\n")
+        f.write(f"PDF average keyword count score: {report['pdf_stats']['avg_keyword_count']:.2f}\n")
+        f.write(f"WEB average keyword count score: {report['web_stats']['avg_keyword_count']:.2f}\n")
         score_diff = report['comparison']['score_difference']
         if score_diff > 0:
             f.write(f"WEB has higher average relevance by {abs(score_diff):.2f}\n")
@@ -178,23 +188,23 @@ def save_report(report, output_path):
         f.write("=== OVERALL SIMILARITY ASSESSMENT ===\n")
         count_similarity = 1 - (abs(count_diff) / max(report['pdf_stats']['course_count'], 
                                                     report['web_stats']['course_count'], 1))
-        score_similarity = 1 - (abs(score_diff) / max(report['pdf_stats']['avg_relevance'],
-                                                     report['web_stats']['avg_relevance'], 1))
+        score_similarity = 1 - (abs(score_diff) / max(report['pdf_stats']['avg_keyword_count'],
+                                                     report['web_stats']['avg_keyword_count'], 1))
         
         f.write(f"Course count similarity: {count_similarity*100:.1f}%\n")
         f.write(f"Average keyword count similarity: {score_similarity*100:.1f}%\n")
         
         overall_similarity = (count_similarity + score_similarity) / 2
-        f.write(f"\nOverall similarity between sources: {overall_similarity*100:.1f}%\n")
+        f.write(f"\nThe PDF and WEB scraper have: {overall_similarity*100:.1f}% similarity, meaning\n")
         
         if overall_similarity > 0.8:
-            f.write("VERY HIGH similarity between sources\n")
+            f.write("VERY HIGH similarity between sources number of courses and average keyword counts\n")
         elif overall_similarity > 0.6:
-            f.write("HIGH similarity between sources\n")
+            f.write("HIGH similarity between sources number of courses and average keyword counts\n")
         elif overall_similarity > 0.4:
-            f.write("MODERATE similarity between sources\n")
+            f.write("MODERATE similarity between sources number of courses and average keyword counts\n")
         else:
-            f.write("LOW similarity between sources\n")
+            f.write("LOW similarity between sources number of courses and average keyword counts\n")
 
 def process_school(school_dir: Path):
     # accept either "priority/uni_name" or "non_priority/uni_name"
