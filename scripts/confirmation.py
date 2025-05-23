@@ -164,6 +164,8 @@ def save_report(report, output_path):
             f.write("=== DUPLICATES SUMMARY ===\n")
             f.write(f"PDF duplicates found: {report['pdf_stats']['duplicate_count']}\n")
             f.write(f"WEB duplicates found: {report['web_stats']['duplicate_count']}\n\n")
+
+            f.write(f"\n\n\n")
             
             # Write PDF duplicates details
             if report['pdf_stats']['duplicate_count'] > 0:
@@ -246,7 +248,7 @@ def save_report(report, output_path):
             f.write(f"PDF duplicates found: {report['pdf_stats']['duplicate_count']}\n")
             f.write(f"WEB duplicates found: {report['web_stats']['duplicate_count']}\n\n")
 
-            f.write("\n\n\n")
+            f.write(f"\n\n\n")
             
             # Write PDF duplicates details
             if report['pdf_stats']['duplicate_count'] > 0:

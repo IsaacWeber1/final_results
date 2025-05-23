@@ -18,6 +18,9 @@ WEB has higher average relevance by 0.12
 PDF duplicates found: 15
 WEB duplicates found: 53
 
+
+
+
 === PDF DUPLICATES DETAILS ===
 Duplicate 1:
 Title: AFR 205: Development and Sustainability in Africa
