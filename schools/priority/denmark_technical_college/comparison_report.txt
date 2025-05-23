@@ -5,14 +5,14 @@ PDF file: schools/priority/denmark_technical_college/pdfs/processed.csv
 WEB file: schools/priority/denmark_technical_college/processed_data/processed.csv
 
 === COURSE COUNTS ===
-PDF course count: 13
+PDF course count: 0
 WEB course count: 0
-PDF has 13 more courses than WEB
+Both sources have the same number of courses
 
 === AVERAGE RELEVANCE SCORES ===
-PDF average keyword score: 3.46
+PDF average keyword score: 0.00
 WEB average keyword score: 0.00
-PDF has higher average relevance by 3.46
+Both sources have the same average relevance
 
 === DUPLICATES SUMMARY ===
 PDF duplicates found: 0
