@@ -136,7 +136,7 @@ replace-visuals:
 compile-all: 
 	compile-keywords
 	relational
-	@$(PYTHON) scripts/collect_priority_data.py
+	@$(PYTHON) scripts/collect_data.py
 
 confirm-schools:
 	@if [ -z "$(SCHOOL)" ]; then \
