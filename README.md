@@ -18,7 +18,7 @@ The system scrapes academic course catalogs (both websites and PDFs), filters fo
 
 ## 📊 Project Highlights
 
-- ✅ Scraped over **30 universities**, including **92%** of priority targets with HTML-based catalogs
+- ✅ Scraped over **50 universities**, including **92%** of priority targets with HTML-based catalogs
 - 🔁 Config-driven scraping system, re-usable across similar university sites
 - 🖱 Supports **JavaScript-heavy sites** (e.g., Modern Campus) using automated button clicking
 - 📄 Developed early-stage PDF parsing for non-web catalogs
