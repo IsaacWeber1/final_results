@@ -5,18 +5,21 @@ PDF file: schools/priority/pennsylvania_state_university/pdfs/processed.csv
 WEB file: schools/priority/pennsylvania_state_university/processed_data/processed.csv
 
 === COURSE COUNTS ===
-PDF courses: 620
-WEB courses: 641
+PDF course count: 620
+WEB course count: 641
 WEB has 21 more courses than PDF
 
 === AVERAGE RELEVANCE SCORES ===
-PDF average relevance: 3.68
-WEB average relevance: 3.80
+PDF average keyword count score: 3.68
+WEB average keyword count score: 3.80
 WEB has higher average relevance by 0.12
 
 === DUPLICATES SUMMARY ===
 PDF duplicates found: 15
 WEB duplicates found: 53
+
+
+
 
 === PDF DUPLICATES DETAILS ===
 Duplicate 1:
@@ -428,9 +431,3 @@ Description: This course examines the African American novel, its forms, and its
 Source: https://bulletins.psu.edu/university-course-descriptions/undergraduate/afam/
 Reason: duplicate description
 
-=== OVERALL SIMILARITY ASSESSMENT ===
-Course count similarity: 96.7%
-Relevance score similarity: 96.9%
-
-Overall similarity between sources: 96.8%
-VERY HIGH similarity between sources
