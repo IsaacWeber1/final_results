@@ -18,7 +18,7 @@ SCHOOLS      := schools
         web-scrape web-scrape-all \
         pdf-scrape pdf-scrape-all \
         metrics view-metrics \
-        process-data relational clear-raw \
+        process-data relational clear-raw collect-data\
         add-visuals replace-visuals clear-visuals \
         compile-all compile-keywords confirm-schools confirm-all \
         report-images \
@@ -127,15 +127,17 @@ clear-visuals:
 
 add-visuals:
 	@echo "➕ adding missing visuals…"
-	@$(PYTHON) scripts/create_visuals.py --mode add
+	@$(PYTHON) scripts/create_visuals.py --mode add --ymax 75
 
 replace-visuals:
 	@echo "♻️  regenerating visuals…"
-	@$(PYTHON) scripts/create_visuals.py --mode replace
+	@$(PYTHON) scripts/create_visuals.py --mode replace --ymax 75
 
 compile-all: 
 	compile-keywords
 	relational
+	
+collect-data:
 	@$(PYTHON) scripts/collect_data.py
 
 confirm-schools:

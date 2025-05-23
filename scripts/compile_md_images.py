@@ -1,7 +1,6 @@
 # scripts/compile_md_images.py
 
 import os
-import sys
 from pathlib import Path
 
 # add project root to sys.path if you ever need imports
