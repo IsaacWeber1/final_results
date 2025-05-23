@@ -5,18 +5,21 @@ PDF file: schools/priority/texas_a_m/pdfs/processed.csv
 WEB file: schools/priority/texas_a_m/processed_data/processed.csv
 
 === COURSE COUNTS ===
-PDF courses: 0
-WEB courses: 566
+PDF course count: 0
+WEB course count: 566
 WEB has 566 more courses than PDF
 
 === AVERAGE RELEVANCE SCORES ===
-PDF average relevance: 0.00
-WEB average relevance: 3.00
+PDF average keyword score: 0.00
+WEB average keyword score: 3.00
 WEB has higher average relevance by 3.00
 
 === DUPLICATES SUMMARY ===
 PDF duplicates found: 0
 WEB duplicates found: 3
+
+
+
 
 === WEB DUPLICATES DETAILS ===
 Duplicate 1:
@@ -37,9 +40,3 @@ Description: Credits 3. 3 Lecture Hours. Develop an understanding of the role of
 Source: https://catalog.tamu.edu/undergraduate/business/information-operations-management/
 Reason: duplicate title or duplicate description
 
-=== OVERALL SIMILARITY ASSESSMENT ===
-Course count similarity: 0.0%
-Relevance score similarity: 0.0%
-
-Overall similarity between sources: 0.0%
-LOW similarity between sources

@@ -1,22 +1,54 @@
+# report_tools/viz.py
+
 import pandas as pd
-import matplotlib.pyplot as plt
 import plotly.express as px
 from pathlib import Path
 
-def heatmap_keyword_frequencies(relations_dir: Path, out_png: Path):
+def heatmap_keyword_frequencies(relations_dir: Path, out_png: Path, y_max: int = None):
     """
     Build a school × keyword heatmap of raw counts from
-    data/relational_output/keyword_frequencies.csv and save as an interactive HTML.
+    data/relational_output/keyword_frequencies.csv and save as a png.
     """
     freq_csv = relations_dir / "keyword_frequencies.csv"
     if not freq_csv.exists():
         raise FileNotFoundError(f"{freq_csv} not found")
 
     df = pd.read_csv(freq_csv)
-    # pivot into matrix: schools on rows, keywords on columns
-    pivot = (
+
+    # course_counts = (
+    #     df[['school','course_id']]
+    #     .drop_duplicates()
+    #     .groupby('school')
+    #     .size()
+    #     .rename('n_courses')
+    # )
+
+    # count distinct courses per school×keyword
+    course_counts = (
         df
-        .pivot_table(index="school", columns="keyword", values="count", aggfunc="sum", fill_value=0)
+        .groupby(['school','keyword'])['course_id']
+        .nunique()
+        .reset_index(name='n_courses')
+    )
+
+    # raw sum of counts per school×keyword
+    # pivot_raw = (
+    #     df.pivot_table(
+    #         index="school",
+    #         columns="keyword",
+    #         values="count",
+    #         aggfunc="sum",
+    #         fill_value=0
+    #     )
+    # )
+
+    # # normalize: average count per course
+    # pivot = pivot_raw.div(course_counts, axis=0)
+
+    pivot = (
+        course_counts
+        .pivot(index='school', columns='keyword', values='n_courses')
+        .fillna(0)
     )
 
     fig = px.imshow(
@@ -25,17 +57,25 @@ def heatmap_keyword_frequencies(relations_dir: Path, out_png: Path):
         y=pivot.index,
         labels={"x": "Keyword", "y": "School", "color": "Count"},
         aspect="auto",
-        title="Keyword Frequency Heatmap"
+        title="Course Frequency for Each Keyword",
+        zmax=y_max
     )
+    if y_max is not None:
+        # make colorbar ticks at 0 and y_max+
+        fig.update_coloraxes(
+            colorbar_tickvals=[0, y_max],
+            colorbar_ticktext=["0", f"{y_max}+"]
+        )
+    fig.update_layout(font=dict(size=10), title=dict(font=dict(size=60)))
     fig.update_xaxes(side="bottom")
-    fig.write_image(file=out_png, format="png", scale=1.0)
-    print(f"Saved keyword‐frequency heatmap to {out_png}")
+    fig.write_image(file=out_png, format="png", scale=3.0, width=3500, height=2500)
+    print(f"Saved keyword frequency heatmap to {out_png}")
 
 
-def heatmap_group_matches(relations_dir: Path, out_png: Path):
+def heatmap_group_matches(relations_dir: Path, out_png: Path, y_max: int = None):
     """
     Build a school × group heatmap of occurrence counts from
-    data/relational_output/group_matches.csv and save as an interactive HTML.
+    data/relational_output/group_matches.csv and save as png.
     """
     grp_csv = relations_dir / "group_matches.csv"
     if not grp_csv.exists():
@@ -52,8 +92,15 @@ def heatmap_group_matches(relations_dir: Path, out_png: Path):
         y=pivot.index,
         labels={"x": "Group", "y": "School", "color": "Count"},
         aspect="auto",
-        title="Keyword‐Group Occurrence Heatmap"
+        title="Keyword Group Occurrence Heatmap",
+        zmax=y_max
     )
+    if y_max is not None:
+        fig.update_coloraxes(
+            colorbar_tickvals=[0, y_max],
+            colorbar_ticktext=["0", f"{y_max}+"]
+        )
+    fig.update_layout(font=dict(size=10), title=dict(font=dict(size=40)))
     fig.update_xaxes(side="bottom")
-    fig.write_image(file=out_png, format="png", scale=1.0)
+    fig.write_image(file=out_png, format="png", scale=3.0,  width=1000, height=750)
     print(f"Saved group‐match heatmap to {out_png}")

@@ -5,18 +5,21 @@ PDF file: schools/non_priority/carnegie_mellon_university/pdfs/processed.csv
 WEB file: schools/non_priority/carnegie_mellon_university/processed_data/processed.csv
 
 === COURSE COUNTS ===
-PDF courses: 0
-WEB courses: 332
+PDF course count: 0
+WEB course count: 332
 WEB has 332 more courses than PDF
 
 === AVERAGE RELEVANCE SCORES ===
-PDF average relevance: 0.00
-WEB average relevance: 3.74
+PDF average keyword score: 0.00
+WEB average keyword score: 3.74
 WEB has higher average relevance by 3.74
 
 === DUPLICATES SUMMARY ===
 PDF duplicates found: 0
 WEB duplicates found: 44
+
+
+
 
 === WEB DUPLICATES DETAILS ===
 Duplicate 1:
@@ -283,9 +286,3 @@ Description: Fall: 9 units This course will provide context for the application 
 Source: http://coursecatalog.web.cmu.edu/schools-colleges/collegeofengineering/departmentofbiomedicalengineering/courses/
 Reason: duplicate description
 
-=== OVERALL SIMILARITY ASSESSMENT ===
-Course count similarity: 0.0%
-Relevance score similarity: 0.0%
-
-Overall similarity between sources: 0.0%
-LOW similarity between sources

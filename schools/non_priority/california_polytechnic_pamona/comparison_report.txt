@@ -5,18 +5,21 @@ PDF file: schools/non_priority/california_polytechnic_pamona/pdfs/processed.csv
 WEB file: schools/non_priority/california_polytechnic_pamona/processed_data/processed.csv
 
 === COURSE COUNTS ===
-PDF courses: 0
-WEB courses: 346
+PDF course count: 0
+WEB course count: 346
 WEB has 346 more courses than PDF
 
 === AVERAGE RELEVANCE SCORES ===
-PDF average relevance: 0.00
-WEB average relevance: 2.98
+PDF average keyword score: 0.00
+WEB average keyword score: 2.98
 WEB has higher average relevance by 2.98
 
 === DUPLICATES SUMMARY ===
 PDF duplicates found: 0
 WEB duplicates found: 3
+
+
+
 
 === WEB DUPLICATES DETAILS ===
 Duplicate 1:
@@ -37,9 +40,3 @@ Description: Performance principles and systems to reduce the environmental impa
 Source: 
 Reason: duplicate description
 
-=== OVERALL SIMILARITY ASSESSMENT ===
-Course count similarity: 0.0%
-Relevance score similarity: 0.0%
-
-Overall similarity between sources: 0.0%
-LOW similarity between sources

@@ -11,9 +11,8 @@ import json
 import pandas as pd
 import matplotlib.pyplot as plt
 from collections import Counter
-from report_tools.word_groups import load_keyword_groups
 
-def keyword_histogram(df: pd.DataFrame, out_png: Path, name: str, keywords_universe: list[str]) -> int:
+def keyword_histogram(df: pd.DataFrame, out_png: Path, name: str, keywords_universe: list[str], y_max: int) -> int:
     """
     Plot a histogram of raw keyword frequencies using a fixed universe of keywords.
     Returns the max count.
@@ -26,22 +25,35 @@ def keyword_histogram(df: pd.DataFrame, out_png: Path, name: str, keywords_unive
     counts = [counter.get(kw, 0) for kw in keywords_universe]
     if not any(counts):
         return 0
+    
+    # Clip at y_max if provided
+    if y_max is not None:
+        clipped = [min(c, y_max) for c in counts]
+    else:
+        clipped = counts
 
     n_bars = len(keywords_universe)
     fig_w  = int(n_bars * 0.3)
     fig_h = 6
     fig, ax = plt.subplots(figsize=(fig_w, fig_h))
-    ax.bar(keywords_universe, counts)
+    ax.bar(keywords_universe, clipped)
     ax.set_xticklabels(keywords_universe, rotation=90)
     ax.margins(x=0)
     ax.set_title(f"{name} — Keyword Frequency Histogram", fontsize=30, fontweight="bold")
+
+    if y_max is not None:
+        ax.set_ylim(0, y_max)
+        # show 0 and "y_max+" ticks only
+        ax.set_yticks([0, y_max])
+        ax.set_yticklabels([0, f"{y_max}+"], fontsize=12)
+    
     plt.tight_layout()
     fig.savefig(out_png, dpi=300)
     plt.close(fig)
     return max(counts)
 
 
-def group_histogram(df: pd.DataFrame, out_png: Path, name: str, groups_universe: list[str]) -> int:
+def group_histogram(df: pd.DataFrame, out_png: Path, name: str, groups_universe: list[str], y_max: int) -> int:
     """
     Plot a histogram of matched keyword group occurrences using fixed universe.
     Returns the max count.
@@ -52,21 +64,29 @@ def group_histogram(df: pd.DataFrame, out_png: Path, name: str, groups_universe:
     counts = list(counter.values())
     if not any(counts):
         return 0
+    
+    clipped = [min(c, y_max) for c in counts] if y_max is not None else counts
 
     n_bars = len(groups_universe)
     fig_w  = max(8, n_bars * 0.3)
     fig_h = 6
     fig, ax = plt.subplots(figsize=(fig_w, fig_h))
-    ax.bar(groups_universe, counts)
+    ax.bar(groups_universe, clipped)
     ax.set_xticklabels(groups_universe, rotation=90)
-    ax.set_title(f"{name} — Keyword Group Histogram", fontsize=30)
+    ax.set_title(f"{name} — Keyword Group Histogram", fontsize=12)
+
+    if y_max is not None:
+        ax.set_ylim(0, y_max)
+        ax.set_yticks([0, y_max])
+        ax.set_yticklabels([0, f"{y_max}+"], fontsize=12)
+    
     plt.tight_layout()
     fig.savefig(out_png, dpi=300)
     plt.close(fig)
     return max(counts)
 
 
-def collapsed_histogram(df: pd.DataFrame, out_png: Path, equiv_json: Path, name: str, collapsed_universe: list[str]) -> int:
+def collapsed_histogram(df: pd.DataFrame, out_png: Path, equiv_json: Path, name: str, collapsed_universe: list[str], y_max: int) -> int:
     """
     Collapse synonyms and plot histogram with fixed universe.
     Returns the max count.
@@ -81,14 +101,23 @@ def collapsed_histogram(df: pd.DataFrame, out_png: Path, equiv_json: Path, name:
     counts = [counter.get(k, 0) for k in collapsed_universe]
     if not any(counts):
         return 0
+    
+    clipped = [min(c, y_max) for c in counts] if y_max is not None else counts
+
 
     n_bars = len(collapsed_universe)
     fig_w  = max(8, n_bars * 0.3)
     fig_h = 6
     fig, ax = plt.subplots(figsize=(fig_w, fig_h))
-    ax.bar(collapsed_universe, counts)
+    ax.bar(collapsed_universe, clipped)
     ax.set_xticklabels(collapsed_universe, rotation=90)
     ax.set_title(f"{name} — Collapsed Keyword Histogram")
+
+    if y_max is not None:
+        ax.set_ylim(0, y_max)
+        ax.set_yticks([0, y_max])
+        ax.set_yticklabels([0, f"{y_max}+"], fontsize=12)
+
     plt.tight_layout()
     fig.savefig(out_png, dpi=300)
     plt.close(fig)
@@ -137,6 +166,7 @@ def main():
         '--mode', choices=['add', 'replace'], default='add',
         help="'add': skip existing figures; 'replace': regenerate all"
     )
+    parser.add_argument('--ymax', type=int, help="Clamp all histograms at this Y value")
     args = parser.parse_args()
 
     root = PROJECT_ROOT / "schools"
@@ -190,7 +220,7 @@ def main():
             # keyword histogram
             out_kw = fig_dir / "keyword_freq.png"
             if args.mode == 'replace' or not out_kw.exists():
-                kw_max = keyword_histogram(df, out_kw, school.name, keywords_universe)
+                kw_max = keyword_histogram(df, out_kw, school.name, keywords_universe, args.ymax)
             else:
                 # compute max without plotting
                 freqs = df['keyword_frequencies'].dropna().apply(json.loads)
@@ -203,7 +233,7 @@ def main():
             # group histogram
             out_grp = fig_dir / "group_freq.png"
             if args.mode == 'replace' or not out_grp.exists():
-                grp_max = group_histogram(df, out_grp, school.name, groups_universe)
+                grp_max = group_histogram(df, out_grp, school.name, groups_universe, args.ymax)
             else:
                 groups = df['matched_groups'].dropna().str.split(';').explode()
                 grp_max = int(groups.value_counts().max()) if not groups.empty else 0
@@ -212,7 +242,7 @@ def main():
             # collapsed histogram
             out_coll = fig_dir / "collapsed_freq.png"
             if args.mode == 'replace' or not out_coll.exists():
-                coll_max = collapsed_histogram(df, out_coll, equiv_json, school.name, collapsed_universe)
+                coll_max = collapsed_histogram(df, out_coll, equiv_json, school.name, collapsed_universe, args.ymax)
             else:
                 freqs = df['keyword_frequencies'].dropna().apply(json.loads)
                 counter = Counter()

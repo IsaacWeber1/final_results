@@ -5,18 +5,21 @@ PDF file: schools/priority/north_carolina_state/pdfs/processed.csv
 WEB file: schools/priority/north_carolina_state/processed_data/processed.csv
 
 === COURSE COUNTS ===
-PDF courses: 0
-WEB courses: 473
+PDF course count: 0
+WEB course count: 473
 WEB has 473 more courses than PDF
 
 === AVERAGE RELEVANCE SCORES ===
-PDF average relevance: 0.00
-WEB average relevance: 2.94
+PDF average keyword score: 0.00
+WEB average keyword score: 2.94
 WEB has higher average relevance by 2.94
 
 === DUPLICATES SUMMARY ===
 PDF duplicates found: 0
 WEB duplicates found: 75
+
+
+
 
 === WEB DUPLICATES DETAILS ===
 Duplicate 1:
@@ -469,9 +472,3 @@ Description: Theoretical and practical overview of U.S. federal and state laws, 
 Source: https://catalog.ncsu.edu/course-descriptions/ant/
 Reason: duplicate description
 
-=== OVERALL SIMILARITY ASSESSMENT ===
-Course count similarity: 0.0%
-Relevance score similarity: 0.0%
-
-Overall similarity between sources: 0.0%
-LOW similarity between sources

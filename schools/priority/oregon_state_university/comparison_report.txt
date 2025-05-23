@@ -5,18 +5,21 @@ PDF file: schools/priority/oregon_state_university/pdfs/processed.csv
 WEB file: schools/priority/oregon_state_university/processed_data/processed.csv
 
 === COURSE COUNTS ===
-PDF courses: 0
-WEB courses: 378
+PDF course count: 0
+WEB course count: 378
 WEB has 378 more courses than PDF
 
 === AVERAGE RELEVANCE SCORES ===
-PDF average relevance: 0.00
-WEB average relevance: 3.13
+PDF average keyword score: 0.00
+WEB average keyword score: 3.13
 WEB has higher average relevance by 3.13
 
 === DUPLICATES SUMMARY ===
 PDF duplicates found: 0
 WEB duplicates found: 12
+
+
+
 
 === WEB DUPLICATES DETAILS ===
 Duplicate 1:
@@ -91,9 +94,3 @@ Description: Introduces the definitions and basic principles of materials chemis
 Source: https://catalog.oregonstate.edu/courses/ch/
 Reason: duplicate description
 
-=== OVERALL SIMILARITY ASSESSMENT ===
-Course count similarity: 0.0%
-Relevance score similarity: 0.0%
-
-Overall similarity between sources: 0.0%
-LOW similarity between sources
