@@ -133,7 +133,10 @@ replace-visuals:
 	@echo "♻️  regenerating visuals…"
 	@$(PYTHON) scripts/create_visuals.py --mode replace
 
-compile-all: compile-keywords relational
+compile-all: 
+	compile-keywords
+	relational
+	@$(PYTHON) scripts/collect_priority_data.py
 
 confirm-schools:
 	@if [ -z "$(SCHOOL)" ]; then \
