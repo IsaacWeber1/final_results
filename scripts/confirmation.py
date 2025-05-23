@@ -85,16 +85,22 @@ def compare_courses(PDF_path: Path, WEB_path: Path):
     
     pdf_count, pdf_avg, pdf_duplicates = (0, 0.0, {})
     web_count, web_avg, web_duplicates = (0, 0.0, {})
+    complete = True
 
     # Process both files
-    if (PDF_path.exists() or ()):
+    if (PDF_path.exists()):
         pdf_count, pdf_avg, pdf_duplicates = process_csv(PDF_path)
     else:
-        print("PDF processed data not found")
+        complete = False
+        # print("PDF processed data not found")
     if (WEB_path.exists()):
         web_count, web_avg, web_duplicates = process_csv(WEB_path)
     else:
-        print("Web processed data not found")
+        complete = False
+        # print("Web processed data not found")
+
+    if complete:
+        print(f"Complete comparison for {str(WEB_path.parent)}")
     
     # Calculate comparison metrics
     count_diff = web_count - pdf_count
