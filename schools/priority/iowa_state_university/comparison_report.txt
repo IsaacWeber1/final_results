@@ -5,193 +5,21 @@ PDF file: schools/priority/iowa_state_university/pdfs/processed.csv
 WEB file: schools/priority/iowa_state_university/processed_data/processed.csv
 
 === COURSE COUNTS ===
-PDF courses: 30
-WEB courses: 583
-WEB has 553 more courses than PDF
+PDF course count: 0
+WEB course count: 583
+WEB has 583 more courses than PDF
 
 === AVERAGE RELEVANCE SCORES ===
-PDF average relevance: 2.40
-WEB average relevance: 2.59
-WEB has higher average relevance by 0.19
+PDF average keyword score: 0.00
+WEB average keyword score: 2.59
+WEB has higher average relevance by 2.59
 
 === DUPLICATES SUMMARY ===
-PDF duplicates found: 29
+PDF duplicates found: 0
 WEB duplicates found: 578
 
-=== PDF DUPLICATES DETAILS ===
-Duplicate 1:
-Title: Globalization and Sustainability
-Description: ...
-Source: 
-Reason: duplicate description
 
-Duplicate 2:
-Title: Human Resource Management
-Description: ...
-Source: 
-Reason: duplicate description
 
-Duplicate 3:
-Title: Sustainability and Green Architecture
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 4:
-Title: Electrochemical Methods of Analysis
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 5:
-Title: Exploration of Environmental and Sustainability Issues
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 6:
-Title: Integrating GPS and GIS for Natural Resource Management
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 7:
-Title: Integrating GPS and GIS for Natural Resource Management
-Description: ...
-Source: 
-Reason: duplicate title or duplicate description
-
-Duplicate 8:
-Title: Globalization and Sustainability
-Description: ...
-Source: 
-Reason: duplicate title or duplicate description
-
-Duplicate 9:
-Title: Landscape Construction Management
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 10:
-Title: Advanced Human Resource Management I
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 11:
-Title: Personnel and Human Resource Management
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 12:
-Title: Human Resource Management Analytics
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 13:
-Title: Project Management
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 14:
-Title: Project Management
-Description: ...
-Source: 
-Reason: duplicate title or duplicate description
-
-Duplicate 15:
-Title: Teams
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 16:
-Title: Natural Resource Management under the North American
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 17:
-Title: Integrating GPS and GIS for Natural Resource Management
-Description: ...
-Source: 
-Reason: duplicate title or duplicate description
-
-Duplicate 18:
-Title: Controversies in Natural Resource Management
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 19:
-Title: Integrating GPS and GIS for Natural Resource Management
-Description: ...
-Source: 
-Reason: duplicate title or duplicate description
-
-Duplicate 20:
-Title: Globalization and Sustainability
-Description: ...
-Source: 
-Reason: duplicate title or duplicate description
-
-Duplicate 21:
-Title: Statistical Quality Assurance
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 22:
-Title: Project Management
-Description: ...
-Source: 
-Reason: duplicate title or duplicate description
-
-Duplicate 23:
-Title: Sustainable Supply Chain Management
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 24:
-Title: Applied Project Management in Technology
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 25:
-Title: Automation Systems
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 26:
-Title: Agricultural and Biosystems Engineering Department Study
-Description: ...
-Source: 
-Reason: duplicate description
-
-Duplicate 27:
-Title: Agricultural and Biosystems Engineering Department Study
-Description: ...
-Source: 
-Reason: duplicate title or duplicate description
-
-Duplicate 28:
-Title: Risk Assessment for Food
-Description: ...
-Source: 
-Reason: duplicate title or duplicate description
-
-Duplicate 29:
-Title: Risk Assessment for Food
-Description: ...
-Source: 
-Reason: duplicate title or duplicate description
 
 === WEB DUPLICATES DETAILS ===
 Duplicate 1:
@@ -3662,9 +3490,3 @@ Description: Curriculum in career planning and academic course support for Fresh
 Source: https://catalog.iastate.edu/azcourses/ch_e/
 Reason: duplicate title or duplicate description
 
-=== OVERALL SIMILARITY ASSESSMENT ===
-Course count similarity: 5.1%
-Relevance score similarity: 92.8%
-
-Overall similarity between sources: 49.0%
-MODERATE similarity between sources

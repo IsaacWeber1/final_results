@@ -5,18 +5,21 @@ PDF file: schools/priority/yale_university/pdfs/processed.csv
 WEB file: schools/priority/yale_university/processed_data/processed.csv
 
 === COURSE COUNTS ===
-PDF courses: 0
-WEB courses: 5
+PDF course count: 0
+WEB course count: 5
 WEB has 5 more courses than PDF
 
 === AVERAGE RELEVANCE SCORES ===
-PDF average relevance: 0.00
-WEB average relevance: 4.50
+PDF average keyword score: 0.00
+WEB average keyword score: 4.50
 WEB has higher average relevance by 4.50
 
 === DUPLICATES SUMMARY ===
 PDF duplicates found: 0
 WEB duplicates found: 1
+
+
+
 
 === WEB DUPLICATES DETAILS ===
 Duplicate 1:
@@ -25,9 +28,3 @@ Description: Harem conspiracies, kings’ assassinations, self-defense killings,
 Source: https://catalog.yale.edu/ycps/courses/hums/
 Reason: duplicate description
 
-=== OVERALL SIMILARITY ASSESSMENT ===
-Course count similarity: 0.0%
-Relevance score similarity: 0.0%
-
-Overall similarity between sources: 0.0%
-LOW similarity between sources

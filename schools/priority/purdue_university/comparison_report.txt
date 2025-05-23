@@ -5,18 +5,21 @@ PDF file: schools/priority/purdue_university/pdfs/processed.csv
 WEB file: schools/priority/purdue_university/processed_data/processed.csv
 
 === COURSE COUNTS ===
-PDF courses: 428
-WEB courses: 0
+PDF course count: 428
+WEB course count: 0
 PDF has 428 more courses than WEB
 
 === AVERAGE RELEVANCE SCORES ===
-PDF average relevance: 3.03
-WEB average relevance: 0.00
+PDF average keyword score: 3.03
+WEB average keyword score: 0.00
 PDF has higher average relevance by 3.03
 
 === DUPLICATES SUMMARY ===
 PDF duplicates found: 34
 WEB duplicates found: 0
+
+
+
 
 === PDF DUPLICATES DETAILS ===
 Duplicate 1:
@@ -223,9 +226,3 @@ Description: This course provides an opportunity for undergraduate students to e
 Source: 
 Reason: duplicate description
 
-=== OVERALL SIMILARITY ASSESSMENT ===
-Course count similarity: 0.0%
-Relevance score similarity: 0.0%
-
-Overall similarity between sources: 0.0%
-LOW similarity between sources

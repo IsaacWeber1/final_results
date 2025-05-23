@@ -5,18 +5,21 @@ PDF file: schools/non_priority/cornell_university/pdfs/processed.csv
 WEB file: schools/non_priority/cornell_university/processed_data/processed.csv
 
 === COURSE COUNTS ===
-PDF courses: 0
-WEB courses: 733
+PDF course count: 0
+WEB course count: 733
 WEB has 733 more courses than PDF
 
 === AVERAGE RELEVANCE SCORES ===
-PDF average relevance: 0.00
-WEB average relevance: 3.88
+PDF average keyword score: 0.00
+WEB average keyword score: 3.88
 WEB has higher average relevance by 3.88
 
 === DUPLICATES SUMMARY ===
 PDF duplicates found: 0
 WEB duplicates found: 27
+
+
+
 
 === WEB DUPLICATES DETAILS ===
 Duplicate 1:
@@ -181,9 +184,3 @@ Description: (crosslisted) , (SBA-AG) (CU-SBY) Spring. 3 credits. Student option
 Source: 
 Reason: duplicate description
 
-=== OVERALL SIMILARITY ASSESSMENT ===
-Course count similarity: 0.0%
-Relevance score similarity: 0.0%
-
-Overall similarity between sources: 0.0%
-LOW similarity between sources

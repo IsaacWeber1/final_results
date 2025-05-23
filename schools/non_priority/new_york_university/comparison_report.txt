@@ -5,18 +5,21 @@ PDF file: schools/non_priority/new_york_university/pdfs/processed.csv
 WEB file: schools/non_priority/new_york_university/processed_data/processed.csv
 
 === COURSE COUNTS ===
-PDF courses: 0
-WEB courses: 47
+PDF course count: 0
+WEB course count: 47
 WEB has 47 more courses than PDF
 
 === AVERAGE RELEVANCE SCORES ===
-PDF average relevance: 0.00
-WEB average relevance: 3.46
+PDF average keyword score: 0.00
+WEB average keyword score: 3.46
 WEB has higher average relevance by 3.46
 
 === DUPLICATES SUMMARY ===
 PDF duplicates found: 0
 WEB duplicates found: 3
+
+
+
 
 === WEB DUPLICATES DETAILS ===
 Duplicate 1:
@@ -37,9 +40,3 @@ Description: An introduction to urban societies and politics in Europe. Designed
 Source: https://bulletins.nyu.edu/undergraduate/arts-science/courses/anth-ua/
 Reason: duplicate description
 
-=== OVERALL SIMILARITY ASSESSMENT ===
-Course count similarity: 0.0%
-Relevance score similarity: 0.0%
-
-Overall similarity between sources: 0.0%
-LOW similarity between sources
